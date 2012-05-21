@@ -1,0 +1,1496 @@
+#!/usr/bin/perl -- -*- perl -*-
+# Cannes 2012 Critics Ratings, collected by Diego Lerer, ioncinema, indiewire and Reini Urban
+# Recalc and sort ratings by 43 critics from 
+# http://micropsia.otroscines.com/2012/05/cannes-2012-arrancan-los-votos-de-la-critica/
+# https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
+# and 16 more western critics from http://www.ioncinema.com/ (scaled to 0-10)
+# and Mike d'Angelo from Twitter and more international critics.
+# Published at http://rurban.xarch.at/film/Cannes2012.sorted.html
+# Perl script by Reini Urban (c) 2010, 2011, 2012
+# US ratings:
+# A+ 10
+# A  9
+# A- 8
+# B+ 7
+# B  6
+# B- 5
+# C+ 4
+# C  3
+# C- 2
+# D+ 1
+# D  0.5
+# E  0
+
+use utf8;
+my @critics;
+$critics[0] = "
+Alejandro G. Calvo (Sensacine, España) 
+Alex Vicente (Público, España) 
+Alexandra Zawia (Wiener Zeitung, Furche, Celluloid, Austria) 
+Arthur Mas (Independencia, Francia) 
+Camille Brunel (Independencia, Francia) 
+Carlo Chatrian (Duellanti, Panoramiches, Italy) 
+Carlos Heredero (Caimán CDC, España) 
+Carlos Reviriego (elcultural.es y de Caiman. Cuadernos de cine, España) 
+Cristina Nord (Die Tageszeitung, Germany) 
+Dana Linssen (De Filmkrant, Netherlands) 
+Diego Batlle (La Nación, OtrosCines, Argentina) 
+Diego Lerer (Clarín, Micropsia, Argentina) 
+Eugenio Renzi (Independencia, Francia) 
+Eulalia Iglesias (RockDeLux y Caimán CDC, España) 
+Fernando Ganzo (Lumiere, España) 
+Fernando Juan Lima (El Amante, Argentina) 
+Francisco Ferreira (Expresso, Portugal) 
+Gabriele Barrera (Segnocinema, Duellanti, Blow Up, Best Movie, Italy) 
+Gonzalo de Pedro (Caimán, CDC, España) 
+Jaime Pena (El Amante, España/Argentina) 
+Javier H. Estrada (Caimán CDC, España) 
+José Luis de Lorenzo (A Sala Llena, Argentina) 
+Kong Rithdee (The Bangkok Post, Thailand) 
+Luciano Barisone (Duellanti/Panoramiche, Italy) 
+Luciano Monteagudo (Página/12, Argentina) 
+Manu Yáñez (Fotogramas, OtrosCines, España) 
+Marcelo Alderete (Festival de Mar del Plata, Argentina) 
+Martial Pisani (Independencia, Francia) 
+Nando Salva (El Periódico, España) 
+Neil Young (Hollywood Reporter, Tribune, UK) 
+Noémie Luciani (Independencia, Francia) 
+Olivier Père (Les Inrockuptibles, France) 
+Pamela Bienzobas (Mabuse, Chile) 
+Paolo Bertolin (Italy) 
+Paolo Moretti (Italy) 
+Pedro Butcher (Folha do Sao Paulo, Filme B, Brasil) 
+Philipp Engel (Go Mag, España) 
+Robert Koehler (Variety, USA) 
+Roger Alan Koza (La Voz del Interior, Con los ojos abiertos, Argentina) 
+Rudiger Suchsland (FAZ, Negativ-film, Germany) 
+Sergio Wolf (Argentina) 
+Scott Foundas (Film Comment, USA) 
+Thomas Fioretti (Independencia, Francia) 
+Violeta Kovacsics (España) 
+Xavi Serra (Ara, España) 
+";
+
+$critics[1] = "
+Christophe Beney (Palmares magazine, France) 
+David Calhoun (The Out London, UK) 
+Per Juul Carlsen (Danish National Radio, Denmark) 
+Paola Casella (Europa, Italy) 
+Mike d'Angelo (AV Club, USA) 
+Carlos F. Heredero (Cahiers du cinema Espana, Spain) 
+Eric Lavallée (Ioncinema.com, Canada) 
+Fabien Lemercier (Cineeuropa.org, Belgium) 
+Guy Lodge (Variety, InContention, South Africa/USA) 
+Isabelle Regnier (Le Monde, France) 
+Kevin Jagernauth (Indiewire's The Playlist, USA) 
+James Rocchi (MSN Movies, Indiewire's The Playlist, USA) 
+Cédric Succivalli (International Cinephil Society, France) 
+Clarence Tsui (South China Morning Post, Hong Kong) 
+Blake Williams (Ioncinema.com, Canada) 
+Liu Min (Sina.com, China) 
+Eric Kohn (Indiewire, USA) 
+";
+
+$critics[2] = "
+Peter Knegt (indieWIRE, USA) 
+Simon Gallagher (filmschoolrejects.com, USA) 
+Michal Oleszcyk (Freelance, USA)
+Ryland Aldrich (Twitch Film, USA)
+Anna Bielak (Smells Like Screen Spirit, USA)
+David Fear (Time Out New York, USA)
+John Frosch (France 24)
+Stephen Garrett (Time Out New York, USA)
+Michael Ghennam (Les Fiches du Cinéma)
+Aaron Hillis (GreenCine Daily, USA)
+Frédéric Jaeger (critic.de, D)
+Simon Abrams (Freelance, USA)
+Raffi Asdourian (The Film Stage, USA)
+Tim Robey (Daily Telegraph, England)
+Eduardo Valente (Revista Cinema, Brazil) 
+Matt Holmes (Obsessedwithfilm.com, USA) 
+Todd McCarthy (The Hollywood Reporter, USA) 
+Pete Hammond (Boxoffice Magazine, USA) 
+Andrew O'Hehir (Salon.com, USA) 
+Peter Debruge (Variety, USA) 
+Anne Thompson (Indiewire, USA) 
+Elisabeth Quin (Paris Premiere, France) 
+Andrei Creţulescu (HBO Romania) 
+Sukhdev Sandhu (Telegraph, UK) 
+Peter Bradshaw (Guardian, UK) 
+Laremy Legel (Film.com, USA) 
+Simon Reynolds (Digital Spy, UK) 
+Paul Martin (Indies Movies Online, USA) 
+Simon Abrams (Freelance, USA) 
+Brian Brooks (indieWIRE, USA) 
+David Fear (Time Out New York, USA) 
+Jon Frosch (France 24, USA) 
+Michael Giltz (The Huffington Post, USA) 
+Tim Grierson (Screen International, L.A. Weekly, USA) 
+Eugene Hernandez (Film Society of Lincoln Center, USA) 
+Peter Howell (The Toronto Star, USA) 
+Karina Longworth (LA Weekly, USA) 
+Jonathan Rosenbaum (Chicago Reader, USA) 
+";
+
+my $DATA= <<'EOF';
+
+"MOONRISE KINGDOM" (Wes Anderson) [Competition]
+Alejandro G. Calvo 7.5
+Alex Vicente 8
+Alexandra Zawia 6
+Arthur Mas 7.9
+Carlo Chatrian 7.5
+Carlos F. Heredero 7.5
+Carlos Reviriego 6.5
+Cristina Nord 8
+Dana Linssen 7.5
+Diego Batlle 7.5
+Diego Lerer 8.3
+Eugenio Renzi 7.6
+Eulalia Iglesias 7.5
+Fernando Ganzo 6.5
+Fernando Juan Lima 9
+Francisco Ferreira 8.5
+Jaime Pena 6.5
+Javier H. Estrada 7
+Kong Rithdee 7
+Luciano Barisone 8
+Manu Yáñez 7
+Nando Salva 8.5
+Neil Young 7
+Olivier Père 7.5
+Pamela Bienzobas 7.5
+Pedro Butcher 8
+Philipp Engel 9.1
+Robert Koehler 6
+Roger Alan Koza  8
+Rudiger Suchsland  8
+Scott Foundas  9
+Violeta Kovacsics 8
+Xavi Serra 8
+ IonCinema:
+Christophe Beney 6
+David Calhoun 7
+Per Juul Carlsen 5
+Paola Casella 6
+Mike d'Angelo 7
+#Carlos F. Heredero 6
+Eric Lavallée 5
+Fabien Lemercier 6 
+Guy Lodge 5
+Isabelle Regnier 8
+Kevin Jagernauth 
+James Rocchi 9
+Cédric Succivalli 6
+Clarence Tsui 6
+Blake Williams 5
+Liu Min 5
+Eric Kohn 7
+ Other:
+Simon Gallagher 8 A-
+ Metacritic:
+Andrew Schenker (Slant, USA) 8.8
+Richard Corliss (Time, USA) 8
+Kevin Harley (Total Film, USA) 8
+Todd McCarthy (The Hollywood Reporter, USA) 8
+Peter Bradshaw 8
+Pete Hammond (Boxoffice Magazine, USA) 8
+Peter Debruge (Variety, USA) 7
+David Edelstein (New York Magazine-Vulture, USA) 7
+Nev Pierce (Empire, USA) 8
+
+"DE ROUILLE ET D'OS (RUST AND BONE)" (Jacques Audiard) [Competition]
+Alejandro G. Calvo 4
+Alexandra Zawia 4.5
+Carlo Chatrian 5
+Carlos F. Heredero 4.8
+Carlos Reviriego 3
+Cristina Nord 3.8
+Dana Linssen 5.9
+Diego Batlle 6.5
+Diego Lerer 4.8
+Eugenio Renzi 3.1
+Eulalia Iglesias 5
+Fernando Juan Lima 6.5
+Francisco Ferreira 4
+Jaime Pena 4
+Javier H. Estrada 4
+José Luis de Lorenzo 3
+Luciano Barisone 5
+Manu Yáñez 2
+Nando Salva 6.5
+Neil Young 6
+Pamela Bienzobas 5
+Pedro Butcher 5.5
+Philipp Engel 6
+Robert Koehler 4
+Rudiger Suchsland  5
+Violeta Kovacsics 2
+Xavi Serra  6
+ IonCinema:
+Christophe Beney 
+David Calhoun 5
+Per Juul Carlsen 8
+Paola Casella 5
+Mike d'Angelo 6.4
+#Carlos F. Heredero 4
+Eric Lavallée 6
+Fabien Lemercier 8 
+Guy Lodge 8 B+
+Isabelle Regnier 6
+Kevin Jagernauth 8
+Cédric Succivalli 10
+Clarence Tsui 7
+Blake Williams 4
+Liu Min 7
+Eric Kohn 7
+ Other:
+Peter Bradshaw 8
+Simon Gallagher 9 A
+
+"HOLY MOTORS" (Leos Carax) [Competition]
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"COSMOPOLIS" (David Cronenberg) [Competition]
+Francisco Ferreira 9.5
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"THE PAPERBOY" (Lee Daniels) [Competition]
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"KILLING THEM SOFTLY" (Andrew Dominik) [Competition]
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"REALITY" (Matteo Garrone) [Competition]
+Alejandro G. Calvo 4.8
+Alexandra Zawia 7
+Carlo Chatrian 4.8
+Carlos F. Heredero 6.5
+Carlos Reviriego 6.1
+Cristina Nord 6.5
+Diego Batlle 6.5
+Diego Lerer 5.2
+Eulalia Iglesias 6.5
+Fernando Ganzo 3
+Fernando Juan Lima 5.5
+Francisco Ferreira 4
+Jaime Pena 3
+Javier H. Estrada 5
+Luciano Barisone 8
+Manu Yáñez 6
+Nando Salva 5
+Pedro Butcher 6
+Philipp Engel 5
+Robert Koehler 7
+Rudiger Suchsland  4.5
+Violeta Kovacsics 4
+Xavi Serra  6
+ IonCinema:
+Christophe Beney 
+David Calhoun 5
+Per Juul Carlsen 6
+Paola Casella 6
+Mike d'Angelo 6.6
+#Carlos F. Heredero 
+Eric Lavallée 
+Fabien Lemercier 6
+Guy Lodge 
+Isabelle Regnier 6
+Kevin Jagernauth 4
+Cédric Succivalli 
+Clarence Tsui 4
+Blake Williams 6
+Liu Min 5
+Eric Kohn 8
+ Indiewire:
+Michal Oleszcyk 7 B+
+ Other:
+Peter Bradshaw 6
+Simon Gallagher 7 B+
+
+"AMOUR (LOVE)" (Michael Haneke) [Competition]
+Alejandro G. Calvo 6
+Alexandra Zawia 7.2
+Carlo Chatrian 7.3
+Carlos F. Heredero 9.8
+Carlos Reviriego 8.25
+Cristina Nord 9
+Dana Linssen 9.3
+Diego Batlle 8
+Diego Lerer 7.5
+Eulalia Iglesias 7.2
+Fernando Ganzo 3
+Fernando Juan Lima 5
+Jaime Pena 5.1
+Javier H. Estrada 7
+José Luis de Lorenzo 7
+Luciano Barisone 8
+Nando Salva 9
+Pedro Butcher 6
+Philipp Engel 9
+Roger Alan Koza  8.5
+Rudiger Suchsland  9.5
+Violeta Kovacsics 9
+Xavi Serra  7.75
+ IonCinema:
+Christophe Beney 10
+David Calhoun 9
+Per Juul Carlsen 6
+Paola Casella 9
+Mike d'Angelo 7.7
+#Carlos F. Heredero 8 
+Eric Lavallée 7
+Fabien Lemercier 10
+Guy Lodge 7 B+
+Isabelle Regnier 10
+Kevin Jagernauth 8
+Cédric Succivalli 10
+Clarence Tsui 8
+Blake Williams 7
+Liu Min 7
+Eric Kohn 8 A-
+ Other:
+Peter Bradshaw 10
+
+"LAWLESS" (John Hillcoat) [Competition]
+Alejandro G. Calvo 6.2
+Alexandra Zawia 4
+Carlo Chatrian 4.5
+Carlos F. Heredero 6.5
+Carlos Reviriego 6.4
+Cristina Nord 3.8
+Dana Linssen 5.9
+Diego Batlle 6.5
+Diego Lerer 6.5
+Eulalia Iglesias 7.1
+Fernando Ganzo 4
+Jaime Pena 4.9
+Javier H. Estrada 3.5
+José Luis de Lorenzo 3
+Luciano Barisone 1
+Manu Yáñez 6.5
+Martial Pisani 5.3
+Nando Salva 4.5
+Neil Young 5
+Pedro Butcher 6.5
+Philipp Engel 7
+Robert Koehler 3
+Rudiger Suchsland  6
+Scott Foundas  4
+Violeta Kovacsics 6.5
+Xavi Serra  6
+ IonCinema:
+Christophe Beney 2
+David Calhoun 5
+Per Juul Carlsen 7
+Paola Casella 8
+Mike d'Angelo 6.1
+#Carlos F. Heredero 4
+Eric Lavallée 2
+Fabien Lemercier 2
+Guy Lodge 7 B
+Isabelle Regnier 
+Kevin Jagernauth 7
+Cédric Succivalli 5
+Clarence Tsui 5
+Blake Williams 4
+Liu Min 
+Eric Kohn 2 C-
+ Indiewire:
+Michal Oleszcyk 0 F
+ Other:
+Peter Bradshaw 4
+Simon Gallagher 10 A+
+
+"DA-REUN NA-RA-E-SUH (IN ANOTHER COUNTRY)" (Hong Sangsoo) [Competition]
+Alejandro G. Calvo 8.1
+Alexandra Zawia 8.8
+Arthur Mas 8.5
+Carlos F. Heredero 7
+Carlos Reviriego 7
+Cristina Nord 8
+Dana Linssen 7.9
+Diego Batlle 8.5
+Diego Lerer 8.8
+Eulalia Iglesias 8
+Fernando Ganzo 8
+Fernando Juan Lima 9
+Francisco Ferreira 7.5
+Jaime Pena 8.8
+Javier H. Estrada 8.5
+José Luis de Lorenzo 8
+Luciano Barisone 8
+Neil Young 6
+Roger Alan Koza  8.5
+Rudiger Suchsland  6.8
+Violeta Kovacsics 7.5
+ IonCinema:
+Christophe Beney 
+David Calhoun 5
+Per Juul Carlsen 2 
+Paola Casella 5
+Mike d'Angelo 5.1
+#Carlos F. Heredero 6
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 7
+Cédric Succivalli 
+Clarence Tsui 3
+Blake Williams 6
+Liu Min 
+Eric Kohn 
+ Other:
+Peter Bradshaw 6
+
+"LIKE SOMEONE IN LOVE" (Abbas Kiarostiami) [Competition]
+Alejandro G. Calvo 9.5
+Alexandra Zawia 9
+Arthur Mas 4.2
+Carlo Chatrian 7.6
+Carlos F. Heredero 7.5
+Carlos Reviriego 9.5
+Dana Linssen 7.5
+Diego Batlle 8.5
+Diego Lerer 9
+Eulalia Iglesias 9
+Fernando Juan Lima 8.5
+Jaime Pena 8.9
+Javier H. Estrada 9
+José Luis de Lorenzo 6
+Luciano Barisone 5
+Manu Yáñez 9.5
+Martial Pisani 4.5
+Roger Alan Koza  10
+Xavi Serra  8.1
+ IonCinema:
+Christophe Beney 4
+David Calhoun 7
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 5
+Fabien Lemercier 6
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 4
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+ Other:
+Peter Bradshaw 4
+
+"THE ANGELS' SHARE" (Ken Loach) [Competition]
+Diego Batlle 6.7
+
+"BEYOND THE HILLS" (Cristian Mungiu) [Competition]
+Alejandro G. Calvo 8.5
+Alexandra Zawia 7
+Carlo Chatrian 6.02
+Carlos F. Heredero 7
+Carlos Reviriego 7.2
+Cristina Nord 3.8
+Dana Linssen 7.2
+Diego Batlle 7.5
+Diego Lerer 7.3
+Eulalia Iglesias 7.3
+Fernando Juan Lima 8
+Francisco Ferreira 4
+Jaime Pena 7.5
+Javier H. Estrada 6
+José Luis de Lorenzo 9
+Luciano Barisone 7
+Manu Yáñez 6
+Nando Salva 6.5
+Neil Young 5
+Pedro Butcher 9
+Roger Alan Koza  6.5
+Rudiger Suchsland  4
+Sergio Wolf 4
+Violeta Kovacsics 5
+Xavi Serra  5.5
+ IonCinema:
+Christophe Beney 6
+David Calhoun 
+Per Juul Carlsen 5
+Paola Casella 8
+Mike d'Angelo 5.9
+#Carlos F. Heredero 6
+Eric Lavallée 6
+Fabien Lemercier 8
+Guy Lodge 6
+Isabelle Regnier 6
+Kevin Jagernauth 8
+Cédric Succivalli 8
+Clarence Tsui 
+Blake Williams 8
+Liu Min 10
+Eric Kohn 6
+ IndieWire:
+Michal Oleszcyk 2 C-
+ Other:
+Drew McWeeny (InContention, USA) 2 C-
+Peter Bradshaw 8
+
+"BAAD EL MAWKEAA (AFTER THE BATTLE)" (Yousry Nasrallah) [Competition]
+Alejandro G. Calvo 4
+Alexandra Zawia 3
+Carlo Chatrian 6.01
+Carlos F. Heredero 4
+Cristina Nord 3
+Dana Linssen 5.9
+Diego Batlle 4
+Diego Lerer 3.7
+Eulalia Iglesias 4
+Fernando Ganzo 3
+Fernando Juan Lima 2
+Francisco Ferreira 5
+Jaime Pena 5.2
+Javier H. Estrada 5
+José Luis de Lorenzo 3
+Kong Rithdee 5.5
+Luciano Barisone 6
+Manu Yáñez 5
+Martial Pisani 6.7
+Nando Salva 4.5
+Neil Young 3
+Pedro Butcher 4
+Robert Koehler 2
+Roger Alan Koza  3.5
+Rudiger Suchsland  3
+Scott Foundas  4
+Violeta Kovacsics 5
+ IonCinema:
+Christophe Beney 2
+David Calhoun 3
+Per Juul Carlsen 4
+Paola Casella 4
+Mike d'Angelo 4
+#Carlos F. Heredero 2
+Eric Lavallée 
+Fabien Lemercier 4
+Guy Lodge 2 D+
+Isabelle Regnier 2
+Kevin Jagernauth 4
+Cédric Succivalli 2
+Clarence Tsui 6
+Blake Williams 3
+Liu Min 4
+Eric Kohn 5
+ IndieWire:
+Michal Oleszcyk 0 F
+
+"MUD" (Jeff Nichols) [Competition]
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
+Alejandro G. Calvo 5.5
+Arthur Mas 8.1
+Carlos Reviriego 6.8
+Diego Batlle 7.5
+Diego Lerer 7.4
+Eulalia Iglesias 7.9
+Fernando Ganzo 7
+José Luis de Lorenzo 7
+Martial Pisani 7.9
+Roger Alan Koza  8.7
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 7.3
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 6 B
+ Other:
+Peter Bradshaw 4
+
+"POST TENEBRAS LUX" (Carlos Reygadas) [Competition]
+Roger Alan Koza  9
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"ON THE ROAD" (Walter Salles) [Competition]
+ IonCinema:
+Christophe Beney
+David Calhoun
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+
+"PARADIES : Liebe (PARADISE : Love)" (Ulrich Seidl) [Competition]
+Alejandro G. Calvo 3
+Alexandra Zawia 6
+Arthur Mas 7.7
+Carlos F. Heredero 4
+Carlos Reviriego 7
+Cristina Nord 6.8
+Dana Linssen 6.9
+Diego Batlle 6
+Diego Lerer 6.7
+Eulalia Iglesias 6.5
+Fernando Juan Lima 6
+Francisco Ferreira 2
+Jaime Pena 7
+Javier H. Estrada 4.5
+José Luis de Lorenzo 6
+Luciano Barisone 8
+Manu Yáñez 6.5
+Martial Pisani 6.9
+Neil Young 6
+Pamela Bienzobas 6.5
+Pedro Butcher 2
+Philipp Engel 6.5
+Robert Koehler 7.5
+Roger Alan Koza  7
+Sergio Wolf 3
+Violeta Kovacsics 7.5
+Xavi Serra  7.5
+ IonCinema:
+Christophe Beney 4
+David Calhoun 4
+Per Juul Carlsen 4
+Paola Casella 3
+Mike d'Angelo 5
+Carlos F. Heredero 2
+Eric Lavallée 4
+Fabien Lemercier 4
+Guy Lodge 6
+Isabelle Regnier 4
+Kevin Jagernauth 
+Cédric Succivalli 1
+Clarence Tsui 4
+Blake Williams 6
+Liu Min 4
+Eric Kohn 
+ Indiewire:
+Michal Oleszcyk 2 C-
+Ryland Aldrich 8 A-
+Anna Bielak 7 B+
+David Fear 8 A-
+John Frosch 4 C+
+Stephen Garrett 8 A-
+Michael Ghennam 4 C+
+Aaron Hillis 6 B
+Frédéric Jaeger 8 A-
+ Other:
+Peter Bradshaw 6
+Simon Gallagher 2 C-
+
+"JAGTEN (THE HUNT)" (Thomas Vinterberg) [Competition]
+Alejandro G. Calvo 5.1
+Alexandra Zawia 5
+Carlo Chatrian 5.5
+Carlos F. Heredero 5
+Carlos Reviriego 1.9
+Diego Batlle 5
+Diego Lerer 5.2
+Eulalia Iglesias 4
+Fernando Juan Lima 4
+Francisco Ferreira 3
+Jaime Pena 5
+Javier H. Estrada 4
+Manu Yáñez 2
+Nando Salva 2.5
+Pedro Butcher 2.5
+Robert Koehler 7.5
+Violeta Kovacsics 2
+Xavi Serra  4
+ IonCinema:
+Christophe Beney 0
+David Calhoun 5
+Per Juul Carlsen 8
+Paola Casella 6
+Mike d'Angelo 5.4
+#Carlos F. Heredero 4 
+Eric Lavallée 3
+Fabien Lemercier 8
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 8
+Clarence Tsui 
+Blake Williams 
+Liu Min 10
+Eric Kohn 
+ Other:
+Peter Bradshaw 8
+
+UN CERTAIN REGARD
+
+"MYSTERY" (Lou Ye) [Un Certain Regard]
+Carlos F. Heredero 4
+Carlos Reviriego 3
+Dana Linssen 5.8
+Diego Batlle 4
+Diego Lerer 3.5
+Eulalia Iglesias 3
+Fernando Juan Lima 2
+Javier H. Estrada 3
+José Luis de Lorenzo 4
+Neil Young 5
+Robert Koehler 2
+Roger Alan Koza  1
+Rudiger Suchsland  7
+ Other:
+Peter Bradshaw 6
+Simon Gallagher 6 B
+
+"MISS LOVELY" (Ashim Ahluwalia) [Un Certain Regard]
+
+"LA PLAYA" (Juan Andrés Arango) [Un Certain Regard]
+
+"LES CHEVAUX DE DIEU" (Nabil Ayouch) [Un Certain Regard]
+Alejandro G. Calvo 1
+Carlos F. Heredero 6
+Carlos Reviriego 2
+Dana Linssen 4.9
+Fernando Juan Lima 7
+Jaime Pena 3
+José Luis de Lorenzo 8
+
+"TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
+
+"ANTIVIRAL" (Brandon Cronenberg) [Un Certain Regard]
+Alejandro G. Calvo 6
+Carlo Chatrian 2.02
+Carlos F. Heredero 1
+Carlos Reviriego 5
+Dana Linssen 4.5
+Diego Batlle 4
+Diego Lerer 6
+Fernando Juan Lima 6
+Gonzalo de Pedro 4
+Jaime Pena 4
+Javier H. Estrada 4
+José Luis de Lorenzo 6
+Luciano Barisone 5
+Manu Yáñez 5.5
+Nando Salva 2
+Neil Young 3
+Pedro Butcher 2
+Philipp Engel 6
+Roger Alan Koza  3.5
+Rudiger Suchsland  6.5
+Violeta Kovacsics 5.5
+Xavi Serra  6
+ IndieWire:
+James Rocchi 5
+Simon Gallagher 7 B+
+
+"7 DIAS EN LA HABANA" (BDT, PT, JM, ES, JCT, GN y LC) [Un Certain Regard]
+Carlos Reviriego 3.5
+Dana Linssen 3.2
+
+"LE GRAND SOIR" (Benoit Delépine Y Gustave Kervern) [Un Certain Regard]
+Diego Lerer 2.5
+
+"LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
+Alexandra Zawia 3.5
+Arthur Mas 5
+Dana Linssen 7.1
+Diego Batlle 6
+Diego Lerer 2.2
+Eulalia Iglesias 6.7
+Fernando Juan Lima 7.5
+José Luis de Lorenzo 8
+Philipp Engel 4.5
+Violeta Kovacsics 5.5
+ Indiewire:
+Michal Oleszcyk 2 C-
+Simon Gallagher 2 C-
+Guy Lodge 4 C+
+Eric Kohn 4 C+
+
+"DESPUES DE LUCIA" (Michel Franco) [Un Certain Regard]
+Diego Batlle 2
+Diego Lerer 2.5
+
+"STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
+Alexandra Zawia 8
+Arthur Mas 8.2
+Carlo Chatrian 7.8
+Carlos F. Heredero 8.5
+Carlos Reviriego 7.5
+Cristina Nord 6.5
+Eulalia Iglesias 7
+Fernando Ganzo 6
+Jaime Pena 8
+Javier H. Estrada 8.5
+José Luis de Lorenzo 3
+Luciano Barisone 8
+Martial Pisani 8
+Neil Young 6
+Robert Koehler 8
+Roger Alan Koza  8.5
+
+"LA PIROGUE" (Moussa Toure) [Un Certain Regard]
+Carlo Chatrian 5.05
+Diego Batlle 6
+Diego Lerer 5.6
+Luciano Barisone 7
+
+"ELEFANTE BLANCO" (Pablo Trapero) [Un Certain Regard]
+Alejandro G. Calvo 6
+Alexandra Zawia 5.5
+Carlos Reviriego 5
+Diego Batlle 7.6
+Diego Lerer 7.5
+José Luis de Lorenzo 5
+Nando Salva 5
+
+"CONFESSION OF A CHILD OF THE CENTURY" (Sylvie Verheyde) [Un Certain Regard]
+Alexandra Zawia 3
+Carlo Chatrian 4.01
+Carlos F. Heredero 3
+Carlos Reviriego 4.5
+Jaime Pena 4
+ Other:
+Catherine Shoard (Guardian, UK) 2
+
+"11.25 THE DAY HE CHOSE HIS OWN FATE" (Koji Wakamatsu) [Un Certain Regard]
+
+"BEASTS OF THE SOUTHERN WILD" (Benh Zeitlin) [Un Certain Regard]
+Alejandro G. Calvo 3
+Alexandra Zawia 6
+Carlos F. Heredero 4
+Carlos Reviriego 6
+Cristina Nord 4.5
+Diego Batlle 6
+Diego Lerer 6.3
+Eulalia Iglesias 2.5
+Fernando Juan Lima 6
+Francisco Ferreira 1
+Jaime Pena 2
+Javier H. Estrada 3
+José Luis de Lorenzo 4
+Luciano Barisone 6
+Nando Salva 2
+Neil Young 6
+Pedro Butcher 4
+Philipp Engel 4
+Robert Koehler 3
+Sergio Wolf 3
+Scott Foundas  10
+Xavi Serra  5.5
+ Indiewire:
+Simon Abrams 8 A-
+Raffi Asdourian 8 A-
+Mike d'Angelo 5 B-
+David Fear 7 B+ 
+Peter Knegt 8 A-
+Anne Thompson 9 A
+Tim Grierson 6 B
+ Other:
+Guy Lodge 6 B
+
+"DJECA" (Aida Begic) [Un Certain Regard]
+Diego Batlle 6.5
+Diego Lerer 6.5
+Eulalia Iglesias 6.7
+
+"GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
+Scott Foundas  8
+ Other:
+Don Simpson (Smells Like Screen Spirit, USA) 6
+Andrew Schenker (Slant, USA) 6.5
+Reini Urban (facebook, USA) 4
+
+"RENOIR" (Gilles Bourdos) [Un Certain Regard]
+
+SEMANA DE LA CRÍTICA
+
+"BROKEN" (Rufus Norris) [Semaine]
+Pedro Butcher 1.5
+Peter Bradshaw 4
+
+"AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine]
+
+"AU GALOP" (LouisDo de Lencquesaing) [Semaine]
+Carlos Reviriego 6.8
+Fernando Juan Lima 8
+Gonzalo de Pedro 5
+Martial Pisani 3.1
+Philipp Engel 8
+
+"LES VOISINS DE DIEU" (Meni Yaesh) [Semaine]
+Eulalia Iglesias 3.5
+Rudiger Suchsland  7
+ 
+"HORS LES MURS" (Damien Lambert) [Semaine]
+
+"PEDDLERS" (Vasan Bala) [Semaine]
+
+"LOS SALVAJES" (Alejandro Fadel) [Semaine]
+Alejandro G. Calvo 7
+Carlo Chatrian 5
+Diego Batlle 8.8
+Diego Lerer 7.7
+Fernando Ganzo 5
+Jaime Pena 4
+Luciano Barisone 3
+Roger Alan Koza  7.2
+Sergio Wolf 8
+Violeta Kovacsics 7
+
+"SOFIA'S LAST AMBULANCE" (Ilian Metev) [Semaine]
+
+"AUGUSTINE" (Alice Winocour) [Semaine]
+Neil Young 7
+Thomas Fioretti 4.5
+
+"J’ENRAGE DE SON ABSENCE" (Sandrine Bonnaire) [Semaine]
+Fernando Ganzo 2.5
+
+"3" (Pablo Stoll Ward) [Quinzaine]
+Carlos Reviriego 6.8
+Diego Batlle 8
+Diego Lerer 8.6
+Roger Alan Koza  6
+
+"ADIEU BERTHE, L'ENTERREMENT DE MÉMÉ" (Bruno Podalydès) [Quinzaine]
+Javier H. Estrada 4
+Martial Pisani 4.9
+Thomas Fioretti 4.9
+
+"ALYAH" (Elie Wajeman) [Quinzaine]
+Carlo Chatrian 6.5
+Javier H. Estrada 6
+Thomas Fioretti 2.9
+
+"CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine]
+
+"DAE GI EUI WANG" (Yeun Sang-Ho) [Quinzaine]
+Paolo Bertolin 7
+
+"DANGEROUS LIAISONS" (Hur Jinho) [Quinzaine]
+
+"EL TAAIB" (Merzak Allouache) [Quinzaine]
+Javier H. Estrada 6
+Luciano Barisone 7
+Thomas Fioretti 5.6
+
+"ERNEST ET CÉLESTINE" (Stéphane Aubier, Vincent Patar & Benjamin Renner) [Quinzaine]
+
+"FOGO" (Yulene Olaizola) [Quinzaine]
+Roger Alan Koza  8
+
+"GANGS OF WASSEYPUR" (Anurag Kashyap) [Quinzaine]
+
+"INFANCIA CLANDESTINA" (Benjamín Ávila) [Quinzaine]
+Carlos Reviriego 6.5
+Diego Batlle 6.8
+Diego Lerer 6.8
+Eulalia Iglesias 4.5
+Jaime Pena 4
+Javier H. Estrada 3
+José Luis de Lorenzo 6
+Nando Salva 3.5
+Neil Young 5
+Roger Alan Koza  6.5
+
+"LA NOCHE DE ENFRENTE" (Raúl Ruiz) [Quinzaine]
+Cristina Nord 8
+Fernando Ganzo 6.5
+Gonzalo de Pedro 9
+
+"LA SIRGA" (William Vega) [Quinzaine]
+Carlo Chatrian 6.5
+Carlos F. Heredero 6.5
+Diego Batlle 6.5
+Jaime Pena 3
+Javier H. Estrada 6.5
+Luciano Barisone 5
+Robert Koehler 7
+Roger Alan Koza  6.5
+
+"NO" (Pablo Larraín) [Quinzaine]
+Alexandra Zawia 7
+Carlo Chatrian 6
+Carlos F. Heredero 6
+Dana Linssen 8
+Diego Lerer 6.8
+Eulalia Iglesias 6.9
+Fernando Ganzo 4
+Gonzalo de Pedro 7
+Jaime Pena 2
+Javier H. Estrada 7
+Robert Koehler 8
+Roger Alan Koza  7.5
+Sergio Wolf 7
+Thomas Fioretti 7
+Violeta Kovacsics 8
+ Other:
+Guy Lodge 8.5 A-
+Eric Kohn 9 A
+
+"OPÉRATION LIBERTAD" (Nicolas Wadimoff) [Quinzaine]
+
+"RENGAINE (HOLD BACK)" (Rachid Djaïdani) [Quinzaine]
+Neil Young 7
+
+"ROOM 237" (Rodney Ascher) [Quinzaine]
+Diego Lerer 3
+Robert Koehler 8 A
+ Indiewire:
+Simon Abrams 8 A-
+Raffi Asdourian 8 A-
+#Mike d'Angelo
+David Fear 8 A- 
+Tim Grierson 8 A-
+Michal Oleszcyk 7 B+
+
+"SIGHTSEERS" (Ben Wheatley) [Quinzaine]
+
+"SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
+
+"THE WE AND THE I" (Michel Gondry) [Quinzaine]
+Alejandro G. Calvo 8
+Camille Brunel 8.2
+Carlos F. Heredero 4
+Diego Batlle 6
+Diego Lerer 5
+Eulalia Iglesias 4.5
+Fernando Juan Lima 5.5
+Gonzalo de Pedro 8
+Jaime Pena 6
+Javier H. Estrada 4
+Luciano Barisone 5
+Manu Yáñez 8
+Nando Salva 6.5
+Noémie Luciani 3
+Philipp Engel 8.5
+Thomas Fioretti 3
+Violeta Kovacsics 7
+Mike d'Angelo 5.2
+
+"YEK KHANÉVADÉH-E MOHTARAM (A RESPECTABLE FAMILY)" (Massoud Bakhshi) [Quinzaine]
+Javier H. Estrada 4.5
+Thomas Fioretti 6.3
+
+FUERA DE COMPETENCIA
+
+"IO E TE (ME AND YOU)" (Bernardo Bertolucci)
+
+"MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
+Diego Lerer 3.2
+
+"HEMINGWAY & GELLHORN" (Philip Kaufman)
+
+PROYECCIONES DE MEDIANOCHE
+
+"DARIO ARGENTO'S DRACULA" (Dario Argento)
+Alejandro G. Calvo 2
+Alexandra Zawia 2
+Fernando Juan Lima 5
+José Luis de Lorenzo 2
+Nando Salva 2
+Philipp Engel 4
+Sergio Wolf 8
+Simon Gallagher 1 D+
+
+"AI TO MAKOTO" (Takashi Miike)
+
+"UNE JOURNÉE PARTICULIÈRE" (Gilles Jacob y Samuel Faure)
+José Luis de Lorenzo 2
+
+"THE SAPPHIRES" (Wayne Blair)
+Fernando Juan Lima 6
+Luciano Barisone 3
+ Other:
+Guy Lodge 8
+Eric Kohn 4 C+
+Simon Gallagher 7 B+
+Henry Barnes (Guardian, UK) 6
+
+"MANIAC" (Franck Khalfoun)
+
+FUNCIONES ESPECIALES
+
+"DER MÜLL IM GARTEN EDEN (POLLUTING PARADISE)" (Fatih Akin) 
+Alexandra Zawia 3
+Cristina Nord 5
+Dana Linssen 4.9
+Diego Batlle 5
+Diego Lerer 4.2
+Fernando Juan Lima 4
+Javier H. Estrada 3
+José Luis de Lorenzo 7
+Nando Salva 4
+Neil Young 6
+Rudiger Suchsland  5
+ IndieWire:
+Michal Oleszcyk 6 B
+
+"ROMAN POLANSKI: A FILM MEMOIR" (Laurent Bouzereau)
+Alejandro G. Calvo 1
+Alex Vicente 4
+Alexandra Zawia 3.2
+Carlo Chatrian 4
+Dana Linssen 5.8
+Diego Batlle 5.5
+Eulalia Iglesias 5
+Fernando Ganzo 3
+Fernando Juan Lima 3
+Kong Rithdee 6
+Luciano Barisone 3
+Pedro Butcher 5
+Scott Foundas  3
+Mike d'Angelo
+ Other:
+Peter Bradshaw 6
+Simon Gallagher 5 B-
+
+"THE CENTRAL PARK FIVE" (Ken Burns, Sarah Burns y David McMahon) 
+
+"LES INVISIBLES" (Sébastien Lifshitz) 
+Carlo Chatrian 6.01
+Eulalia Iglesias 6.9
+Fernando Juan Lima 7
+Luciano Barisone 6
+
+"JOURNAL DE FRANCE" (Claudine Nougaret y Raymond Depardon) 
+
+"A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) 
+Pedro Butcher 8
+
+"VILLEGAS" (Gonzalo Tobal) 
+Carlos F. Heredero 7
+Carlos Reviriego 6.5
+Diego Batlle 7.2
+Diego Lerer 7.2
+Fernando Ganzo 6
+Jaime Pena 7
+José Luis de Lorenzo 8
+Neil Young 5
+Robert Koehler 4
+Roger Alan Koza  6.7
+
+"MEKONG HOTEL" (Apichatpong Weerasethakul) 
+Alejandro G. Calvo 7
+Alexandra Zawia 7
+Carlo Chatrian 7.3
+Carlos Reviriego 7.5
+Cristina Nord 7
+Dana Linssen 7.4
+Diego Batlle 7.5
+Diego Lerer 7.7
+Eulalia Iglesias 7.1
+Fernando Ganzo 6.5
+Fernando Juan Lima 8.5
+Francisco Ferreira 8.5
+Gonzalo de Pedro 9
+Jaime Pena 7
+Javier H. Estrada 7.5
+José Luis de Lorenzo 8
+Luciano Barisone 7
+Nando Salva 7.5
+Neil Young 4
+Philipp Engel 7
+Robert Koehler 8
+Roger Alan Koza  7.5
+Violeta Kovacsics 7
+Xavi Serra  6
+Mike d'Angelo 4.1
+Peter Bradshaw 6
+Blake Williams 2.6
+ Indiewire:
+Michal Oleszcyk 7 B+
+
+"TRASHED" (Candida Brady) 
+Neil Young 6
+
+"LE SERMENT DE TOBRUK (Bernard-Henry Lévy) 
+
+"SISTER (L'ENFANT D'EN HAUT)" (Ursula Meier) [Market]
+Mike d'Angelo 6.8
+ Indiewire:
+Michal Oleszcyk 6 B
+Eric Kohn 8 A-
+Neil Young 1 D-
+Tim Robey 7 B+
+
+
+"."
+--
+https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
+http://www.ioncinema.com/
+http://twitter.com/#!/gemko
+
+http://rurban.xarch.at/film/Cannes2012.txt
+
+EOF
+
+my (%critic,%badcritic,%title,@t);
+for my $c (@critics) {
+  for (split/\n/,$c) {
+    if (/^(.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);}
+    next unless $critic;
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;}}
+for (split /\n/, $DATA) { #chomp;
+  if (/^#/) { next; } #skip
+  elsif (/^["“](.+)["”]/) {
+    $a = $n ? sprintf("%.02f", $s/$n) : 0;
+    push @t, [$title_dir,$a,$n,$title] if $title_dir;
+    $title = $1;
+    s/[“”]/"/g; s/ \([\d.,]+\) \d+ votos//;
+    $title_dir = $_; $n = $s = 0; }
+  elsif (/[\w\)] [-\x{2013} ]*(\d[\d.]*)/) {
+    my $x = $1; $x =~ s/,/./g; $x = 10 if $x > 10; $x = 0 if $x < 0;
+    $s += $x; $n++;
+    if (/^(.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);
+    } elsif (/^([^\(]+)\s+\d/) {
+      ($critic,$mag,$cn) = ($1,undef,undef);
+      $critic =~ s/ +$//;
+    }
+    next unless $critic;
+    $critic{$critic}->{title}->{$title} = [$x];
+    $title{$title}->{critic}->{$critic} = [$x];
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;
+  }}
+undef $DATA;
+my $HEADER = <<"EOF";
+<html><head><meta http-equiv="Content-type" content="'text/html';charset='iso-8859-1'"></head><body>
+All Cannes 2012 critics ratings, level 0-10.<p>
+<i>Forth edition of the Apitchang poll of films at Cannes 2012.
+This year with over 43 international critics</i> - Diego Lerer<p>
+
+Updated daily from http://micropsia.otroscines.com/ (Diego Lerer), 
+http://www.ioncinema.com/, Indiewire and more US critics.
+Same <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">as last years</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
+All sections (updated daily, official selection Competition: bold)<p>
+
+EOF
+my $FOOTER = "
+<pre>
+--
+http://micropsia.otroscines.com/
+http://www.ioncinema.com/
+
+Source at http://rurban.xarch.at/film/Cannes2012.txt
+Result at http://rurban.xarch.at/film/Cannes2012.sorted.html
+</pre></body></html>
+";
+
+$FOOTER =~ s{http://(.+)\n}{<a href="http://$1">$1</a>\n}g;
+
+END {
+  print $HEADER if $HEADER;
+  @all = @t;
+  @sections = ("Competition", "Un Certain Regard", "Semaine", "Quinzaine", "Other");
+  %sections = map{$_=>1} @sections;
+  @t = sort {$b->[1] <=> $a->[1]} @t;
+  for (@t) {
+    ($l,$a,$n,$t) = @{$_}; my $section;
+    if ($l =~ / \[Competition\]/) { $l =~ s/ \[Competition\]//; $section = 'Competition';}
+    else { $l =~ s/ \[([\w ]+?)\]//; $section = $1;}
+    $section='Other' if !$section or !$sections{$section};
+    $title{$t}->{'section'} = $section; $title{$t}->{'avg'} = $a; $title{$t}->{'num'} = $n; $title{$t}->{'line'} = $l;
+    for $c (keys %{$title{$t}->{critic}}) {
+      $x = $title{$t}->{critic}->{$c}->[0];
+      push @{$title{$t}->{critic}->{$c}}, $x - $a;
+      push @{$critic{$c}->{title}->{$t}}, ($a, $x - $a);}}
+  for my $c (keys %critic) {
+    my ($s,$sum,$asum)=(0,0,0);my @k=keys(%{$critic{$c}->{title}});
+    unless (@k){delete $critic{$c};next};
+    for(@k){($x,$a,$d)=@{$critic{$c}->{title}->{$_}};$asum+=abs($d);$sum += $d;}
+    for(@k){my $d=$critic{$c}->{title}->{$_}->[2];$s += ($d * $d);}
+    $critic{$c}->{diff} = $sum / scalar(@k);
+    $critic{$c}->{absdiff} = $asum / scalar(@k);
+    $critic{$c}->{stddev}  = sqrt($s / scalar(@k));
+    $badcritic{$c}++ if $critic{$c}->{stddev} >= 2.5; }
+  # remove critics from %title if critics->stddev > 2.5.
+  # we could strike out the best and worst per film, but better strike out off-critics
+  # See http://www.facebook.com/note.php?note_id=10150174713060012
+  for my $c (keys %badcritic) {
+    for my $t (keys %title) {
+      if ($title{$t}->{critic}->{$c}) {
+        $title{$t}->{num}--; my ($n,$sum)=(0,0);
+	delete $title{$t}->{critic}->{$c};
+	for (keys %{$title{$t}->{critic}}) {$sum += $title{$t}->{critic}->{$_}->[0]}
+	$title{$t}->{avg} = $sum / $n if $n}}}
+
+  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t;
+  for (@t) { $t = $_->[3]; my ($a,$s)=($title{$t}->{avg},0);
+    for (keys %{$title{$t}->{critic}}) {
+      my $v=$title{$t}->{critic}->{$_}->[0]; $s += ($v-$a)*($v-$a)}
+    $title{$t}->{stddev} = sqrt($s / $title{$t}->{num}) if $title{$t}->{num};}
+  print "<h1>Very Good Films (avg>7.5, n>3)</h1>\n<pre>\n";
+  for (@t) { $t = $_->[3];
+    $n=$title{$t}->{num};$a=sprintf("%0.2f",$title{$t}->{avg}); next if $n<=3 or $a < 7.5; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
+    $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    print "  $l \[$a/$n $s\]\n";}
+  print "</pre>\n\n<h1>Good Films (avg>6, n>3)</h1>\n<pre>\n";
+  for (@t) { $t = $_->[3];
+    $a=sprintf("%0.2f",$title{$t}->{avg}); $n=$title{$t}->{num}; next if $a < 6.0 or $a >= 7.5 or $n <= 3; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
+    $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    print "  $l \[$a/$n $s\]\n"; }
+  print "</pre>\nThe rest is below 6, unacceptable for Cannes.\n";
+
+  print "\n<h1>All official sections</h1>\n\n";
+  my %section;
+  for $section (@sections) {
+    $sum = $num = 0; my @titles = keys %title;
+    for (@titles) {
+      if ($title{$_}->{section} eq $section) {
+        $section{$section}->{$_} = [ $title{$_}->{avg}, $title{$_}->{num}, $title{$_}->{stddev} ]; 
+        if($title{$_}->{num}){$sum += $title{$_}->{avg}; $num++}}}
+    if ($num) { my $i=1;
+      printf("<h2>Ratings for <b>$section [%0.2f/%d]</b></h2>\n<pre>\n", $sum/$num, $num);
+      for (sort {$section{$section}->{$b}->[0] <=> $section{$section}->{$a}->[0]}
+	   keys %{$section{$section}}) 
+      { my $s=$section{$section}->{$_}->[2];my $l=$title{$_}->{line};$l=$s>=2.0?"<i>$l</i>":$l;
+        $section{$section}->{$_}->[1]?
+	  printf("%2d. %s [%0.2f/%d %0.1f]\n", $i++, $l, @{$section{$section}->{$_}}):print("    $l [-]\n");
+      } print "</pre>\n\n"; }}
+
+  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n<pre>\n"; my $i=1;
+  for (sort {$b->[1] <=> $a->[1]} @t) {
+    ($l,$a,$n,$t) = @{$_};
+    $s=sprintf("%0.1f",$title{$t}->{stddev}); $l="<i>$l</i>" if $s>=2.0;
+    if ($l =~ / \[Competition\]/) { $l =~ s/ \[Competition\]//; $l="<b>$l</b>"; }
+    else { $l =~ s/ \[[\w ]+?\]//;}
+    $n?printf("%2d. $l \[$a/$n $s\]\n",$i++):print("    $l \[-\]\n");}
+
+  my $numc = scalar(keys(%critic));
+  printf "</pre>\n\n<h1>%d/%d Critics</h1>\n\n",$numc-scalar(keys(%badcritic)),$numc;
+  print "<i>filter stddev >2.5 from avg</i>\n";
+  print "stddev name (magazine, cn) numratings <i>±diff</i>\n<pre>\n";
+  for (sort {$critic{$a}->{stddev} <=> $critic{$b}->{stddev}} keys %critic) {
+    my $n = scalar keys(%{$critic{$_}->{title}});
+    my @r = ($critic{$_}->{stddev}, $_, $critic{$_}->{mag}, $critic{$_}->{cn}, $n, $critic{$_}->{diff});
+    if ($critic{$_}->{stddev} > 2.5) {
+      printf "%0.2f <strike>%s (%s, %s)</strike> %d <i>%+0.1f</i>\n", @r; } 
+    else { printf "%0.2f %s (%s, %s) %d <i>%+0.1f</i>\n", @r; }
+    # print Dumper $critic{$_} if $critic{$_}->{stddev} > 4;
+  }
+  print "</pre>";
+  print $FOOTER if $FOOTER;
+}
