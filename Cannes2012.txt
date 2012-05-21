@@ -550,6 +550,7 @@ Peter Bradshaw 4
 
 "THE ANGELS' SHARE" (Ken Loach) [Competition]
 Diego Batlle 6.7
+Mike d'Angelo 5.6
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
 Alejandro G. Calvo 8.5
@@ -1154,7 +1155,7 @@ Robert Koehler 8 A
  Indiewire:
 Simon Abrams 8 A-
 Raffi Asdourian 8 A-
-#Mike d'Angelo
+Mike d'Angelo 5.8
 David Fear 8 A- 
 Tim Grierson 8 A-
 Michal Oleszcyk 7 B+
