@@ -1478,23 +1478,25 @@ END {
       if ($title{$_}->{section} eq $section) {
         $section{$section}->{$_} = [ $title{$_}->{avg}, $title{$_}->{num}, $title{$_}->{stddev} ]; 
         if($title{$_}->{num}){$sum += $title{$_}->{avg}; $num++}}}
-    if ($num) { my $i=1;
+    if ($num) { my $i=1; my $six=1;
       printf("<h2>Ratings for <b>$section [%0.2f/%d]</b></h2>\n<pre>\n", $sum/$num, $num);
       for (sort {$section{$section}->{$b}->[0] <=> $section{$section}->{$a}->[0]}
 	   keys %{$section{$section}}) 
       { my $s=$section{$section}->{$_}->[2];my $l=$title{$_}->{line};$l=$s>=2.0?"<i>$l</i>":$l;
+        if ($six and $section{$section}->{$_}->[0] < 6){
+          $six=0; print "-"x25,"\n";}
         $section{$section}->{$_}->[1]?
 	  printf("%2d. %s [%0.2f/%d %0.1f]\n", $i++, $l, @{$section{$section}->{$_}}):print("    $l [-]\n");
       } print "</pre>\n\n"; }}
 
-  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n<pre>\n"; my $i=1;
+  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n<pre>\n"; my $i=1; my $six=1;
   for (sort {$b->[1] <=> $a->[1]} @t) {
     ($l,$a,$n,$t) = @{$_};
     $s=sprintf("%0.1f",$title{$t}->{stddev}); $l="<i>$l</i>" if $s>=2.0;
     if ($l =~ / \[Competition\]/) { $l =~ s/ \[Competition\]//; $l="<b>$l</b>"; }
     else { $l =~ s/ \[[\w ]+?\]//;}
-    $n?printf("%2d. $l \[$a/$n $s\]\n",$i++):print("    $l \[-\]\n");}
-
+    if ($six and $n and $a<6.0){$six=0;print "-"x25,"\n"}}
+    $n?printf("%2d. $l \[$a/$n $s\]\n",$i++):print("    $l \[-\]\n");
   my $numc = scalar(keys(%critic));
   printf "</pre>\n\n<h1>%d/%d Critics</h1>\n\n",$numc-scalar(keys(%badcritic)),$numc;
   print "<i>filter stddev >2.5 from avg</i>\n";
