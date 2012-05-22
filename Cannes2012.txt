@@ -320,10 +320,11 @@ Liu Min
 Eric Kohn 
 
 "KILLING THEM SOFTLY" (Andrew Dominik) [Competition]
-Alejandro G. Calvo 8.5
+Alejandro G. Calvo 8.1
 Alex Vicente 5
 Alexandra Zawia 5
 Carlos Reviriego 7.1
+Diego Batlle 6.5
 Diego Lerer 6
 Eulalia Iglesias 6.9
 Fernando Ganzo 3.5
@@ -418,7 +419,7 @@ Alex Vicente 9
 Alexandra Zawia 7.2
 Carlo Chatrian 7.3
 Carlos F. Heredero 9.8
-Carlos Reviriego 8.25
+Carlos Reviriego 8.2
 Cristina Nord 9
 Dana Linssen 9.3
 Diego Batlle 8
@@ -539,7 +540,7 @@ Simon Gallagher 10 A+
 Ruta Buciunaite 10
 
 "DA-REUN NA-RA-E-SUH (IN ANOTHER COUNTRY)" (Hong Sangsoo) [Competition]
-Alejandro G. Calvo 8.1
+Alejandro G. Calvo 8.5
 Alex Vicente 6
 Alexandra Zawia 8.8
 Arthur Mas 8.5
@@ -626,6 +627,7 @@ Pedro Butcher 8.5
 Philipp Engel 7.5
 Roger Alan Koza  10
 Sergio Wolf 9
+Violeta Kovacsics 7.5
 Xavi Serra  8.1
  IonCinema:
 Christophe Beney 4
@@ -675,6 +677,7 @@ Diego Lerer 5.2
 Eulalia Iglesias 4
 Manu Yáñez 3
 Pedro Butcher 7
+Violeta Kovacsics 3
 Xavi Serra  5.75
  IonCinema:
 Christophe Beney 6
@@ -870,6 +873,7 @@ Martial Pisani 7.9
 Pedro Butcher 6.5
 Robert Koehler 2
 Roger Alan Koza  8.7
+Violeta Kovacsics 7.5
 Xavi Serra  6.5
  IonCinema:
 Christophe Beney 8
@@ -1140,6 +1144,7 @@ Carlos Reviriego 3.5
 Dana Linssen 3.2
 
 "LE GRAND SOIR" (Benoit Delépine Y Gustave Kervern) [Un Certain Regard]
+Diego Batlle 8
 Diego Lerer 8
 
 "LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
@@ -1207,6 +1212,7 @@ José Luis de Lorenzo 5
 Nando Salva 5
 Robert Koehler 2
 Roger Alan Koza  6
+Violeta Kovacsics 4
  Other:
 Ruta Buciunaite 6
 
@@ -1282,7 +1288,7 @@ Peter Bradshaw 4
 Roger Alan Koza  4.7
 
 "AU GALOP" (LouisDo de Lencquesaing) [Semaine]
-Carlos Reviriego 6.8
+Carlos Reviriego 6.7
 Fernando Juan Lima 8
 Gonzalo de Pedro 5
 Martial Pisani 3.1
@@ -1322,7 +1328,7 @@ Fernando Juan Lima 6
 "3" (Pablo Stoll Ward) [Quinzaine]
 Alejandro G. Calvo 5.8
 Carlos F. Heredero 7
-Carlos Reviriego 6.8
+Carlos Reviriego 6.9
 Diego Batlle 8
 Diego Lerer 8.6
 Eulalia Iglesias 7.1
@@ -1356,6 +1362,7 @@ Thomas Fioretti 5.6
 "ERNEST ET CÉLESTINE" (Stéphane Aubier, Vincent Patar & Benjamin Renner) [Quinzaine]
 
 "FOGO" (Yulene Olaizola) [Quinzaine]
+Diego Batlle 7
 Roger Alan Koza  8
 
 "GANGS OF WASSEYPUR" (Anurag Kashyap) [Quinzaine]
@@ -1471,6 +1478,7 @@ FUERA DE COMPETENCIA
 
 "IO E TE (ME AND YOU)" (Bernardo Bertolucci)
 Carlos Reviriego 6
+Diego Batlle 6
 Kevin Jagernauth 2 C-
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
@@ -1493,6 +1501,7 @@ Simon Gallagher 1.5 D+
 "AI TO MAKOTO" (Takashi Miike)
 Mike d'Angelo 5.5
 Alejandro G. Calvo 2
+Diego Batlle 4
 Fernando Juan Lima 9
 Sergio Wolf 6
 
@@ -1500,7 +1509,7 @@ Sergio Wolf 6
 José Luis de Lorenzo 2
 
 "THE SAPPHIRES" (Wayne Blair)
-Alejandro G. Calvo 3.5
+Alejandro G. Calvo 2
 Fernando Juan Lima 6
 Luciano Barisone 3
  Other:
