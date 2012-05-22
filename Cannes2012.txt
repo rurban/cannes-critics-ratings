@@ -312,7 +312,7 @@ Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 6.3
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -327,7 +327,7 @@ Eric Kohn
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
-Alexandra Zawia 7
+Alexandra Zawia 6.5
 Carlo Chatrian 4.8
 Carlos F. Heredero 6.5
 Carlos Reviriego 6.1
@@ -392,6 +392,7 @@ Luciano Barisone 8
 Nando Salva 9
 Pedro Butcher 6
 Philipp Engel 9
+Robert Koehler 6
 Roger Alan Koza  8.5
 Rudiger Suchsland  9.5
 Violeta Kovacsics 9
@@ -425,7 +426,7 @@ Carlos Reviriego 6.4
 Cristina Nord 3.8
 Dana Linssen 5.9
 Diego Batlle 6.5
-Diego Lerer 6.5
+Diego Lerer 5.9
 Eulalia Iglesias 7.1
 Fernando Ganzo 4
 Jaime Pena 4.9
@@ -486,8 +487,11 @@ José Luis de Lorenzo 8
 Luciano Barisone 8
 Manu Yáñez 7.5
 Neil Young 6
+Pedro Butcher 7
+Robert Koehler 8
 Roger Alan Koza  8.5
 Rudiger Suchsland  6.8
+Sergio Wolf 10
 Violeta Kovacsics 7.5
  IonCinema:
 Christophe Beney 
@@ -527,7 +531,9 @@ José Luis de Lorenzo 6
 Luciano Barisone 5
 Manu Yáñez 9.5
 Martial Pisani 4.5
+Pedro Butcher 8.5
 Roger Alan Koza  10
+Sergio Wolf 9
 Xavi Serra  8.1
  IonCinema:
 Christophe Beney 4
@@ -551,16 +557,20 @@ Peter Bradshaw 4
 
 "THE ANGELS' SHARE" (Ken Loach) [Competition]
 Alejandro G. Calvo 3.4
+Alexandra Zawia 4
 Carlos F. Heredero 4
 Carlos Reviriego 3.3
 Diego Batlle 6.7
+Diego Lerer 5.2
+Eulalia Iglesias 4
 Manu Yáñez 3
+Pedro Butcher 7
 Xavi Serra  5.75
  Other:
 Mike d'Angelo 5.6
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
-Alejandro G. Calvo 8.5
+Alejandro G. Calvo 8.6
 Alexandra Zawia 7
 Carlo Chatrian 6.02
 Carlos F. Heredero 7
@@ -676,7 +686,8 @@ Liu Min
 Eric Kohn 
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
-Alejandro G. Calvo 5.5
+Alejandro G. Calvo 5
+Alexandra Zawia 6.4
 Arthur Mas 8.1
 Carlos F. Heredero 7.5
 Carlos Reviriego 6.8
@@ -684,9 +695,13 @@ Diego Batlle 7.5
 Diego Lerer 7.4
 Eulalia Iglesias 7.9
 Fernando Ganzo 7
+Jaime Pena 8.5
 José Luis de Lorenzo 7
+Luciano Barisone 7
 Manu Yáñez 8
 Martial Pisani 7.9
+Pedro Butcher 6.5
+Robert Koehler 2
 Roger Alan Koza  8.7
 Xavi Serra  6.5
  IonCinema:
@@ -902,6 +917,7 @@ Pedro Butcher 2
 Philipp Engel 6
 Roger Alan Koza  3.5
 Rudiger Suchsland  6.5
+Sergio Wolf 4
 Violeta Kovacsics 5.5
 Xavi Serra  6
  IndieWire:
@@ -935,6 +951,7 @@ Eric Kohn 4 C+
 "DESPUES DE LUCIA" (Michel Franco) [Un Certain Regard]
 Diego Batlle 2
 Diego Lerer 2.5
+Luciano Barisone 3
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
 Alexandra Zawia 8
@@ -967,8 +984,11 @@ Carlos F. Heredero 4.5
 Carlos Reviriego 5
 Diego Batlle 7.6
 Diego Lerer 7.5
+Eulalia Iglesias 4.8
+Jaime Pena 4
 José Luis de Lorenzo 5
 Nando Salva 5
+Robert Koehler 2
 
 "CONFESSION OF A CHILD OF THE CENTURY" (Sylvie Verheyde) [Un Certain Regard]
 Alexandra Zawia 3
@@ -1019,6 +1039,7 @@ Guy Lodge 6 B
 Diego Batlle 6.5
 Diego Lerer 6.5
 Eulalia Iglesias 6.7
+Luciano Barisone 8
 
 "GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
 Scott Foundas  8
@@ -1051,6 +1072,7 @@ Rudiger Suchsland  7
 "HORS LES MURS" (Damien Lambert) [Semaine]
 
 "PEDDLERS" (Vasan Bala) [Semaine]
+Jaime Pena 5.5
 
 "LOS SALVAJES" (Alejandro Fadel) [Semaine]
 Alejandro G. Calvo 7
@@ -1079,7 +1101,10 @@ Carlos F. Heredero 7
 Carlos Reviriego 6.8
 Diego Batlle 8
 Diego Lerer 8.6
+Eulalia Iglesias 7.1
+Jaime Pena 6
 Roger Alan Koza  6
+Sergio Wolf 7
 
 "ADIEU BERTHE, L'ENTERREMENT DE MÉMÉ" (Bruno Podalydès) [Quinzaine]
 Javier H. Estrada 4
@@ -1126,6 +1151,7 @@ Roger Alan Koza  6.5
 Cristina Nord 8
 Fernando Ganzo 6.5
 Gonzalo de Pedro 9
+Sergio Wolf 9
 
 "LA SIRGA" (William Vega) [Quinzaine]
 Carlo Chatrian 6.5
@@ -1160,13 +1186,20 @@ Eric Kohn 9 A
 "OPÉRATION LIBERTAD" (Nicolas Wadimoff) [Quinzaine]
 
 "RENGAINE (HOLD BACK)" (Rachid Djaïdani) [Quinzaine]
+Luciano Barisone 7
 Neil Young 7
+Robert Koehler 8
 
 "ROOM 237" (Rodney Ascher) [Quinzaine]
 Alejandro G. Calvo 5.9
 Carlos F. Heredero 3.5
 Diego Lerer 3
+Eulalia Iglesias 6
+Jaime Pena 7.5
+Luciano Barisone 6
+Pedro Butcher 7
 Robert Koehler 8 A
+Sergio Wolf 3
  Indiewire:
 Simon Abrams 8 A-
 Raffi Asdourian 8 A-
@@ -1174,6 +1207,7 @@ Mike d'Angelo 5.8
 David Fear 8 A- 
 Tim Grierson 8 A-
 Michal Oleszcyk 7 B+
+Mike d'Angelo 5.8
 
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
 
@@ -1225,6 +1259,9 @@ Sergio Wolf 8
 Simon Gallagher 1 D+
 
 "AI TO MAKOTO" (Takashi Miike)
+Mike d'Angelo 5.5
+Alejandro G. Calvo 2
+Sergio Wolf 6
 
 "UNE JOURNÉE PARTICULIÈRE" (Gilles Jacob y Samuel Faure)
 José Luis de Lorenzo 2
@@ -1298,6 +1335,7 @@ Fernando Ganzo 6
 Jaime Pena 7
 José Luis de Lorenzo 8
 Neil Young 5
+Pedro Butcher 6
 Robert Koehler 4
 Roger Alan Koza  6.7
 
@@ -1321,6 +1359,7 @@ José Luis de Lorenzo 8
 Luciano Barisone 7
 Nando Salva 7.5
 Neil Young 4
+Pedro Butcher 8
 Philipp Engel 7
 Robert Koehler 8
 Roger Alan Koza  7.5
