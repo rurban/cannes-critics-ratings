@@ -6,6 +6,7 @@
 # and 16 more western critics from http://www.ioncinema.com/ (scaled to 0-10)
 # and Mike d'Angelo from Twitter and more international critics.
 # Published at http://rurban.xarch.at/film/Cannes2012.sorted.html
+# https://github.com/rurban/cannes-critics-ratings
 # Perl script by Reini Urban (c) 2010, 2011, 2012
 # US ratings:
 # A+ 10
