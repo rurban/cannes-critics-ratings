@@ -13,8 +13,9 @@ while (<$f>) {
     $tmp =~ s/"//g;
     $tmp =~ s/Alejandro  G. Calvo/Alejandro G. Calvo/;
     @critics = split /,/, $tmp;
-    shift @critics;
-    shift @critics;
+    shift @critics; # Película/Crítico - Film/Critic
+    shift @critics; # "PROMEDIO/AVERAGE"
+    shift @critics; # "CRÍTICAS/REVIEWS
     $section = 'Competition';
     next;
   }
@@ -54,6 +55,7 @@ while (<$f>) {
   my $avg = shift @r;
   next if $avg eq '#DIV/0!';
   next unless $t;
+  shift @r; # "CRÍTICAS/REVIEWS
   $t =~ s/^(.+) (\(.+\))/"$1" $2/;
   print "\n$t [$section]\n";
   for (my $i=0; $i<@r; $i++) {
