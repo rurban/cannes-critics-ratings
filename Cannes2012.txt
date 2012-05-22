@@ -126,6 +126,7 @@ Jonathan Rosenbaum (Chicago Reader, USA)
 Alex Billington (FirstShowing.net, USA)
 Leda Galanou (Flix, France)
 Patrick Heidmann (Cineman, Germany)
+Ruta Buciunaite (theupcoming.co.uk, UK)
 ";
 
 my $DATA= <<'EOF';
@@ -535,6 +536,7 @@ Sarah Watt 7 B+
  Other:
 Peter Bradshaw 4
 Simon Gallagher 10 A+
+Ruta Buciunaite 10
 
 "DA-REUN NA-RA-E-SUH (IN ANOTHER COUNTRY)" (Hong Sangsoo) [Competition]
 Alejandro G. Calvo 8.1
@@ -1004,6 +1006,7 @@ Michał Oleszczyk 2 C-
  Other:
 Peter Bradshaw 6
 Simon Gallagher 2 C-
+Ruta Buciunaite 8
 
 "JAGTEN (THE HUNT)" (Thomas Vinterberg) [Competition]
 Alejandro G. Calvo 5.1
@@ -1060,9 +1063,9 @@ Michał Oleszczyk
 Sarah Watt 6 B
  Other:
 Peter Bradshaw 8
+Ruta Buciunaite 10
 
 "THERESE DESQUEYROUX" (Claude Miller) [Competition]
-
 
 UN CERTAIN REGARD
 
@@ -1152,6 +1155,8 @@ Michał Oleszczyk 2 C-
 Simon Gallagher 2 C-
 Guy Lodge 4 C+
 Eric Kohn 4 C+
+ Other:
+Ruta Buciunaite 8
 
 "DESPUES DE LUCIA" (Michel Franco) [Un Certain Regard]
 Diego Batlle 2
@@ -1198,6 +1203,8 @@ José Luis de Lorenzo 5
 Nando Salva 5
 Robert Koehler 2
 Roger Alan Koza  6
+ Other:
+Ruta Buciunaite 6
 
 "CONFESSION OF A CHILD OF THE CENTURY" (Sylvie Verheyde) [Un Certain Regard]
 Alexandra Zawia 3
@@ -1596,6 +1603,8 @@ Peter Bradshaw 6
 Blake Williams 2.6
  Indiewire:
 Michał Oleszczyk 7 B+
+ Other:
+Ruta Buciunaite 6
 
 "TRASHED" (Candida Brady) 
 Neil Young 6
