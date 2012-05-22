@@ -316,7 +316,7 @@ Mike d'Angelo 6.3
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
-Guy Lodge 
+Guy Lodge 5 B-
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 
@@ -324,6 +324,8 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Other:
+
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
@@ -568,6 +570,7 @@ Pedro Butcher 7
 Xavi Serra  5.75
  Other:
 Mike d'Angelo 5.6
+Peter Bradshaw 8
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
 Alejandro G. Calvo 8.6
