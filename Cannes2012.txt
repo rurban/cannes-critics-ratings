@@ -526,7 +526,7 @@ Fabien Lemercier
 Guy Lodge 
 Isabelle Regnier 
 Kevin Jagernauth 7
-Cédric Succivalli 
+Cédric Succivalli 8
 Clarence Tsui 3
 Blake Williams 6
 Liu Min 
@@ -561,18 +561,18 @@ Xavi Serra  8.1
  IonCinema:
 Christophe Beney 4
 David Calhoun 7
-Per Juul Carlsen 
-Paola Casella 
-Mike d'Angelo 
+Per Juul Carlsen 4
+Paola Casella 2
+Mike d'Angelo 3
 #Carlos F. Heredero  
 Eric Lavallée 5
 Fabien Lemercier 6
 Guy Lodge 
 Isabelle Regnier 
 Kevin Jagernauth 4
-Cédric Succivalli 
+Cédric Succivalli 3
 Clarence Tsui 
-Blake Williams 
+Blake Williams 8
 Liu Min 
 Eric Kohn 
  Other:
@@ -590,8 +590,24 @@ Eulalia Iglesias 4
 Manu Yáñez 3
 Pedro Butcher 7
 Xavi Serra  5.75
- Other:
+ IonCinema:
+Christophe Beney 6
+David Calhoun 
+Per Juul Carlsen 6
+Paola Casella 
 Mike d'Angelo 5.6
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+ Other:
 Peter Bradshaw 8
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
@@ -709,6 +725,24 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ IonCinema:
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+ Other:
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
 Alejandro G. Calvo 4.9
@@ -732,10 +766,10 @@ Robert Koehler 2
 Roger Alan Koza  8.7
 Xavi Serra  6.5
  IonCinema:
-Christophe Beney
-David Calhoun
+Christophe Beney 8
+David Calhoun 6
 Per Juul Carlsen 
-Paola Casella 
+Paola Casella 7
 Mike d'Angelo 7.3
 #Carlos F. Heredero  
 Eric Lavallée 
@@ -743,9 +777,9 @@ Fabien Lemercier
 Guy Lodge 
 Isabelle Regnier 
 Kevin Jagernauth 
-Cédric Succivalli 
+Cédric Succivalli 9
 Clarence Tsui 
-Blake Williams 
+Blake Williams 5
 Liu Min 
 Eric Kohn 6 B
  Other:
@@ -883,7 +917,7 @@ Isabelle Regnier
 Kevin Jagernauth 
 Cédric Succivalli 8
 Clarence Tsui 
-Blake Williams 
+Blake Williams 6
 Liu Min 10
 Eric Kohn 
  Other:
