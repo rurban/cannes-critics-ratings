@@ -185,11 +185,11 @@ Cédric Succivalli 6
 Clarence Tsui 6
 Blake Williams 5
 Liu Min 5
-Eric Kohn 7
  Other:
 Simon Gallagher 8 A-
  Metacritic:
 Andrew Schenker (Slant, USA) 8.8
+Eric Kohn 8.3
 Richard Corliss (Time, USA) 8
 Kevin Harley (Total Film, USA) 8
 Todd McCarthy (The Hollywood Reporter, USA) 8
@@ -1446,6 +1446,7 @@ EOF
 my $FOOTER = "
 <pre>
 --
+http://www.todaslascriticas.com/
 http://micropsia.otroscines.com/
 http://www.ioncinema.com/
 
