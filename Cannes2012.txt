@@ -4,23 +4,16 @@
 # http://micropsia.otroscines.com/2012/05/cannes-2012-arrancan-los-votos-de-la-critica/
 # https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
 # and 16 more western critics from http://www.ioncinema.com/ (scaled to 0-10)
-# and Mike d'Angelo from Twitter and more international critics.
+# http://www.indiewire.com/article/cannes-2012-a-guide-to-all-the-films
 # Published at http://rurban.xarch.at/film/Cannes2012.sorted.html
-# https://github.com/rurban/cannes-critics-ratings
+# and https://github.com/rurban/cannes-critics-ratings
 # Perl script by Reini Urban (c) 2010, 2011, 2012
 # US ratings:
-# A+ 10
-# A  9
-# A- 8
-# B+ 7
-# B  6
-# B- 5
-# C+ 4
-# C  3
-# C- 2
-# D+ 1
-# D  0.5
-# E  0
+# A+ 10   A 9   A- 8
+# B+ 7    B 6   B- 5
+# C+ 4    C 3   C- 2
+# D+ 1.5  D 1
+# E 0.5   F 0
 
 use utf8;
 my @critics;
@@ -409,7 +402,7 @@ David Fear 7 B+
 Jon Frosch (France 24) 3 C
 Leda Galanou 3 C 
 Stephen Garrett 5 B-
-Patrick Heidmann 1 D+
+Patrick Heidmann 1.5 D+
 Aaron Hillis 7 B+
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 4 C+
@@ -813,8 +806,8 @@ Raffi Asdourian 3 C
 Jon Frosch 2 C-
 Leda Galanou 3 C 
 Clementine Gallot (Cahiers du Cinema) 5 B- 
-Stephen Garrett 0.5 D 
-Michael Ghennam (Les Fiches du Cinéma) 0.5 D 
+Stephen Garrett 1 D 
+Michael Ghennam (Les Fiches du Cinéma) 1 D 
 Kevin Jagernauth 2 C-
 Patrick Z. McGavin 3 C 
 
@@ -1484,7 +1477,7 @@ José Luis de Lorenzo 2
 Nando Salva 2
 Philipp Engel 4
 Sergio Wolf 8
-Simon Gallagher 1 D+
+Simon Gallagher 1.5 D+
 
 "AI TO MAKOTO" (Takashi Miike)
 Mike d'Angelo 5.5
