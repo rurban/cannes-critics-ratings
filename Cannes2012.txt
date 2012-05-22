@@ -338,7 +338,7 @@ Cédric Succivalli
 Clarence Tsui 
 Blake Williams 
 Liu Min 
-Eric Kohn 
+Eric Kohn 7 B+
  Other:
 Peter Bradshaw 8
 
@@ -1320,6 +1320,7 @@ FUERA DE COMPETENCIA
 
 "IO E TE (ME AND YOU)" (Bernardo Bertolucci)
 Carlos Reviriego 6
+Kevin Jagernauth 2 C-
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
 Diego Lerer 3.2
