@@ -127,6 +127,7 @@ Alex Billington (FirstShowing.net, USA)
 Leda Galanou (Flix, France)
 Patrick Heidmann (Cineman, Germany)
 Ruta Buciunaite (theupcoming.co.uk, UK)
+Robbie Collins (The Telegraph, UK)
 ";
 
 my $DATA= <<'EOF';
@@ -182,8 +183,6 @@ Cédric Succivalli 6
 Clarence Tsui 6
 Blake Williams 5
 Liu Min 5
- Other:
-Simon Gallagher 8 A-
  Metacritic:
 Andrew Schenker (Slant, USA) 8.8
 Eric Kohn 8.3
@@ -195,6 +194,9 @@ Pete Hammond (Boxoffice Magazine, USA) 8
 Peter Debruge (Variety, USA) 7
 David Edelstein (New York Magazine-Vulture, USA) 7
 Nev Pierce (Empire, USA) 8
+ Other:
+Simon Gallagher 8 A-
+David Gritten (The Telegraph, UK) 8
 
 "DE ROUILLE ET D'OS (RUST AND BONE)" (Jacques Audiard) [Competition]
 Alejandro G. Calvo 4
@@ -260,6 +262,7 @@ Sarah Watt (Sunday Star Times, New Zealand) 10 A+
  Other:
 Peter Bradshaw 8
 Simon Gallagher 9 A
+David Gritten (The Telegraph, UK) 8
 
 "HOLY MOTORS" (Leos Carax) [Competition]
  IonCinema:
@@ -412,6 +415,7 @@ Sarah Watt 8 A-
  Other:
 Peter Bradshaw 6
 Simon Gallagher 7 B+
+Robbie Collins (The Telegraph, UK) 8
 
 "AMOUR (LOVE)" (Michael Haneke) [Competition]
 Alejandro G. Calvo 6
@@ -537,6 +541,7 @@ Sarah Watt 7 B+
  Other:
 Peter Bradshaw 4
 Simon Gallagher 10 A+
+Robbie Collins (The Telegraph, UK) 6
 Ruta Buciunaite 10
 
 "DA-REUN NA-RA-E-SUH (IN ANOTHER COUNTRY)" (Hong Sangsoo) [Competition]
@@ -815,6 +820,8 @@ Stephen Garrett 1 D
 Michael Ghennam (Les Fiches du Cinéma) 1 D 
 Kevin Jagernauth 2 C-
 Patrick Z. McGavin 3 C 
+ Other:
+David Gritten (The Telegraph, UK) 4
 
 "MUD" (Jeff Nichols) [Competition]
  IonCinema:
@@ -1172,8 +1179,9 @@ Diego Batlle 2
 Diego Lerer 2.5
 Luciano Barisone 3
 
-"AIMER À PERDRE LA RAISON" (Joachim Lafosse) [Un Certain Regard]
+"AIMER À PERDRE LA RAISON (OUR CHILDREN)" (Joachim Lafosse) [Un Certain Regard]
 Alex Vicente 7
+Mike d'Angelo W/O
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
 Alexandra Zawia 8
