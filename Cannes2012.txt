@@ -95,15 +95,15 @@ Eric Kohn (Indiewire, USA)
 $critics[2] = "
 Peter Knegt (indieWIRE, USA) 
 Simon Gallagher (filmschoolrejects.com, USA) 
-Michal Oleszcyk (Freelance, USA)
+Michał Oleszczyk (Freelance, USA)
 Ryland Aldrich (Twitch Film, USA)
 Anna Bielak (Smells Like Screen Spirit, USA)
 David Fear (Time Out New York, USA)
-John Frosch (France 24)
+Jon Frosch (France 24, France)
 Stephen Garrett (Time Out New York, USA)
 Michael Ghennam (Les Fiches du Cinéma)
 Aaron Hillis (GreenCine Daily, USA)
-Frédéric Jaeger (critic.de, D)
+Frédéric Jaeger (critic.de, Germany)
 Simon Abrams (Freelance, USA)
 Raffi Asdourian (The Film Stage, USA)
 Tim Robey (Daily Telegraph, England)
@@ -115,7 +115,7 @@ Andrew O'Hehir (Salon.com, USA)
 Peter Debruge (Variety, USA) 
 Anne Thompson (Indiewire, USA) 
 Elisabeth Quin (Paris Premiere, France) 
-Andrei Creţulescu (HBO Romania) 
+Andrei Creţulescu (HBO, Romania) 
 Sukhdev Sandhu (Telegraph, UK) 
 Peter Bradshaw (Guardian, UK) 
 Laremy Legel (Film.com, USA) 
@@ -124,13 +124,15 @@ Paul Martin (Indies Movies Online, USA)
 Simon Abrams (Freelance, USA) 
 Brian Brooks (indieWIRE, USA) 
 David Fear (Time Out New York, USA) 
-Jon Frosch (France 24, USA) 
 Michael Giltz (The Huffington Post, USA) 
 Tim Grierson (Screen International, L.A. Weekly, USA) 
 Eugene Hernandez (Film Society of Lincoln Center, USA) 
 Peter Howell (The Toronto Star, USA) 
 Karina Longworth (LA Weekly, USA) 
 Jonathan Rosenbaum (Chicago Reader, USA) 
+Alex Billington (FirstShowing.net, USA)
+Leda Galanou (Flix, France)
+Patrick Heidmann (Cineman, Germany)
 ";
 
 my $DATA= <<'EOF';
@@ -252,8 +254,8 @@ Raffi Asdourian 5 B-
 Anna Bielak (Smells Like Screen Spirit) 3 C
 Alex Billington (FirstShowing.net) 8 A-
 David Fear 7 B+ 
-Jon Frosch (France 24) 7 B+
-Leda Galanou (Flix) 8 A- 
+Jon Frosch 7 B+
+Leda Galanou 8 A- 
 Stephen Garrett 8 A- 
 Aaron Hillis (GreenCine Daily) 9 A 
 Frédéric Jaeger 8 A-
@@ -400,12 +402,12 @@ Blake Williams 6
 Liu Min 5
 Eric Kohn 8
  Indiewire:
-Michal Oleszcyk 7 B+
+Michał Oleszczyk 7 B+
 Ryland Aldrich (Twitch Film) 8 A-
 Raffi Asdourian 8 A-
 David Fear 7 B+
 Jon Frosch (France 24) 3 C
-Leda Galanou (Flix) 3 C 
+Leda Galanou 3 C 
 Stephen Garrett 5 B-
 Patrick Heidmann 1 D+
 Aaron Hillis 7 B+
@@ -473,7 +475,7 @@ Aaron Hillis 8 A-
 Frédéric Jaeger 7 B+
 Emanuel Levy 5
 Patrick Z. McGavin 9 A
-Michal Oleszcyk
+Michał Oleszczyk
  Other:
 Peter Bradshaw 10
 
@@ -535,7 +537,7 @@ Patrick Heidmann 4 C+
 Frédéric Jaeger 8 A-
 Emanuel Levy 5 B-
 Patrick Z. McGavin 2 C-
-Michal Oleszcyk 0 F
+Michał Oleszczyk 0 F
 Sarah Watt 7 B+
  Other:
 Peter Bradshaw 4
@@ -601,7 +603,7 @@ Aaron Hillis 7 B+
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin 7 B+
-Michal Oleszcyk
+Michał Oleszczyk
 Sarah Watt
  Other:
 Peter Bradshaw 6
@@ -662,7 +664,7 @@ Aaron Hillis 5 B-
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin 7 B+
-Michal Oleszcyk
+Michał Oleszczyk
 Sarah Watt 4 C+
  Other:
 Peter Bradshaw 4
@@ -755,7 +757,7 @@ Patrick Heidmann
 Frédéric Jaeger
 Emanuel Levy 5
 Patrick Z. McGavin 9 A
-Michal Oleszcyk 2 C-
+Michał Oleszczyk 2 C-
  Other:
 Drew McWeeny (InContention, USA) 2 C-
 Peter Bradshaw 8
@@ -806,7 +808,7 @@ Blake Williams 3
 Liu Min 4
 Eric Kohn 5
  IndieWire:
-Michal Oleszcyk 0 F
+Michał Oleszczyk 0 F
 Raffi Asdourian 3 C 
 Jon Frosch 2 C-
 Leda Galanou 3 C 
@@ -905,7 +907,7 @@ Aaron Hillis
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin
-Michal Oleszcyk
+Michał Oleszczyk
 Sarah Watt
  Other:
 Peter Bradshaw 4
@@ -1005,7 +1007,7 @@ Michael Ghennam 4 C+
 Aaron Hillis 6 B
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 6 B
-Michal Oleszcyk 2 C-
+Michał Oleszczyk 2 C-
  Other:
 Peter Bradshaw 6
 Simon Gallagher 2 C-
@@ -1061,7 +1063,7 @@ Aaron Hillis 4 C+
 Frédéric Jaeger 8 A-
 Emanuel Levy 5
 Patrick Z. McGavin 5 B-
-Michal Oleszcyk
+Michał Oleszczyk
 Sarah Watt 6 B
  Other:
 Peter Bradshaw 8
@@ -1153,7 +1155,7 @@ José Luis de Lorenzo 8
 Philipp Engel 4.5
 Violeta Kovacsics 5.5
  Indiewire:
-Michal Oleszcyk 2 C-
+Michał Oleszczyk 2 C-
 Simon Gallagher 2 C-
 Guy Lodge 4 C+
 Eric Kohn 4 C+
@@ -1262,7 +1264,7 @@ Scott Foundas  8
  Other:
 Don Simpson (Smells Like Screen Spirit, USA) 6
 Andrew Schenker (Slant, USA) 6.5
-Reini Urban (facebook, USA) 4
+Reini Urban (facebook, Austria) 4
 
 "RENOIR" (Gilles Bourdos) [Un Certain Regard]
 
@@ -1428,7 +1430,7 @@ Raffi Asdourian 8 A-
 Mike d'Angelo 5.8
 David Fear 8 A- 
 Tim Grierson 8 A-
-Michal Oleszcyk 7 B+
+Michał Oleszczyk 7 B+
 Mike d'Angelo 5.8
 
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
@@ -1520,7 +1522,7 @@ Nando Salva 4
 Neil Young 6
 Rudiger Suchsland  5
  IndieWire:
-Michal Oleszcyk 6 B
+Michał Oleszczyk 6 B
 
 "ROMAN POLANSKI: A FILM MEMOIR" (Laurent Bouzereau)
 Alejandro G. Calvo 1
@@ -1600,7 +1602,7 @@ Mike d'Angelo 4.1
 Peter Bradshaw 6
 Blake Williams 2.6
  Indiewire:
-Michal Oleszcyk 7 B+
+Michał Oleszczyk 7 B+
 
 "TRASHED" (Candida Brady) 
 Neil Young 6
@@ -1610,7 +1612,7 @@ Neil Young 6
 "SISTER (L'ENFANT D'EN HAUT)" (Ursula Meier) [Market]
 Mike d'Angelo 6.8
  Indiewire:
-Michal Oleszcyk 6 B
+Michał Oleszczyk 6 B
 Eric Kohn 8 A-
 Neil Young 1 D-
 Tim Robey 7 B+
