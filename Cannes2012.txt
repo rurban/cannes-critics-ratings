@@ -256,7 +256,7 @@ Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 8.8
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
