@@ -128,6 +128,7 @@ Leda Galanou (Flix, France)
 Patrick Heidmann (Cineman, Germany)
 Ruta Buciunaite (theupcoming.co.uk, UK)
 Robbie Collins (The Telegraph, UK)
+Emanuel Levy (EmanuelLevy.com, USA)
 ";
 
 my $DATA= <<'EOF';
@@ -472,8 +473,8 @@ Michael Ghennam 10 A+
 Patrick Heidmann 9 A
 Aaron Hillis 8 A-
 Frédéric Jaeger 7 B+
-Emanuel Levy 5
 Patrick Z. McGavin 9 A
+Emanuel Levy 8 A-
 Michał Oleszczyk
  Other:
 Peter Bradshaw 10
@@ -602,7 +603,7 @@ Michael Ghennam
 Patrick Heidmann
 Aaron Hillis 7 B+
 Frédéric Jaeger
-Emanuel Levy
+Emanuel Levy 7 B+
 Patrick Z. McGavin 7 B+
 Michał Oleszczyk
 Sarah Watt
@@ -758,7 +759,7 @@ Stephen Garrett
 Michael Ghennam 8 A- 
 Patrick Heidmann
 Frédéric Jaeger
-Emanuel Levy 5
+Emanuel Levy 9 A
 Patrick Z. McGavin 9 A
 Michał Oleszczyk 2 C-
  Other:
@@ -1068,7 +1069,7 @@ Michael Ghennam
 Patrick Heidmann 8 A-
 Aaron Hillis 4 C+
 Frédéric Jaeger 8 A-
-Emanuel Levy 5
+Emanuel Levy
 Patrick Z. McGavin 5 B-
 Michał Oleszczyk
 Sarah Watt 6 B
@@ -1563,6 +1564,7 @@ Mike d'Angelo
  Other:
 Peter Bradshaw 6
 Simon Gallagher 5 B-
+Emanuel Levy 7 B+
 
 "THE CENTRAL PARK FIVE" (Ken Burns, Sarah Burns y David McMahon) 
 
