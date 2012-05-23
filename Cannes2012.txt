@@ -92,6 +92,7 @@ Michał Oleszczyk (Freelance, USA)
 Ryland Aldrich (Twitch Film, USA)
 Anna Bielak (Smells Like Screen Spirit, USA)
 David Fear (Time Out New York, USA)
+Keith Uhlich (Time Out New York, USA)
 Jon Frosch (France 24, France)
 Stephen Garrett (Time Out New York, USA)
 Michael Ghennam (Les Fiches du Cinéma)
@@ -128,7 +129,11 @@ Leda Galanou (Flix, France)
 Patrick Heidmann (Cineman, Germany)
 Ruta Buciunaite (theupcoming.co.uk, UK)
 Robbie Collins (The Telegraph, UK)
+David Gritten (The Telegraph, UK)
 Emanuel Levy (EmanuelLevy.com, USA)
+Richard Corliss (Time, USA)
+David Edelstein (New York Magazine-Vulture, USA)
+Nev Pierce (Empire, USA)
 ";
 
 my $DATA= <<'EOF';
@@ -185,9 +190,11 @@ Cédric Succivalli 6
 Clarence Tsui 6
 Blake Williams 5
 Liu Min 5
- Metacritic:
+ Metacritic (12):
+Karina Longworth 9
 Andrew Schenker (Slant, USA) 8.8
 Eric Kohn 8.3
+Keith Uhlich 8
 Richard Corliss (Time, USA) 8
 Kevin Harley (Total Film, USA) 8
 Todd McCarthy (The Hollywood Reporter, USA) 8
@@ -304,6 +311,8 @@ Clarence Tsui
 Blake Williams 8.5
 Liu Min 
 Eric Kohn 
+ Other:
+Simon Gallagher 7 B+
 
 "COSMOPOLIS" (David Cronenberg) [Competition]
 Francisco Ferreira 9.5
@@ -894,23 +903,6 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
- IonCinema:
-Christophe Beney 
-David Calhoun 
-Per Juul Carlsen 
-Paola Casella 
-Mike d'Angelo 
-#Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
-Guy Lodge 
-Isabelle Regnier 
-Kevin Jagernauth 
-Cédric Succivalli 
-Clarence Tsui 
-Blake Williams 
-Liu Min 
-Eric Kohn 
  Other:
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
@@ -1022,6 +1014,8 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Other:
+Simon Gallagher 2 C-
 
 "PARADIES : Liebe (PARADISE : Love)" (Ulrich Seidl) [Competition]
 Alejandro G. Calvo 3
