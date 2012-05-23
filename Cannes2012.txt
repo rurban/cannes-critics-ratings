@@ -152,6 +152,7 @@ Fernando Juan Lima 9
 Francisco Ferreira 8.5
 Jaime Pena 6.5
 Javier H. Estrada 7
+José Luis de Lorenzo 6
 Kong Rithdee 7
 Luciano Barisone 8
 Manu Yáñez 7
@@ -267,16 +268,20 @@ Simon Gallagher 9 A
 David Gritten (The Telegraph, UK) 8
 
 "HOLY MOTORS" (Leos Carax) [Competition]
-Alejandro G. Calvo 6.9
-Alexandra Zawia 7
+Alejandro G. Calvo 8
+Alexandra Zawia 7.5
 Carlo Chatrian 8
 Carlos F. Heredero 7.5
 Carlos Reviriego 8.8
+Cristina Nord 9
 Diego Batlle 6.7
 Diego Lerer 7.2
+Eulalia Iglesias 9.2
 Fernando Ganzo 8.5
 Francisco Ferreira 9.9
 Javier H. Estrada 9.5
+José Luis de Lorenzo 7
+Luciano Barisone 9
 Nando Salva 7
 Robert Koehler 10
 Rudiger Suchsland  8.5
@@ -346,12 +351,15 @@ Alexandra Zawia 5
 Carlo Chatrian 3.02
 Carlos F. Heredero 6.8
 Carlos Reviriego 7.1
+Cristina Nord 3.7
 Diego Batlle 6.5
 Diego Lerer 6
 Eulalia Iglesias 6.9
 Fernando Ganzo 3.5
 Francisco Ferreira 4
 Javier H. Estrada 6.8
+José Luis de Lorenzo 6.5
+Luciano Barisone 1
 Nando Salva 6.5
 Neil Young 6
 Pedro Butcher 4
@@ -587,7 +595,7 @@ Diego Lerer 8.8
 Eulalia Iglesias 8
 Fernando Ganzo 8.5
 Fernando Juan Lima 9
-Francisco Ferreira 7.5
+Francisco Ferreira 8.5
 Jaime Pena 8.8
 Javier H. Estrada 8.5
 José Luis de Lorenzo 8
@@ -651,6 +659,7 @@ Arthur Mas 4.2
 Carlo Chatrian 7.6
 Carlos F. Heredero 7.5
 Carlos Reviriego 9.5
+Cristina Nord 7
 Dana Linssen 7.5
 Diego Batlle 8.5
 Diego Lerer 9
@@ -715,9 +724,11 @@ Alex Vicente 3
 Alexandra Zawia 4
 Carlos F. Heredero 4
 Carlos Reviriego 1.5
+Cristina Nord 4.5
 Diego Batlle 6.7
 Diego Lerer 5.2
 Eulalia Iglesias 4
+José Luis de Lorenzo 7
 Manu Yáñez 3
 Nando Salva 2
 Pedro Butcher 7
@@ -910,6 +921,7 @@ Arthur Mas 8.1
 Carlo Chatrian 5
 Carlos F. Heredero 7.5
 Carlos Reviriego 6.8
+Cristina Nord 8
 Diego Batlle 7.5
 Diego Lerer 7.4
 Eulalia Iglesias 7.9
@@ -987,6 +999,12 @@ Liu Min
 Eric Kohn 
 
 "ON THE ROAD" (Walter Salles) [Competition]
+Alejandro G. Calvo 3.5
+Alexandra Zawia 4
+Diego Batlle 6
+Diego Lerer 5.8
+Eulalia Iglesias 4
+José Luis de Lorenzo 2
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -1080,9 +1098,10 @@ Diego Batlle 5
 Diego Lerer 5.2
 Eulalia Iglesias 4
 Fernando Juan Lima 4
-Francisco Ferreira 3
+Francisco Ferreira 2
 Jaime Pena 5
 Javier H. Estrada 4
+José Luis de Lorenzo 8
 Manu Yáñez 2
 Nando Salva 2.5
 Pedro Butcher 2.5
@@ -1236,6 +1255,8 @@ Dana Linssen 3.2
 Carlo Chatrian 7.4
 Diego Batlle 8
 Diego Lerer 8
+José Luis de Lorenzo 6
+Luciano Barisone 7
 Rudiger Suchsland  1
 
 "LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
@@ -1268,7 +1289,9 @@ Rudiger Suchsland  7
 "AIMER À PERDRE LA RAISON (OUR CHILDREN)" (Joachim Lafosse) [Un Certain Regard]
 Alex Vicente 7
 Carlo Chatrian 7
+Eulalia Iglesias 6.1
 Javier H. Estrada 3
+Luciano Barisone 6
 Mike d'Angelo W/O
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
@@ -1423,6 +1446,7 @@ Thomas Fioretti 4.5
 
 "J’ENRAGE DE SON ABSENCE" (Sandrine Bonnaire) [Semaine]
 Alexandra Zawia 5
+Cristina Nord 3.7
 Fernando Ganzo 2.5
 Fernando Juan Lima 6
 
@@ -1465,6 +1489,7 @@ Thomas Fioretti 5.6
 
 "FOGO" (Yulene Olaizola) [Quinzaine]
 Diego Batlle 7
+Eulalia Iglesias 6
 Roger Alan Koza  8
 Sergio Wolf 6
 
@@ -1536,6 +1561,7 @@ Alejandro G. Calvo 5.9
 Alex Vicente 6
 Carlo Chatrian 6.03
 Carlos F. Heredero 3.5
+Cristina Nord 6
 Diego Lerer 3
 Eulalia Iglesias 6
 Jaime Pena 7.5
@@ -1557,6 +1583,8 @@ Mike d'Angelo 5.8
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
 
 "SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
+Diego Batlle 7
+Eulalia Iglesias 5.9
 Nando Salva 4
 
 "THE WE AND THE I" (Michel Gondry) [Quinzaine]
@@ -1589,9 +1617,11 @@ Thomas Fioretti 6.3
 FUERA DE COMPETENCIA
 
 "IO E TE (ME AND YOU)" (Bernardo Bertolucci)
+Alejandro G. Calvo 5
 Carlos F. Heredero 6
 Carlos Reviriego 6
 Diego Batlle 6
+José Luis de Lorenzo 4
 Xavi Serra  6.7
  Indiewire:
 Mike d'Angelo 5.2
@@ -1622,6 +1652,7 @@ Alejandro G. Calvo 2
 Diego Batlle 4
 Fernando Juan Lima 9
 Javier H. Estrada 6
+José Luis de Lorenzo 8
 Rudiger Suchsland  10
 Sergio Wolf 6
 
@@ -1690,6 +1721,8 @@ Carlo Chatrian 5.03
 Carlos F. Heredero 6
 Carlos Reviriego 6.2
 Diego Lerer 7.2
+Eulalia Iglesias 6
+Luciano Barisone 5
 Philipp Engel 5
 Sergio Wolf 8
 
