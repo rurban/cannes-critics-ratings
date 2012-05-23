@@ -380,6 +380,7 @@ Eric Kohn 7 B+
  Other:
 Peter Bradshaw 8
 James Rocchi 5
+Simon Gallagher 8 A-
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
@@ -1593,6 +1594,7 @@ Carlos Reviriego 6
 Diego Batlle 6
 Xavi Serra  6.7
  Indiewire:
+Mike d'Angelo 5.2
 Kevin Jagernauth 2 C-
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
@@ -1611,6 +1613,7 @@ José Luis de Lorenzo 2
 Nando Salva 2
 Philipp Engel 4
 Sergio Wolf 8
+ Other:
 Simon Gallagher 1.5 D+
 
 "AI TO MAKOTO" (Takashi Miike)
