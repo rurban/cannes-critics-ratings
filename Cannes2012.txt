@@ -1,10 +1,11 @@
 #!/usr/bin/perl -- -*- perl -*-
 # Cannes 2012 Critics Ratings, collected by Diego Lerer, ioncinema, indiewire and Reini Urban
-# Recalc and sort ratings by 43 critics from 
+# Recalc and sort ratings by all cannes critics from
 # http://micropsia.otroscines.com/2012/05/cannes-2012-arrancan-los-votos-de-la-critica/
 # https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
 # and 16 more western critics from http://www.ioncinema.com/ (scaled to 0-10)
-# http://www.indiewire.com/article/cannes-2012-a-guide-to-all-the-films
+# french: http://www.lefilmfrancais.com/cannes2012/quotidien/ (scale 0-4)
+# us: http://www.indiewire.com/article/cannes-2012-a-guide-to-all-the-films
 # Published at http://rurban.xarch.at/film/Cannes2012.sorted.html
 # and https://github.com/rurban/cannes-critics-ratings
 # Perl script by Reini Urban (c) 2010, 2011, 2012
@@ -14,6 +15,8 @@
 # C+ 4    C 3   C- 2
 # D+ 1.5  D 1
 # E 0.5   F 0
+# French 0-4: 0-1, 1-2.5, 2-5, 3-7.5, 4-9
+# British 0-5: x2
 
 use utf8;
 my @critics;
@@ -21,8 +24,8 @@ $critics[0] = "
 Alejandro G. Calvo (Sensacine, España) 
 Alex Vicente (Público, España) 
 Alexandra Zawia (Wiener Zeitung, Furche, Celluloid, Austria) 
-Arthur Mas (Independencia, Francia) 
-Camille Brunel (Independencia, Francia) 
+Arthur Mas (Independencia, France) 
+Camille Brunel (Independencia, France) 
 Carlo Chatrian (Duellanti, Panoramiches, Italy) 
 Carlos Heredero (Caimán CDC, España) 
 Carlos Reviriego (elcultural.es y de Caiman. Cuadernos de cine, España) 
@@ -30,7 +33,7 @@ Cristina Nord (Die Tageszeitung, Germany)
 Dana Linssen (De Filmkrant, Netherlands) 
 Diego Batlle (La Nación, OtrosCines, Argentina) 
 Diego Lerer (Clarín, Micropsia, Argentina) 
-Eugenio Renzi (Independencia, Francia) 
+Eugenio Renzi (Independencia, France) 
 Eulalia Iglesias (RockDeLux y Caimán CDC, España) 
 Fernando Ganzo (Lumiere, España) 
 Fernando Juan Lima (El Amante, Argentina) 
@@ -45,10 +48,10 @@ Luciano Barisone (Duellanti/Panoramiche, Italy)
 Luciano Monteagudo (Página/12, Argentina) 
 Manu Yáñez (Fotogramas, OtrosCines, España) 
 Marcelo Alderete (Festival de Mar del Plata, Argentina) 
-Martial Pisani (Independencia, Francia) 
+Martial Pisani (Independencia, France) 
 Nando Salva (El Periódico, España) 
 Neil Young (Hollywood Reporter, Tribune, UK) 
-Noémie Luciani (Independencia, Francia) 
+Noémie Luciani (Independencia, France) 
 Olivier Père (Les Inrockuptibles, France) 
 Pamela Bienzobas (Mabuse, Chile) 
 Paolo Bertolin (Italy) 
@@ -60,11 +63,11 @@ Roger Alan Koza (La Voz del Interior, Con los ojos abiertos, Argentina)
 Rudiger Suchsland (FAZ, Negativ-film, Germany) 
 Sergio Wolf (Argentina) 
 Scott Foundas (Film Comment, USA) 
-Thomas Fioretti (Independencia, Francia) 
+Thomas Fioretti (Independencia, France) 
 Violeta Kovacsics (España) 
 Xavi Serra (Ara, España) 
 ";
-
+# ioncinema
 $critics[1] = "
 Christophe Beney (Palmares magazine, France) 
 David Calhoun (The Out London, UK) 
@@ -84,8 +87,26 @@ Blake Williams (Ioncinema.com, Canada)
 Liu Min (Sina.com, China) 
 Eric Kohn (Indiewire, USA) 
 ";
-
+# Le film français
 $critics[2] = "
+Stéphanie Lamome (Premiere, France)
+Arnaud schwartz (la Croix, France)
+Fabrice Leclerc (Studio ciné live, France)
+Eric Neuhoff (Le Figaro, France)
+Stéphane Delorme (Cahiers du cinema, France)
+Jaques Mandelbaum (Le Monde, France)
+Philippe Rouyer (Positif, France)
+Pierre Vavasseur (le Parisien, France)
+Pierre Murat (Telerama, France)
+Jean Roy (l'Humanite, France)
+Serge Kaganski (inRockuptibles, France)
+Pierre Fornerod (oeust france, France)
+Pascal Merigeau (Observateur, France)
+Danielle Attali (Le Journal du Dimanche, France)
+Christophe Carriére (L'Express, France)
+";
+# indiewire + various other
+$critics[3] = "
 Peter Knegt (indieWIRE, USA) 
 Simon Gallagher (filmschoolrejects.com, USA) 
 Michał Oleszczyk (Freelance, USA)
@@ -134,6 +155,7 @@ Emanuel Levy (EmanuelLevy.com, USA)
 Richard Corliss (Time, USA)
 David Edelstein (New York Magazine-Vulture, USA)
 Nev Pierce (Empire, USA)
+Allan Hunter (Screen Daily, USA)
 ";
 
 my $DATA= <<'EOF';
@@ -190,6 +212,22 @@ Cédric Succivalli 6
 Clarence Tsui 6
 Blake Williams 5
 Liu Min 5
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 5
+Fabrice Leclerc 2.5
+Eric Neuhoff 5
+Stéphane Delorme 7.5
+Jaques Mandelbaum 5
+Philippe Rouyer 5
+Pierre Vavasseur 5
+Pierre Murat 5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 5
+Pascal Merigeau 2.5
+Danielle Attali 5
+Christophe Carriére 5
  Metacritic (12):
 Karina Longworth 9
 Andrew Schenker (Slant, USA) 8.8
@@ -255,6 +293,22 @@ Clarence Tsui 7
 Blake Williams 4
 Liu Min 7
 Eric Kohn 7
+ Le film français:
+Stéphanie Lamome 9
+Arnaud schwartz 5
+Fabrice Leclerc 9
+Eric Neuhoff 7.5
+Stéphane Delorme 2.5
+Jaques Mandelbaum 7.5
+Philippe Rouyer 9
+Pierre Vavasseur 9
+Pierre Murat 5
+Jean Roy 7.5
+Serge Kaganski 7.5
+Pierre Fornerod 7.5
+Pascal Merigeau 7.5
+Danielle Attali 9
+Christophe Carriére 7.5
  Indiewire:
 Ryland Aldrich (Twitch Film) 7 B+ 
 Raffi Asdourian 5 B-
@@ -314,6 +368,22 @@ Clarence Tsui
 Blake Williams 8.5
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 Simon Gallagher 7 B+
 
@@ -336,6 +406,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
  IonCinema:
@@ -355,6 +441,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "KILLING THEM SOFTLY" (Andrew Dominik) [Competition]
 Alejandro G. Calvo 8.1
@@ -399,11 +501,28 @@ Clarence Tsui
 Blake Williams 7
 Liu Min 
 Eric Kohn 7 B+
+ Le film français:
+Stéphanie Lamome 5
+Arnaud schwartz 5
+Fabrice Leclerc 7.5
+Eric Neuhoff 2.5
+Stéphane Delorme 1
+Jaques Mandelbaum 7.5
+Philippe Rouyer 7.5
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 5
+Serge Kaganski 7.5
+Pierre Fornerod 5
+Pascal Merigeau 2.5
+Danielle Attali 1
+Christophe Carriére 
  Other:
 Peter Bradshaw 8
 James Rocchi 5
 Simon Gallagher 8 A-
 Alex Billington 7.5
+Mark Adams (Screen Daily, USA) 8
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
@@ -448,6 +567,22 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 5
 Eric Kohn 8
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 7.5
+Fabrice Leclerc 7.5
+Eric Neuhoff 1
+Stéphane Delorme 2.5
+Jaques Mandelbaum 5
+Philippe Rouyer 2.5
+Pierre Vavasseur 5
+Pierre Murat 5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 5
+Pascal Merigeau 5
+Danielle Attali 5
+Christophe Carriére 7.5
  Indiewire:
 Michał Oleszczyk 7 B+
 Ryland Aldrich (Twitch Film) 8 A-
@@ -512,6 +647,22 @@ Clarence Tsui 8
 Blake Williams 7
 Liu Min 7
 Eric Kohn 8 A-
+ Le film français:
+Stéphanie Lamome 9
+Arnaud schwartz 9
+Fabrice Leclerc 7.5
+Eric Neuhoff 1
+Stéphane Delorme 5
+Jaques Mandelbaum 7.5
+Philippe Rouyer 9
+Pierre Vavasseur 9
+Pierre Murat 5
+Jean Roy 9
+Serge Kaganski 9
+Pierre Fornerod 9
+Pascal Merigeau 7.5
+Danielle Attali 9
+Christophe Carriére 7.5
  Indiewire:
 Raffi Asdourian 9 A
 Anna Bielak 7 B+
@@ -576,6 +727,22 @@ Clarence Tsui 5
 Blake Williams 4 C
 Liu Min 
 Eric Kohn 2 C-
+ Le film français (Des Hommes sans loi)
+Stéphanie Lamome 7.5
+Arnaud schwartz 5
+Fabrice Leclerc 7.5
+Eric Neuhoff 5
+Stéphane Delorme 1
+Jaques Mandelbaum 2.5
+Philippe Rouyer 5
+Pierre Vavasseur 9
+Pierre Murat 2.5
+Jean Roy 2.5
+Serge Kaganski 2.5
+Pierre Fornerod 5
+Pascal Merigeau 2.5
+Danielle Attali 5
+Christophe Carriére 2.5
  Indiewire:
 Ryland Aldrich 8 A-
 Raffi Asdourian 6 B
@@ -644,6 +811,22 @@ Clarence Tsui 3
 Blake Williams 6
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 2.5
+Arnaud schwartz 2.5
+Fabrice Leclerc 
+Eric Neuhoff 1
+Stéphane Delorme 7.5
+Jaques Mandelbaum 7.5
+Philippe Rouyer 1
+Pierre Vavasseur 
+Pierre Murat 5
+Jean Roy 2.5
+Serge Kaganski 7.5
+Pierre Fornerod 2.5
+Pascal Merigeau 2.5
+Danielle Attali 1
+Christophe Carriére 1
  Indiewire:
 Raffi Asdourian
 Anna Bielak
@@ -666,6 +849,39 @@ Peter Bradshaw 6
 
 "DO-NUI MAT (TASTE OF MONEY)" (Im Sangsoo) [Competition]
 Francisco Ferreira 8.8
+ IonCinema:
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "LIKE SOMEONE IN LOVE" (Abbas Kiarostiami) [Competition]
 Alejandro G. Calvo 9.5
@@ -714,6 +930,22 @@ Clarence Tsui
 Blake Williams 8 B+
 Liu Min 
 Eric Kohn 7 B+
+ Le film français:
+Stéphanie Lamome 2.5
+Arnaud schwartz 2.5
+Fabrice Leclerc 2.5
+Eric Neuhoff 1
+Stéphane Delorme 5
+Jaques Mandelbaum 5
+Philippe Rouyer 5
+Pierre Vavasseur 5
+Pierre Murat 2.5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 1
+Pascal Merigeau 5
+Danielle Attali 1
+Christophe Carriére 2.5
  Indiewire:
 Raffi Asdourian
 Anna Bielak
@@ -721,7 +953,7 @@ Alex Billington 8.5 B+
 David Fear 7 B+
 Jon Frosch 6 B
 Leda Galanou 1 D
-Clementine Gallot (Cahiers du cinema) 5 B-
+Clementine Gallot (Cahiers du cinema, France) 5 B-
 Stephen Garrett 7 B+
 Michael Ghennam
 Patrick Heidmann
@@ -769,8 +1001,25 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 
 Eric Kohn 4
+ Le film français:
+Stéphanie Lamome 5
+Arnaud schwartz 5
+Fabrice Leclerc 
+Eric Neuhoff 7.5
+Stéphane Delorme 1
+Jaques Mandelbaum 2.5
+Philippe Rouyer 5
+Pierre Vavasseur 7.5
+Pierre Murat 5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 5
+Pascal Merigeau 5
+Danielle Attali 7.5
+Christophe Carriére 
  Other:
 Peter Bradshaw 8
+Allan Hunter (Screen Daily, USA) 6
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
 Alejandro G. Calvo 8.6
@@ -816,6 +1065,22 @@ Clarence Tsui
 Blake Williams 8 A-
 Liu Min 10
 Eric Kohn 6 B
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 7.5
+Fabrice Leclerc 5
+Eric Neuhoff 9
+Stéphane Delorme 2.5
+Jaques Mandelbaum 7.5
+Philippe Rouyer 7.5
+Pierre Vavasseur 1
+Pierre Murat 7.5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 5
+Pascal Merigeau 
+Danielle Attali 2.5
+Christophe Carriére 2.5
  Indiewire:
 Raffi Asdourian 3 C
 Anna Bielak 5 B-
@@ -879,6 +1144,22 @@ Clarence Tsui 6
 Blake Williams 3
 Liu Min 4
 Eric Kohn 5
+ Le film français:
+Stéphanie Lamome 2.5
+Arnaud schwartz 2.5
+Fabrice Leclerc 
+Eric Neuhoff 1
+Stéphane Delorme 1
+Jaques Mandelbaum 5
+Philippe Rouyer 2.5
+Pierre Vavasseur 5
+Pierre Murat 2.5
+Jean Roy 5
+Serge Kaganski 5
+Pierre Fornerod 2.5
+Pascal Merigeau 2.5
+Danielle Attali 2.5
+Christophe Carriére 2.5
  IndieWire:
 Michał Oleszczyk 0 F
 Raffi Asdourian 3 C 
@@ -910,6 +1191,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
@@ -958,6 +1255,22 @@ Clarence Tsui 6
 Blake Williams 5 C+
 Liu Min 
 Eric Kohn 6 B
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 9
+Fabrice Leclerc 7.5
+Eric Neuhoff 1
+Stéphane Delorme 5
+Jaques Mandelbaum 5
+Philippe Rouyer 9
+Pierre Vavasseur 5
+Pierre Murat 5
+Jean Roy 7.5
+Serge Kaganski 2.5
+Pierre Fornerod 7.5
+Pascal Merigeau 7.5
+Danielle Attali 7.5
+Christophe Carriére 9
  Indiewire:
 Raffi Asdourian
 Anna Bielak
@@ -996,6 +1309,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "ON THE ROAD" (Walter Salles) [Competition]
 Alejandro G. Calvo 3.5
@@ -1022,6 +1351,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 Simon Gallagher 2 C-
 
@@ -1072,6 +1417,22 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 4
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 5
+Fabrice Leclerc 2.5
+Eric Neuhoff 1
+Stéphane Delorme 1
+Jaques Mandelbaum 5
+Philippe Rouyer 7.5
+Pierre Vavasseur 9
+Pierre Murat 1
+Jean Roy 5
+Serge Kaganski 1
+Pierre Fornerod 2.5
+Pascal Merigeau 1
+Danielle Attali 7.5
+Christophe Carriére 5
  Indiewire:
 Ryland Aldrich 8 A-
 Anna Bielak 7 B+
@@ -1127,6 +1488,22 @@ Clarence Tsui
 Blake Williams 6 B-
 Liu Min 10
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 2.5
+Arnaud schwartz 7.5
+Fabrice Leclerc 2.5
+Eric Neuhoff 9
+Stéphane Delorme 2.5
+Jaques Mandelbaum 2.5
+Philippe Rouyer 2.5
+Pierre Vavasseur 9
+Pierre Murat 1
+Jean Roy 2.5
+Serge Kaganski 2.5
+Pierre Fornerod 7.5
+Pascal Merigeau 2.5
+Danielle Attali 5
+Christophe Carriére 5
  Indiewire:
 Raffi Asdourian
 Anna Bielak
@@ -1165,6 +1542,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "THERESE DESQUEYROUX" (Claude Miller) [Competition]
  IonCinema:
@@ -1184,6 +1577,22 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 UN CERTAIN REGARD
 
@@ -1201,14 +1610,62 @@ Neil Young 5
 Robert Koehler 2
 Roger Alan Koza  1
 Rudiger Suchsland  7
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 2.5
+Fabrice Leclerc 
+Eric Neuhoff 2.5
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 2.5
+Pierre Vavasseur 
+Pierre Murat 2.5
+Jean Roy 2.5
+Serge Kaganski 5
+Pierre Fornerod 2.5
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 Peter Bradshaw 6
 Simon Gallagher 6 B
 
 "MISS LOVELY" (Ashim Ahluwalia) [Un Certain Regard]
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "LA PLAYA" (Juan Andrés Arango) [Un Certain Regard]
 Mike d'Angelo w/o This is an amazing year but UCR does seem kinda blah. Totally generic downtrodden-kid saga
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "LES CHEVAUX DE DIEU" (Nabil Ayouch) [Un Certain Regard]
 Alejandro G. Calvo 1
@@ -1218,8 +1675,40 @@ Dana Linssen 4.9
 Fernando Juan Lima 7
 Jaime Pena 3
 José Luis de Lorenzo 8
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 7
+Fabrice Leclerc 
+Eric Neuhoff 2.5
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 2.5
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 5
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 2.5
+Danielle Attali 
+Christophe Carriére 
 
 "TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "ANTIVIRAL" (Brandon Cronenberg) [Un Certain Regard]
 Alejandro G. Calvo 6
@@ -1246,23 +1735,70 @@ Rudiger Suchsland  6.5
 Sergio Wolf 4
 Violeta Kovacsics 5.5
 Xavi Serra  6
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 2.5
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 5
+Pierre Vavasseur 
+Pierre Murat 5
+Jean Roy 2.5
+Serge Kaganski 
+Pierre Fornerod 1
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  IndieWire:
 James Rocchi 5
 Simon Gallagher 7 B+
 Alex Billington 7
 
-
 "7 DIAS EN LA HABANA" (BDT, PT, JM, ES, JCT, GN y LC) [Un Certain Regard]
 Carlos Reviriego 3.5
 Dana Linssen 3.2
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
-"LE GRAND SOIR" (Benoit Delépine Y Gustave Kervern) [Un Certain Regard]
+"LE GRAND SOIR" (Benoit Delépine & Gustave Kervern) [Un Certain Regard]
 Carlo Chatrian 7.4
 Diego Batlle 8
 Diego Lerer 8
 José Luis de Lorenzo 6
 Luciano Barisone 7
 Rudiger Suchsland  1
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 7.5
+Philippe Rouyer 7.5
+Pierre Vavasseur 
+Pierre Murat 7.5
+Jean Roy 5
+Serge Kaganski 
+Pierre Fornerod 5
+Pascal Merigeau 7.5
+Danielle Attali 7.5
+Christophe Carriére 7.5
 
 "LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
 Alex Vicente 7.5
@@ -1276,6 +1812,22 @@ Fernando Juan Lima 7.5
 José Luis de Lorenzo 8
 Philipp Engel 4.5
 Violeta Kovacsics 5.5
+ Le film français:
+Stéphanie Lamome 5
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 1
+Stéphane Delorme 7.5
+Jaques Mandelbaum 
+Philippe Rouyer 2.5
+Pierre Vavasseur 
+Pierre Murat 5
+Jean Roy 7.5
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Indiewire:
 Michał Oleszczyk 2 C-
 Simon Gallagher 2 C-
@@ -1290,6 +1842,22 @@ Diego Batlle 2
 Diego Lerer 2.5
 Luciano Barisone 3
 Rudiger Suchsland  7
+ Le film français:
+Stéphanie Lamome 7.5
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 5
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 1
+Pierre Vavasseur 
+Pierre Murat 5
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "AIMER À PERDRE LA RAISON (OUR CHILDREN)" (Joachim Lafosse) [Un Certain Regard]
 Alex Vicente 7
@@ -1298,6 +1866,22 @@ Eulalia Iglesias 6.1
 Javier H. Estrada 3
 Luciano Barisone 6
 Mike d'Angelo W/O
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
 Alexandra Zawia 8
@@ -1316,12 +1900,44 @@ Martial Pisani 8
 Neil Young 6
 Robert Koehler 8
 Roger Alan Koza  8.5
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 5
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 7.5
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 1
+Jean Roy 2.5
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "LA PIROGUE" (Moussa Toure) [Un Certain Regard]
 Carlo Chatrian 5.05
 Diego Batlle 6
 Diego Lerer 5.6
 Luciano Barisone 7
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 5
+Fabrice Leclerc 7.5
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 5
+Serge Kaganski 
+Pierre Fornerod 5
+Pascal Merigeau 
+Danielle Attali 5
+Christophe Carriére 
 
 "ELEFANTE BLANCO" (Pablo Trapero) [Un Certain Regard]
 Alejandro G. Calvo 6
@@ -1338,6 +1954,22 @@ Robert Koehler 2
 Roger Alan Koza  6
 Rudiger Suchsland  7.7
 Violeta Kovacsics 4
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 5
+Fabrice Leclerc 
+Eric Neuhoff 5
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 2.5
+Jean Roy 2.5
+Serge Kaganski 5
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 Ruta Buciunaite 6
 
@@ -1348,10 +1980,42 @@ Carlos F. Heredero 3
 Carlos Reviriego 4.5
 Fernando Juan Lima 4.5
 Jaime Pena 4
+ Le film français:
+Stéphanie Lamome 5
+Arnaud schwartz 2.5
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 1
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 1
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 1
+Pascal Merigeau 7.5
+Danielle Attali 
+Christophe Carriére 
  Other:
 Catherine Shoard (Guardian, UK) 2
 
 "11.25 THE DAY HE CHOSE HIS OWN FATE" (Koji Wakamatsu) [Un Certain Regard]
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "BEASTS OF THE SOUTHERN WILD" (Benh Zeitlin) [Un Certain Regard]
 Alejandro G. Calvo 3
@@ -1377,6 +2041,22 @@ Robert Koehler 3
 Sergio Wolf 3
 Scott Foundas  10
 Xavi Serra  5.5
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 7.4
+Fabrice Leclerc 
+Eric Neuhoff 5
+Stéphane Delorme 5
+Jaques Mandelbaum 
+Philippe Rouyer 7.5
+Pierre Vavasseur 
+Pierre Murat 2.5
+Jean Roy 7.5
+Serge Kaganski 2.5
+Pierre Fornerod 7.5
+Pascal Merigeau 5
+Danielle Attali 
+Christophe Carriére 
  Indiewire:
 Simon Abrams 8 A-
 Raffi Asdourian 8 A-
@@ -1393,15 +2073,63 @@ Diego Batlle 6.5
 Diego Lerer 6.5
 Eulalia Iglesias 6.7
 Luciano Barisone 8
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 5
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 2.5
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
 Scott Foundas  8
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
  Other:
 Don Simpson (Smells Like Screen Spirit, USA) 6
 Andrew Schenker (Slant, USA) 6.5
 Reini Urban (facebook, Austria) 4
 
 "RENOIR" (Gilles Bourdos) [Un Certain Regard]
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 SEMANA DE LA CRÍTICA
 
