@@ -334,7 +334,7 @@ Alejandro G. Calvo 8
 Alexandra Zawia 7.5
 Carlo Chatrian 8
 Carlos F. Heredero 7.5
-Carlos Reviriego 8.8
+Carlos Reviriego 9.5
 Cristina Nord 9
 Diego Batlle 6.7
 Diego Lerer 7.2
@@ -346,11 +346,12 @@ Javier H. Estrada 9.5
 José Luis de Lorenzo 7
 Luciano Barisone 9
 Nando Salva 7
+Philipp Engel 10
 Robert Koehler 10
 Roger Alan Koza  9
 Rudiger Suchsland  8.5
 Scott Foundas  8.5
-Xavi Serra  7.7
+Xavi Serra 8.1
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -794,6 +795,7 @@ Rudiger Suchsland  6.8
 Sergio Wolf 10
 Scott Foundas  5
 Violeta Kovacsics 7.5
+Xavi Serra  7.25
  IonCinema:
 Christophe Beney 
 David Calhoun 5
@@ -912,7 +914,7 @@ Roger Alan Koza  10
 Sergio Wolf 9
 Scott Foundas  9
 Violeta Kovacsics 7.5
-Xavi Serra  8.1
+Xavi Serra  8
  IonCinema:
 Christophe Beney 4
 David Calhoun 7
@@ -983,7 +985,7 @@ Pedro Butcher 7
 Rudiger Suchsland  4.5
 Scott Foundas  7
 Violeta Kovacsics 3
-Xavi Serra  5.75
+Xavi Serra  5.5
  IonCinema:
 Christophe Beney 6
 David Calhoun 
@@ -1047,7 +1049,7 @@ Rudiger Suchsland  4
 Sergio Wolf 4
 Scott Foundas  9
 Violeta Kovacsics 5
-Xavi Serra  5.5
+Xavi Serra  6
  IonCinema:
 Christophe Beney 6
 David Calhoun 
@@ -1334,6 +1336,7 @@ Diego Lerer 5.8
 Eulalia Iglesias 4
 José Luis de Lorenzo 2
 Roger Alan Koza  4
+Xavi Serra  5.5
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -2040,7 +2043,7 @@ Philipp Engel 4
 Robert Koehler 3
 Sergio Wolf 3
 Scott Foundas  10
-Xavi Serra  5.5
+Xavi Serra  5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 7.4
@@ -2323,6 +2326,7 @@ Diego Batlle 7
 Eulalia Iglesias 5.9
 Nando Salva 4
 Roger Alan Koza  7.5
+Xavi Serra  4.5
 
 "THE WE AND THE I" (Michel Gondry) [Quinzaine]
 Alejandro G. Calvo 8
@@ -2361,7 +2365,7 @@ Diego Batlle 6
 Fernando Ganzo 6.5
 José Luis de Lorenzo 4
 Manu Yáñez 5.5
-Xavi Serra  6.7
+Xavi Serra  6.5
  Indiewire:
 Mike d'Angelo 5.2
 Kevin Jagernauth 2 C-
@@ -2504,7 +2508,7 @@ Luciano Barisone 7
 Nando Salva 7.5
 Neil Young 4
 Pedro Butcher 8
-Philipp Engel 7
+Philipp Engel 6.5
 Robert Koehler 8
 Roger Alan Koza  7.5
 Sergio Wolf 7
