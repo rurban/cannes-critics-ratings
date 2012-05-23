@@ -206,6 +206,7 @@ Nev Pierce (Empire, USA) 8
  Other:
 Simon Gallagher 8 A-
 David Gritten (The Telegraph, UK) 8
+Alex Billington 7
 
 "DE ROUILLE ET D'OS (RUST AND BONE)" (Jacques Audiard) [Competition]
 Alejandro G. Calvo 4
@@ -258,7 +259,7 @@ Eric Kohn 7
 Ryland Aldrich (Twitch Film) 7 B+ 
 Raffi Asdourian 5 B-
 Anna Bielak (Smells Like Screen Spirit) 3 C
-Alex Billington (FirstShowing.net) 8 A-
+Alex Billington (FirstShowing.net, USA) 9 A-
 David Fear 7 B+ 
 Jon Frosch 7 B+
 Leda Galanou 8 A- 
@@ -402,6 +403,7 @@ Eric Kohn 7 B+
 Peter Bradshaw 8
 James Rocchi 5
 Simon Gallagher 8 A-
+Alex Billington 7.5
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
@@ -513,7 +515,7 @@ Eric Kohn 8 A-
  Indiewire:
 Raffi Asdourian 9 A
 Anna Bielak 7 B+
-Alex Billington 0.5 D
+Alex Billington 2 D
 David Fear 9 A
 Jon Frosch 7 B+
 Leda Galanou 8 A-
@@ -578,7 +580,7 @@ Eric Kohn 2 C-
 Ryland Aldrich 8 A-
 Raffi Asdourian 6 B
 Anna Bielak 5 B-
-Alex Billington 6 B
+Alex Billington 8 B
 David Fear 6 B
 Jon Frosch 5 B-
 Leda Galanou 6 B
@@ -715,7 +717,7 @@ Eric Kohn 7 B+
  Indiewire:
 Raffi Asdourian
 Anna Bielak
-Alex Billington 7 B+
+Alex Billington 8.5 B+
 David Fear 7 B+
 Jon Frosch 6 B
 Leda Galanou 1 D
@@ -1247,6 +1249,8 @@ Xavi Serra  6
  IndieWire:
 James Rocchi 5
 Simon Gallagher 7 B+
+Alex Billington 7
+
 
 "7 DIAS EN LA HABANA" (BDT, PT, JM, ES, JCT, GN y LC) [Un Certain Regard]
 Carlos Reviriego 3.5
