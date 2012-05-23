@@ -357,6 +357,7 @@ Liu Min
 Eric Kohn 7 B+
  Other:
 Peter Bradshaw 8
+James Rocchi 5
 
 "REALITY" (Matteo Garrone) [Competition]
 Alejandro G. Calvo 4.8
