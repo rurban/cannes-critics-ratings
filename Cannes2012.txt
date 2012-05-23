@@ -291,7 +291,7 @@ Mike d'Angelo 8.8
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
-Guy Lodge 
+Guy Lodge 9
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 
@@ -361,20 +361,20 @@ Roger Alan Koza  5.5
 Scott Foundas  3
 Xavi Serra  7.5
  IonCinema:
-Christophe Beney
+Christophe Beney 0
 David Calhoun
 Per Juul Carlsen 
-Paola Casella 
+Paola Casella 4
 Mike d'Angelo 6.3
-#Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
-Guy Lodge 5 B-
+#Carlos F. Heredero 4 
+Eric Lavallée 6
+Fabien Lemercier 6
+Guy Lodge        6 B-
 Isabelle Regnier 
 Kevin Jagernauth 
-Cédric Succivalli 
+Cédric Succivalli 2
 Clarence Tsui 
-Blake Williams 
+Blake Williams 7
 Liu Min 
 Eric Kohn 7 B+
  Other:
@@ -728,19 +728,19 @@ Xavi Serra  5.75
 Christophe Beney 6
 David Calhoun 
 Per Juul Carlsen 6
-Paola Casella 
+Paola Casella 6
 Mike d'Angelo 5.6
-#Carlos F. Heredero  
+#Carlos F. Heredero 2  
 Eric Lavallée 
-Fabien Lemercier 
+Fabien Lemercier 6
 Guy Lodge 
 Isabelle Regnier 
 Kevin Jagernauth 
-Cédric Succivalli 
-Clarence Tsui 
-Blake Williams 
+Cédric Succivalli 6
+Clarence Tsui 4
+Blake Williams 6
 Liu Min 
-Eric Kohn 
+Eric Kohn 4
  Other:
 Peter Bradshaw 8
 
@@ -935,14 +935,14 @@ David Calhoun 6
 Per Juul Carlsen 
 Paola Casella 7
 Mike d'Angelo 7.3 B+
-#Carlos F. Heredero  
+#Carlos F. Heredero 6
 Eric Lavallée 
-Fabien Lemercier 
+Fabien Lemercier 6
 Guy Lodge 
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 9
-Clarence Tsui 
+Clarence Tsui 6
 Blake Williams 5 C+
 Liu Min 
 Eric Kohn 6 B
@@ -1126,8 +1126,42 @@ Peter Bradshaw 8
 Ruta Buciunaite 10
 
 "IN THE FOG" (Sergei Loznitsa) [Competition]
+ IonCinema:
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
 
 "THERESE DESQUEYROUX" (Claude Miller) [Competition]
+ IonCinema:
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
 
 UN CERTAIN REGARD
 
