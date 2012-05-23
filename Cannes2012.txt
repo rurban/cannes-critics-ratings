@@ -226,6 +226,7 @@ Pedro Butcher 5.5
 Philipp Engel 6
 Robert Koehler 4
 Rudiger Suchsland  5
+Scott Foundas  8
 Violeta Kovacsics 2
 Xavi Serra  6
  IonCinema:
@@ -266,6 +267,21 @@ Simon Gallagher 9 A
 David Gritten (The Telegraph, UK) 8
 
 "HOLY MOTORS" (Leos Carax) [Competition]
+Alejandro G. Calvo 6.9
+Alexandra Zawia 7
+Carlo Chatrian 8
+Carlos F. Heredero 7.5
+Carlos Reviriego 8.8
+Diego Batlle 6.7
+Diego Lerer 7.2
+Fernando Ganzo 8.5
+Francisco Ferreira 9.9
+Javier H. Estrada 9.5
+Nando Salva 7
+Robert Koehler 10
+Rudiger Suchsland  8.5
+Scott Foundas  8.5
+Xavi Serra  7.7
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -327,16 +343,22 @@ Eric Kohn
 Alejandro G. Calvo 8.1
 Alex Vicente 5
 Alexandra Zawia 5
+Carlo Chatrian 3.02
+Carlos F. Heredero 6.8
 Carlos Reviriego 7.1
 Diego Batlle 6.5
 Diego Lerer 6
 Eulalia Iglesias 6.9
 Fernando Ganzo 3.5
+Francisco Ferreira 4
+Javier H. Estrada 6.8
+Nando Salva 6.5
 Neil Young 6
 Pedro Butcher 4
 Philipp Engel 7.5
 Robert Koehler 5
 Roger Alan Koza  5.5
+Scott Foundas  3
 Xavi Serra  7.5
  IonCinema:
 Christophe Beney
@@ -372,7 +394,7 @@ Diego Lerer 5.2
 Eulalia Iglesias 6.5
 Fernando Ganzo 3
 Fernando Juan Lima 5.5
-Francisco Ferreira 4
+Francisco Ferreira 5
 Jaime Pena 3
 Javier H. Estrada 5
 Luciano Barisone 8
@@ -382,6 +404,7 @@ Pedro Butcher 6
 Philipp Engel 5
 Robert Koehler 7
 Rudiger Suchsland  4.5
+Scott Foundas  6.5
 Violeta Kovacsics 4
 Xavi Serra  6
  IonCinema:
@@ -433,6 +456,7 @@ Diego Lerer 7.5
 Eulalia Iglesias 7.2
 Fernando Ganzo 3
 Fernando Juan Lima 5
+Francisco Ferreira 8.5
 Jaime Pena 5.1
 Javier H. Estrada 7
 José Luis de Lorenzo 7
@@ -443,6 +467,7 @@ Philipp Engel 9
 Robert Koehler 6
 Roger Alan Koza  8.5
 Rudiger Suchsland  9.5
+Scott Foundas  10
 Violeta Kovacsics 9
 Xavi Serra  7.75
  IonCinema:
@@ -493,6 +518,7 @@ Diego Batlle 6.5
 Diego Lerer 5.9
 Eulalia Iglesias 7.1
 Fernando Ganzo 4
+Francisco Ferreira 1
 Jaime Pena 4.9
 Javier H. Estrada 3.5
 José Luis de Lorenzo 3
@@ -549,7 +575,7 @@ Ruta Buciunaite 10
 "DA-REUN NA-RA-E-SUH (IN ANOTHER COUNTRY)" (Hong Sangsoo) [Competition]
 Alejandro G. Calvo 8.5
 Alex Vicente 6
-Alexandra Zawia 8.8
+Alexandra Zawia 8.5
 Arthur Mas 8.5
 Carlos F. Heredero 7
 Carlos Reviriego 7
@@ -558,7 +584,7 @@ Dana Linssen 7.9
 Diego Batlle 8.5
 Diego Lerer 8.8
 Eulalia Iglesias 8
-Fernando Ganzo 8
+Fernando Ganzo 8.5
 Fernando Juan Lima 9
 Francisco Ferreira 7.5
 Jaime Pena 8.8
@@ -566,6 +592,7 @@ Javier H. Estrada 8.5
 José Luis de Lorenzo 8
 Luciano Barisone 8
 Manu Yáñez 7.5
+Nando Salva 8
 Neil Young 6 B-
 Pedro Butcher 7
 Philipp Engel 7
@@ -573,6 +600,7 @@ Robert Koehler 8
 Roger Alan Koza  8.5
 Rudiger Suchsland  6.8
 Sergio Wolf 10
+Scott Foundas  5
 Violeta Kovacsics 7.5
  IonCinema:
 Christophe Beney 
@@ -611,6 +639,9 @@ Sarah Watt
  Other:
 Peter Bradshaw 6
 
+"DO-NUI MAT (TASTE OF MONEY)" (Im Sangsoo) [Competition]
+Francisco Ferreira 8.8
+
 "LIKE SOMEONE IN LOVE" (Abbas Kiarostiami) [Competition]
 Alejandro G. Calvo 9.5
 Alex Vicente 5
@@ -623,17 +654,21 @@ Dana Linssen 7.5
 Diego Batlle 8.5
 Diego Lerer 9
 Eulalia Iglesias 9
+Fernando Ganzo 7
 Fernando Juan Lima 10
+Francisco Ferreira 8
 Jaime Pena 8.9
 Javier H. Estrada 9
 José Luis de Lorenzo 6
 Luciano Barisone 5
 Manu Yáñez 9.5
 Martial Pisani 4.5
+Nando Salva 7
 Pedro Butcher 8.5
 Philipp Engel 7.5
 Roger Alan Koza  10
 Sergio Wolf 9
+Scott Foundas  9
 Violeta Kovacsics 7.5
 Xavi Serra  8.1
  IonCinema:
@@ -683,7 +718,10 @@ Diego Batlle 6.7
 Diego Lerer 5.2
 Eulalia Iglesias 4
 Manu Yáñez 3
+Nando Salva 2
 Pedro Butcher 7
+Rudiger Suchsland  4.5
+Scott Foundas  7
 Violeta Kovacsics 3
 Xavi Serra  5.75
  IonCinema:
@@ -718,7 +756,7 @@ Diego Batlle 7.5
 Diego Lerer 7.3
 Eulalia Iglesias 7.3
 Fernando Juan Lima 8
-Francisco Ferreira 4
+Francisco Ferreira 2.5
 Jaime Pena 7.5
 Javier H. Estrada 6
 José Luis de Lorenzo 9
@@ -730,6 +768,7 @@ Pedro Butcher 9
 Roger Alan Koza  6.5
 Rudiger Suchsland  4
 Sergio Wolf 4
+Scott Foundas  9
 Violeta Kovacsics 5
 Xavi Serra  5.5
  IonCinema:
@@ -865,8 +904,9 @@ Eric Kohn
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
 Alejandro G. Calvo 4.9
 Alex Vicente 4
-Alexandra Zawia 6.4
+Alexandra Zawia 5.5
 Arthur Mas 8.1
+Carlo Chatrian 5
 Carlos F. Heredero 7.5
 Carlos Reviriego 6.8
 Diego Batlle 7.5
@@ -874,14 +914,19 @@ Diego Lerer 7.4
 Eulalia Iglesias 7.9
 Fernando Ganzo 7
 Fernando Juan Lima 10
+Francisco Ferreira 8.7
 Jaime Pena 8.5
+Javier H. Estrada 7
 José Luis de Lorenzo 7
 Luciano Barisone 7
 Manu Yáñez 8
 Martial Pisani 7.9
+Nando Salva 5
 Pedro Butcher 6.5
 Robert Koehler 2
 Roger Alan Koza  8.7
+Rudiger Suchsland  3.5
+Scott Foundas  8
 Violeta Kovacsics 7.5
 Xavi Serra  6.5
  IonCinema:
@@ -984,7 +1029,9 @@ Pedro Butcher 2
 Philipp Engel 6.5
 Robert Koehler 7.5
 Roger Alan Koza  7
+Rudiger Suchsland  6.5
 Sergio Wolf 3
+Scott Foundas  8
 Violeta Kovacsics 7.5
 Xavi Serra  7.5
  IonCinema:
@@ -1080,8 +1127,6 @@ Ruta Buciunaite 10
 
 "IN THE FOG" (Sergei Loznitsa) [Competition]
 
-"THE TASTE OF MONEY" (Im Sang-soo) [Competition]
-
 "THERESE DESQUEYROUX" (Claude Miller) [Competition]
 
 UN CERTAIN REGARD
@@ -1153,8 +1198,10 @@ Carlos Reviriego 3.5
 Dana Linssen 3.2
 
 "LE GRAND SOIR" (Benoit Delépine Y Gustave Kervern) [Un Certain Regard]
+Carlo Chatrian 7.4
 Diego Batlle 8
 Diego Lerer 8
+Rudiger Suchsland  1
 
 "LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
 Alex Vicente 7.5
@@ -1177,12 +1224,16 @@ Eric Kohn 4 C+
 Ruta Buciunaite 8
 
 "DESPUES DE LUCIA" (Michel Franco) [Un Certain Regard]
+Carlo Chatrian 2.01
 Diego Batlle 2
 Diego Lerer 2.5
 Luciano Barisone 3
+Rudiger Suchsland  7
 
 "AIMER À PERDRE LA RAISON (OUR CHILDREN)" (Joachim Lafosse) [Un Certain Regard]
 Alex Vicente 7
+Carlo Chatrian 7
+Javier H. Estrada 3
 Mike d'Angelo W/O
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
@@ -1222,6 +1273,7 @@ José Luis de Lorenzo 5
 Nando Salva 5
 Robert Koehler 2
 Roger Alan Koza  6
+Rudiger Suchsland  7.7
 Violeta Kovacsics 4
  Other:
 Ruta Buciunaite 6
@@ -1295,6 +1347,7 @@ Pedro Butcher 1.5
 Peter Bradshaw 4
 
 "AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine]
+Carlos F. Heredero 6.5
 Roger Alan Koza  4.7
 
 "AU GALOP" (LouisDo de Lencquesaing) [Semaine]
@@ -1311,7 +1364,9 @@ Rudiger Suchsland  7
 "HORS LES MURS" (Damien Lambert) [Semaine]
 
 "PEDDLERS" (Vasan Bala) [Semaine]
+Carlo Chatrian 5.5
 Jaime Pena 5.5
+Javier H. Estrada 6.3
 
 "LOS SALVAJES" (Alejandro Fadel) [Semaine]
 Alejandro G. Calvo 7
@@ -1332,6 +1387,7 @@ Neil Young 7
 Thomas Fioretti 4.5
 
 "J’ENRAGE DE SON ABSENCE" (Sandrine Bonnaire) [Semaine]
+Alexandra Zawia 5
 Fernando Ganzo 2.5
 Fernando Juan Lima 6
 
@@ -1344,6 +1400,7 @@ Diego Lerer 8.6
 Eulalia Iglesias 7.1
 Fernando Juan Lima 9
 Jaime Pena 6
+Javier H. Estrada 6.5
 Roger Alan Koza  6
 Sergio Wolf 7
 
@@ -1374,8 +1431,10 @@ Thomas Fioretti 5.6
 "FOGO" (Yulene Olaizola) [Quinzaine]
 Diego Batlle 7
 Roger Alan Koza  8
+Sergio Wolf 6
 
 "GANGS OF WASSEYPUR" (Anurag Kashyap) [Quinzaine]
+Javier H. Estrada 4.5
 Thomas Fioretti 5.3
 
 "INFANCIA CLANDESTINA" (Benjamín Ávila) [Quinzaine]
@@ -1419,6 +1478,7 @@ Javier H. Estrada 7
 Robert Koehler 8
 Roger Alan Koza  7.5
 Sergio Wolf 7
+Scott Foundas  8.5
 Thomas Fioretti 7
 Violeta Kovacsics 8
  Other:
@@ -1426,8 +1486,11 @@ Guy Lodge 8.5 A-
 Eric Kohn 9 A
 
 "OPÉRATION LIBERTAD" (Nicolas Wadimoff) [Quinzaine]
+Sergio Wolf 5
 
 "RENGAINE (HOLD BACK)" (Rachid Djaïdani) [Quinzaine]
+Carlo Chatrian 7.4
+Javier H. Estrada 8
 Luciano Barisone 7
 Neil Young 7
 Robert Koehler 8
@@ -1436,10 +1499,12 @@ Thomas Fioretti 1.8
 "ROOM 237" (Rodney Ascher) [Quinzaine]
 Alejandro G. Calvo 5.9
 Alex Vicente 6
+Carlo Chatrian 6.03
 Carlos F. Heredero 3.5
 Diego Lerer 3
 Eulalia Iglesias 6
 Jaime Pena 7.5
+Javier H. Estrada 6
 Luciano Barisone 6
 Pedro Butcher 7
 Robert Koehler 8
@@ -1457,6 +1522,7 @@ Mike d'Angelo 5.8
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
 
 "SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
+Nando Salva 4
 
 "THE WE AND THE I" (Michel Gondry) [Quinzaine]
 Alejandro G. Calvo 8
@@ -1482,19 +1548,24 @@ Mike d'Angelo 5.2
 "YEK KHANÉVADÉH-E MOHTARAM (A RESPECTABLE FAMILY)" (Massoud Bakhshi) [Quinzaine]
 Fernando Juan Lima 3
 Javier H. Estrada 4.5
+Robert Koehler 6
 Thomas Fioretti 6.3
 
 FUERA DE COMPETENCIA
 
 "IO E TE (ME AND YOU)" (Bernardo Bertolucci)
+Carlos F. Heredero 6
 Carlos Reviriego 6
 Diego Batlle 6
+Xavi Serra  6.7
+ Indiewire:
 Kevin Jagernauth 2 C-
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
 Diego Lerer 3.2
 
 "HEMINGWAY & GELLHORN" (Philip Kaufman)
+Scott Foundas  8
 
 PROYECCIONES DE MEDIANOCHE
 
@@ -1513,6 +1584,8 @@ Mike d'Angelo 5.5
 Alejandro G. Calvo 2
 Diego Batlle 4
 Fernando Juan Lima 9
+Javier H. Estrada 6
+Rudiger Suchsland  10
 Sergio Wolf 6
 
 "UNE JOURNÉE PARTICULIÈRE" (Gilles Jacob y Samuel Faure)
@@ -1576,9 +1649,12 @@ Fernando Juan Lima 7
 Luciano Barisone 6
 
 "JOURNAL DE FRANCE" (Claudine Nougaret y Raymond Depardon) 
+Carlo Chatrian 5.03
+Carlos F. Heredero 6
 Carlos Reviriego 6.2
-Diego Lerer 7.5
+Diego Lerer 7.2
 Philipp Engel 5
+Sergio Wolf 8
 
 "A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) 
 Pedro Butcher 8
