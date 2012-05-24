@@ -2255,7 +2255,7 @@ Pascal Merigeau
 Danielle Attali 
 Christophe Carriére 
 
-"LES CHEVAUX DE DIEU" (Nabil Ayouch) [Un Certain Regard]
+"LES CHEVAUX DE DIEU (GOD'S HORSES)" (Nabil Ayouch) [Un Certain Regard]
 Alejandro G. Calvo 1
 Carlos F. Heredero 6
 Carlos Reviriego 2
@@ -2279,6 +2279,8 @@ Pierre Fornerod
 Pascal Merigeau 2.5
 Danielle Attali 
 Christophe Carriére 
+ Indiewire: (1)
+Ryland Aldrich 5 B-
 
 "TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
 Diego Batlle 6
@@ -2506,6 +2508,9 @@ Pierre Fornerod 7.5
 Pascal Merigeau 5
 Danielle Attali 5
 Christophe Carriére 
+ Indiewire: (2)
+Michael Ghennam 5 B
+Blake Williams 3 C
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
 Alexandra Zawia 8
@@ -2596,6 +2601,10 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire (3):
+Anna Bielak 2 C-
+Michael Ghennam 7 B+
+Patrick Z. McGavin 3 C
  Other:
 Ruta Buciunaite 6
 
@@ -2645,6 +2654,7 @@ Danielle Attali
 Christophe Carriére 
 
 "BEASTS OF THE SOUTHERN WILD" (Benh Zeitlin) [Un Certain Regard]
+  Sundance
 Alejandro G. Calvo 4
 Alex Vicente 7
 Alexandra Zawia 6
@@ -2661,10 +2671,10 @@ Javier H. Estrada 3
 José Luis de Lorenzo 4
 Luciano Barisone 6
 Nando Salva 2
-Neil Young 6
+Neil Young 6 B-
 Pedro Butcher 4
 Philipp Engel 4
-Robert Koehler 3
+Robert Koehler 3 D-
 Sergio Wolf 3
 Scott Foundas  10
 Xavi Serra  5
@@ -2684,14 +2694,61 @@ Pierre Fornerod 7.5
 Pascal Merigeau 5
 Danielle Attali 
 Christophe Carriére 
- Indiewire:
+ Indiewire (39):
 Simon Abrams 8 A-
+Ryland Aldrich 9 A
 Raffi Asdourian 8 A-
+Anna Bielak 8 A-
+Alex Billington 10 A+
 Mike d'Angelo 5 B-
+Austin Dale (Indiewire, USA) 8 A-
+Edward Douglas (Comingsoon.net) 5 B-
+Kate Erbland 6 (filmschoolrejects.com, USA) B
+Devin Faraci (Badass Digest, USA) 10 A+
+David Ehrlich
 David Fear 7 B+ 
-Peter Knegt 8 A-
-Anne Thompson 9 A
+Jon Frosch 
+Leda Galanou
+Clementine Gallot 
+Stephen Garrett
+Michael Ghennam 9 A
+William Goss (Film.com, USA) 8 B+
 Tim Grierson 6 B
+Glenn Heath Jr.
+Patrick Heidmann 8 A-
+Aaron Hillis 5 B-
+Jordan Hoffman 8 A-
+Frédéric Jaeger 2 C-
+Christopher Kelly 4 C+
+Peter Knegt 8 A-
+Peter Keogh 
+Chris Knipp 
+Eric Kohn 7 B+
+Megan Lehmann 
+Robert Levin 7 B+
+Shawn Levy 8 A-
+Emanuel Levy
+John Lichmann 10 A+
+Patrick Z. McGavin 8 A-
+Michael Nordline 9 A
+Tambay Obenson 9 A
+Michał Oleszczyk
+Matt Patches 9 A
+Kristy Puchko 
+Jordan Raup 8 B+
+Bryce J Renninger 8 A-
+James Rocchi 
+Jonathan Rosenbaum
+Nigel Smith 8 A-
+Eric D. Snider
+Anna Tatarska 8 B+
+Amy Taubin 9 A
+Drew Taylor 
+Anne Thompson 9 A
+Kim Voynar 9 A
+Ignatiy Vishnevetsky 
+Chase Whale 9 A
+Sarah Watt
  Other:
 Guy Lodge 6 B
 
@@ -2726,6 +2783,7 @@ Christophe Carriére
 Peter Bradshaw 6
 
 "GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
+  SXSW
 Marcelo Alderete 6
 Scott Foundas  8
  Le film français:
@@ -3238,6 +3296,7 @@ Neil Young 6
 "LE SERMENT DE TOBRUK (Bernard-Henry Lévy) 
 
 "SISTER (L'ENFANT D'EN HAUT)" (Ursula Meier) [Market]
+  Berlin
 Mike d'Angelo 6.8
  Indiewire:
 Michał Oleszczyk 6 B
