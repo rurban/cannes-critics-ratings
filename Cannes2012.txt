@@ -173,6 +173,8 @@ Mark Adams (Screen Daily, USA)
 Allan Hunter (Screen Daily, USA)
 Lee Marshall (Screen Daily, USA)
 Clementine Gallot (Cahiers du cinema, France)
+Eric D. Snider (Film.com, USA)
+Drew McWeeny (InContention, USA)
 ";
 
 my $DATA= <<'EOF';
@@ -831,7 +833,8 @@ Pierre Fornerod 9
 Pascal Merigeau 7.5
 Danielle Attali 9
 Christophe Carriére 7.5
- Indiewire:
+ Indiewire: (23)
+Simon Abrams 7 B+
 Raffi Asdourian 9 A
 Anna Bielak 7 B+
 Alex Billington 2 D
@@ -840,12 +843,17 @@ Jon Frosch 7 B+
 Leda Galanou 8 A-
 Stephen Garrett 10 A+
 Michael Ghennam 10 A+ 
+Glenn Heath Jr. 8 A-
 Patrick Heidmann 9 A
 Aaron Hillis 8 A-
 Frédéric Jaeger 7 B+
 Patrick Z. McGavin 9 A
 Emanuel Levy 8 A-
 Michał Oleszczyk
+Eric D. Snider 6 B
+Anna Tatarska 7 B+
+Drew Taylor 
+Anne Thompson 9 A
  Other:
 Peter Bradshaw 10
 
@@ -1166,14 +1174,14 @@ Pierre Fornerod 1
 Pascal Merigeau 5
 Danielle Attali 1
 Christophe Carriére 2.5
- Indiewire:
-Raffi Asdourian
+ Indiewire: (16)
+Raffi Asdourian 8 A-
 Anna Bielak
 Alex Billington 8.5 B+
 David Fear 7 B+
 Jon Frosch 6 B
 Leda Galanou 1 D
-Clementine Gallot (Cahiers du cinema, France) 5 B-
+Clementine Gallot 5 B-
 Stephen Garrett 7 B+
 Michael Ghennam
 Glenn Heath Jr. 9 A
@@ -1325,7 +1333,7 @@ Pierre Fornerod 5
 Pascal Merigeau 
 Danielle Attali 2.5
 Christophe Carriére 2.5
- Indiewire:
+ Indiewire: (17)
 Raffi Asdourian 3 C
 Anna Bielak 5 B-
 Alex Billington
@@ -1339,6 +1347,7 @@ Frédéric Jaeger
 Emanuel Levy 9 A
 Patrick Z. McGavin 9 A
 Michał Oleszczyk 2 C-
+Eric D. Snider 1 D
  Other:
 Drew McWeeny (InContention, USA) 2 C-
 Peter Bradshaw 8
@@ -1549,7 +1558,7 @@ Pierre Fornerod 7.5
 Pascal Merigeau 7.5
 Danielle Attali 7.5
 Christophe Carriére 9
- Indiewire:
+ Indiewire: (4)
 Raffi Asdourian
 Anna Bielak
 Alex Billington
@@ -1864,8 +1873,8 @@ Pierre Fornerod 7.5
 Pascal Merigeau 2.5
 Danielle Attali 5
 Christophe Carriére 5
- Indiewire:
-Raffi Asdourian
+ Indiewire: (14)
+Raffi Asdourian 6 B
 Anna Bielak
 Alex Billington 4 C+
 David Fear 3 C
@@ -1879,6 +1888,7 @@ Frédéric Jaeger 8 A-
 Emanuel Levy 7 B+
 Patrick Z. McGavin 5 B-
 Michał Oleszczyk
+Anne Thompson 7 B+
 Sarah Watt 6 B
  Other:
 Peter Bradshaw 8
