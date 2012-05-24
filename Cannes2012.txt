@@ -2636,7 +2636,7 @@ for (split /\n/, $DATA) { #chomp;
       ($critic,$mag,$cn) = ($1, $2, $3);
     } elsif (/^(\S.+) \((.+)\)/) {
       ($critic,$mag,$cn) = ($1,undef,$2);
-    } elsif (/^([^\(]+)\s+\d/) {
+    } elsif (/^(\S[^\(]+)\s+\d/) {
       ($critic,$mag,$cn) = ($1,undef,undef);
       $critic =~ s/ +$//;
     }
