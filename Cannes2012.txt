@@ -3344,9 +3344,11 @@ for (split /\n/, $DATA) { #chomp;
 undef $DATA;
 my $HEADER = <<"EOF";
 <html><head><meta http-equiv="Content-type" content="'text/html';charset='iso-8859-1'"><title>All Cannes 2012 critics ratings</title></head><body>
-All Cannes 2012 critics ratings, scale 0-10.<p>
-<i>Forth edition of the Apitchang poll of films at Cannes 2012.
-This year with 45 international critics</i> - Diego Lerer<p>
+All Cannes 2012 critics ratings, scale 0-10. Collected by Reini Urban.<p>
+
+With the help of: 
+<i>"Forth edition of the Apitchang poll of films at Cannes 2012.
+This year with 45 international critics"</i> - Diego Lerer<p>
 
 <small>Updated daily from http://micropsia.otroscines.com/ (Diego Lerer <i> - first time in Cannes himself</i>) (la crema), http://www.ioncinema.com/ (okay), Le film français (eclectic), Screen Daily (mainstream), Indiewire (mixed) and more critics.<br>
 Same as <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">last years</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
