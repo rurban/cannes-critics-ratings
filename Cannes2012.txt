@@ -377,20 +377,20 @@ Blake Williams 8.5
 Liu Min 
 Eric Kohn 
  Le film français:
-Stéphanie Lamome 
-Arnaud schwartz 
-Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
-Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
+Stéphanie Lamome 7.5
+Arnaud schwartz 2.5
+Fabrice Leclerc 9
+Eric Neuhoff 1
+Stéphane Delorme 9
+Jaques Mandelbaum 9
+Philippe Rouyer 2.5
+Pierre Vavasseur 5
+Pierre Murat 9
+Jean Roy 5
+Serge Kaganski 9
+Pierre Fornerod 2.5
+Pascal Merigeau 7.5
+Danielle Attali 7.5
 Christophe Carriére 
  Other:
 Simon Gallagher 7 B+
@@ -1407,19 +1407,19 @@ Liu Min
 Eric Kohn 
  Le film français:
 Stéphanie Lamome 
-Arnaud schwartz 
+Arnaud schwartz 2.5
 Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
-Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
+Eric Neuhoff 5
+Stéphane Delorme 2.5
+Jaques Mandelbaum 5
+Philippe Rouyer 5
+Pierre Vavasseur 2.5
+Pierre Murat 5
+Jean Roy 2.5
+Serge Kaganski 2.5
+Pierre Fornerod 5
+Pascal Merigeau 7.5
+Danielle Attali 5
 Christophe Carriére 
  Other:
 Simon Gallagher 2 C-
@@ -1842,11 +1842,11 @@ Philippe Rouyer
 Pierre Vavasseur 
 Pierre Murat 
 Jean Roy 
-Serge Kaganski 
+Serge Kaganski 5
 Pierre Fornerod 
 Pascal Merigeau 
 Danielle Attali 
-Christophe Carriére 
+Christophe Carriére 2.5
  Other:
 Mike d'Angelo 4.6 - Suleiman's film is typically good, Noé's is scary-sensual, everything else is passable to dreck to Medem.
 
@@ -1863,14 +1863,14 @@ Sergio Wolf 4
 Stéphanie Lamome 7.5
 Arnaud schwartz 
 Fabrice Leclerc 
-Eric Neuhoff 
+Eric Neuhoff      1
 Stéphane Delorme 
 Jaques Mandelbaum 7.5
 Philippe Rouyer 7.5
 Pierre Vavasseur 
 Pierre Murat 7.5
 Jean Roy 5
-Serge Kaganski 
+Serge Kaganski 5
 Pierre Fornerod 5
 Pascal Merigeau 7.5
 Danielle Attali 7.5
@@ -1944,19 +1944,19 @@ Luciano Barisone 6
 Mike d'Angelo W/O
  Le film français:
 Stéphanie Lamome 
-Arnaud schwartz 
+Arnaud schwartz 7.5
 Fabrice Leclerc 
 Eric Neuhoff 
 Stéphane Delorme 
 Jaques Mandelbaum 
-Philippe Rouyer 
+Philippe Rouyer 7.5
 Pierre Vavasseur 
-Pierre Murat 
+Pierre Murat 7.5
 Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
+Serge Kaganski 9
+Pierre Fornerod 7.5
+Pascal Merigeau 5
+Danielle Attali 5
 Christophe Carriére 
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
