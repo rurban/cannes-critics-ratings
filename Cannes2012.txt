@@ -1812,6 +1812,7 @@ Diego Batlle 6
 Diego Lerer 5.8
 Eulalia Iglesias 4
 Fernando Ganzo 2
+Fernando Juan Lima 2
 Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
