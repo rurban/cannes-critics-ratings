@@ -202,7 +202,7 @@ Luciano Barisone 8
 Manu Yáñez 7
 Marcelo Alderete 7
 Nando Salva 8.5
-Neil Young 7
+Neil Young 7 B
 Olivier Père 7.5
 Pamela Bienzobas 7.5
 Pedro Butcher 8
@@ -228,7 +228,7 @@ Kevin Jagernauth
 James Rocchi 9
 Cédric Succivalli 6
 Clarence Tsui 6
-Blake Williams 5
+Blake Williams 5 C+
 Liu Min 5
  Le film français:
 Stéphanie Lamome 7.5
@@ -260,7 +260,7 @@ Screen International 7.5
  Metacritic (12):
 Karina Longworth 9
 Andrew Schenker (Slant, USA) 8.8
-Eric Kohn 8.3
+Eric Kohn 8.3 B+
 Keith Uhlich 8
 Richard Corliss (Time, USA) 8
 Kevin Harley (Total Film, USA) 8
@@ -270,6 +270,38 @@ Pete Hammond (Boxoffice Magazine, USA) 8
 Peter Debruge (Variety, USA) 7
 David Edelstein (New York Magazine-Vulture, USA) 7
 Nev Pierce (Empire, USA) 8
+ Indiewire (35):
+Simon Abrams 9 A
+Ryland Aldrich 9 A
+Raffi Asdourian 6 B
+Anna Bielak 7 B+
+Alex Billington 6 B
+David Ehrlich (Movies.com, Box Office Magazine, Reverse Shot) 8 A-
+David Fear 6 B
+Jon Frosch 7 B+
+Leda Galanou 6 B
+Clementine Gallot 9 A
+Stephen Garrett 1 D
+Michael Ghennam
+Glenn Heath Jr.
+Patrick Heidmann 7 B+
+Aaron Hillis 9 A
+Frédéric Jaeger 7 B-
+Peter Keogh (Boston Phoenix, USA) 9 A
+Chris Knipp (Filmleaf) 9 A
+Emanuel Levy 8 B
+Patrick Z. McGavin 8 A-
+Michał Oleszczyk 9 A
+Kristy Puchko Freelance, USA) 7 B+
+Jordan Raup (The Film Stage, USA) 5 B-
+James Rocchi 9 A
+Jonathan Rosenbaum 8 A-
+Eric D. Snider (Film.com, USA) 8 A-
+Anna Tatarska (Fandor, KINO, USA) 5 B-
+Drew Taylor (The Playlist, USA) 9 A
+Anne Thompson 8 A-
+Ignatiy Vishnevetsky (Freelance, USA) 7 B+
+Sarah Watt
  Other:
 Simon Gallagher 8 A-
 David Gritten (The Telegraph, UK) 8
@@ -350,7 +382,7 @@ Pierre Fornerod 7.5
 Pascal Merigeau 7.5
 Danielle Attali 9
 Christophe Carriére 7.5
- Indiewire:
+ Indiewire: (23)
 Ryland Aldrich 7 B+ 
 Raffi Asdourian 5 B-
 Anna Bielak 3 C
@@ -359,11 +391,13 @@ David Fear 7 B+
 Jon Frosch 7 B+
 Leda Galanou 8 A- 
 Stephen Garrett 8 A- 
+Glenn Heath Jr. 4 C+
 Aaron Hillis (GreenCine Daily) 9 A 
 Frédéric Jaeger 8 A-
-Patrick Z. McGavin (Lightsensitive.typepad.com) 6 B 
+Patrick Z. McGavin (Lightsensitive.typepad.com) 6 B
 Michał Oleszczyk 0.5 D
-Anne Thompson 7 B+
+Eric D. Snider (Film.com, USA) 7 B+
+Anne Thompson 8 A-
 Sarah Watt (Sunday Star Times, New Zealand) 10 A+
  Other:
 Peter Bradshaw 8
@@ -673,9 +707,9 @@ Isabelle Regnier 6
 Kevin Jagernauth 4
 Cédric Succivalli 
 Clarence Tsui 4
-Blake Williams 6
+Blake Williams 6 B-
 Liu Min 5
-Eric Kohn 8
+Eric Kohn 8 A-
  Screen Daily:
 Nick James 5
 David Stratton 5
@@ -703,18 +737,19 @@ Pierre Fornerod 5
 Pascal Merigeau 5
 Danielle Attali 5
 Christophe Carriére 7.5
- Indiewire:
-Michał Oleszczyk 7 B+
+ Indiewire: (18)
 Ryland Aldrich 8 A-
 Raffi Asdourian 8 A-
 David Fear 7 B+
 Jon Frosch (France 24) 3 C
 Leda Galanou 3 C 
 Stephen Garrett 5 B-
+Glenn Heath Jr. 6 B
 Patrick Heidmann 1.5 D+
 Aaron Hillis 7 B+
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 4 C+
+Michał Oleszczyk 7 B+
 Sarah Watt 8 A-
  Other:
 Peter Bradshaw 6
@@ -887,7 +922,7 @@ Pierre Fornerod 5
 Pascal Merigeau 2.5
 Danielle Attali 5
 Christophe Carriére 2.5
- Indiewire:
+ Indiewire: (24)
 Ryland Aldrich 8 A-
 Raffi Asdourian 6 B
 Anna Bielak 5 B-
@@ -896,11 +931,15 @@ David Fear 6 B
 Jon Frosch 5 B-
 Leda Galanou 6 B
 Stephen Garrett 6 B
+Michael Ghennam 5 B-
+Glenn Heath Jr. 5 B-
 Patrick Heidmann 4 C+
-Frédéric Jaeger 8 A-
-Emanuel Levy 5 B-
+Frédéric Jaeger
+Emanuel Levy
 Patrick Z. McGavin 2 C-
 Michał Oleszczyk 0 F
+Eric D. Snider 6 B
+Anne Thompson 6 B
 Sarah Watt 7 B+
  Other:
 Peter Bradshaw 4
@@ -993,7 +1032,7 @@ Jon Frosch 6 B
 Leda Galanou 3 C
 Clementine Gallot
 Stephen Garrett
-Michael Ghennam
+Michael Ghennam 5 B-
 Glenn Heath Jr. (Press Play, USA) 6 B
 Patrick Heidmann
 Aaron Hillis 7 B+
@@ -1376,16 +1415,17 @@ Pierre Fornerod 2.5
 Pascal Merigeau 2.5
 Danielle Attali 2.5
 Christophe Carriére 2.5
- IndieWire:
-Michał Oleszczyk 0 F
+ IndieWire: (15)
 Raffi Asdourian 3 C 
 Jon Frosch 2 C-
 Leda Galanou 3 C 
 Clementine Gallot 5 B- 
 Stephen Garrett 1 D 
 Michael Ghennam 1 D 
+Glenn Heath Jr. 1 D
 Kevin Jagernauth 2 C-
 Patrick Z. McGavin 3 C 
+Michał Oleszczyk 0 F
  Other:
 David Gritten (The Telegraph, UK) 4
 
@@ -1739,7 +1779,7 @@ Pierre Fornerod 2.5
 Pascal Merigeau 1
 Danielle Attali 7.5
 Christophe Carriére 5
- Indiewire:
+ Indiewire: (17)
 Ryland Aldrich 8 A-
 Anna Bielak 7 B+
 David Fear 8 A-
@@ -1751,6 +1791,7 @@ Aaron Hillis 6 B
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 6 B
 Michał Oleszczyk 2 C-
+Anna Tatarska 8 A-
  Other:
 Peter Bradshaw 6
 Simon Gallagher 2 C-
