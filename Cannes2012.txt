@@ -117,6 +117,7 @@ Keith Uhlich (Time Out New York, USA)
 Jon Frosch (France 24, France)
 Stephen Garrett (Time Out New York, USA)
 Michael Ghennam (Les Fiches du Cinéma)
+Glenn Heath Jr. (Press Play, USA)
 Aaron Hillis (GreenCine Daily, USA)
 Frédéric Jaeger (critic.de, Germany)
 Simon Abrams (Freelance, USA)
@@ -826,10 +827,10 @@ Eric Lavallée
 Fabien Lemercier 
 Guy Lodge 
 Isabelle Regnier 
-Kevin Jagernauth 7
+Kevin Jagernauth 7 B-
 Cédric Succivalli 8
 Clarence Tsui 3
-Blake Williams 6
+Blake Williams 6 B-
 Liu Min 
 Eric Kohn 
  Le film français:
@@ -858,6 +859,7 @@ Leda Galanou 3 C
 Clementine Gallot
 Stephen Garrett
 Michael Ghennam
+Glenn Heath Jr. (Press Play, USA) 6 B
 Patrick Heidmann
 Aaron Hillis 7 B+
 Frédéric Jaeger
@@ -944,7 +946,7 @@ Mike d'Angelo 3
 #Carlos F. Heredero  
 Eric Lavallée 5 B-
 Fabien Lemercier 6
-Guy Lodge 
+Guy Lodge 4 C+
 Isabelle Regnier 
 Kevin Jagernauth 3 C-
 Cédric Succivalli 3
@@ -978,6 +980,7 @@ Leda Galanou 1 D
 Clementine Gallot (Cahiers du cinema, France) 5 B-
 Stephen Garrett 7 B+
 Michael Ghennam
+Glenn Heath Jr. 9 A
 Patrick Heidmann
 Aaron Hillis 5 B-
 Frédéric Jaeger
