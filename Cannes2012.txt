@@ -2635,7 +2635,7 @@ All Cannes 2012 critics ratings, scale 0-10.<p>
 <i>Forth edition of the Apitchang poll of films at Cannes 2012.
 This year with 45 international critics</i> - Diego Lerer<p>
 
-Updated daily from http://micropsia.otroscines.com/ (Diego Lerer <i> - first time in Canness himself</i>), 
+Updated daily from http://micropsia.otroscines.com/ (Diego Lerer <i> - first time in Cannes himself</i>), 
 http://www.ioncinema.com/, Le film français, Indiewire and more critics.
 Same as <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">last years</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
 All sections (updated daily, official selection Competition: bold)<p>
