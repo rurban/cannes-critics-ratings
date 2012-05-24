@@ -15,7 +15,7 @@
 # C+ 4    C 3   C- 2
 # D+ 1.5  D 1
 # E 0.5   F 0
-# French 0-4: 0-1, 1-2.5, 2-5, 3-7.5, 4-9
+# Le film français+Screen Daily 0-4: 0-1, 1-2.5, 2-5, 3-7.5, 4-9
 # British 0-5: x2
 
 use utf8;
@@ -87,7 +87,7 @@ Blake Williams (Ioncinema.com, Canada)
 Liu Min (Sina.com, China) 
 Eric Kohn (Indiewire, USA) 
 ";
-# Le film français
+# Le film français 0-4
 $critics[2] = "
 Stéphanie Lamome (Premiere, France)
 Arnaud schwartz (la Croix, France)
@@ -105,8 +105,21 @@ Pascal Merigeau (Observateur, France)
 Danielle Attali (Le Journal du Dimanche, France)
 Christophe Carriére (L'Express, France)
 ";
-# indiewire + various other
+# screen daily 0-4
 $critics[3] = "
+Nick James (Sight & Sound, UK)
+David Stratton (The Australian, Australia)
+Derek Malcolm (London Evening, UK)
+Jan Schulz-Ojala (Der Tagesspiegel, Germany)
+Jose Carlos Avellar (Brazil)
+Dennis Lim (The New York Times, USA)
+Michel Ciment (Positif, France)
+Kate Muir (The Times, UK)
+Bo Green Jensen (Weekandavisen Berlingske, Denmark)
+Screen International (Screen International, USA)
+";
+# indiewire + various other
+$critics[4] = "
 Peter Knegt (indieWIRE, USA) 
 Simon Gallagher (filmschoolrejects.com, USA) 
 Michał Oleszczyk (Freelance, USA)
@@ -156,7 +169,9 @@ Emanuel Levy (EmanuelLevy.com, USA)
 Richard Corliss (Time, USA)
 David Edelstein (New York Magazine-Vulture, USA)
 Nev Pierce (Empire, USA)
+Mark Adams (Screen Daily, USA)
 Allan Hunter (Screen Daily, USA)
+Lee Marshall (Screen Daily, USA)
 ";
 
 my $DATA= <<'EOF';
@@ -230,6 +245,17 @@ Pierre Fornerod 5
 Pascal Merigeau 2.5
 Danielle Attali 5
 Christophe Carriére 5
+ Screen Daily:
+Nick James 5
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 2
+Dennis Lim 7.5
+Michel Ciment 5
+Kate Muir 7.5
+Bo Green Jensen 7.5
+Screen International 7.5
  Metacritic (12):
 Karina Longworth 9
 Andrew Schenker (Slant, USA) 8.8
@@ -296,6 +322,17 @@ Clarence Tsui 7
 Blake Williams 4
 Liu Min 7
 Eric Kohn 7
+ Screen Daily:
+Nick James 5
+David Stratton 9
+Derek Malcolm 7.5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 7.5
+Dennis Lim 2.5
+Michel Ciment 9
+Kate Muir 7.5
+Bo Green Jensen 7.5
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 9
 Arnaud schwartz 5
@@ -376,6 +413,17 @@ Clarence Tsui
 Blake Williams 8.5
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 5
+David Stratton 5
+Derek Malcolm 2.5
+Jan Schulz-Ojala 1
+Jose Carlos Avellar 2.5
+Dennis Lim 9
+Michel Ciment 2.5
+Kate Muir 7.5
+Bo Green Jensen 9
+Screen International 5
  Le film français:
 Stéphanie Lamome 7.5
 Arnaud schwartz 2.5
@@ -414,6 +462,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -455,6 +514,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -522,6 +592,17 @@ Clarence Tsui
 Blake Williams 7
 Liu Min 
 Eric Kohn 7 B+
+ Screen Daily:
+Nick James 7.5
+David Stratton 9
+Derek Malcolm 5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 5
+Dennis Lim 5
+Michel Ciment 7.5
+Kate Muir 7.5
+Bo Green Jensen 7.5
+Screen International 9
  Le film français:
 Stéphanie Lamome 5
 Arnaud schwartz 5
@@ -588,6 +669,17 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 5
 Eric Kohn 8
+ Screen Daily:
+Nick James 5
+David Stratton 5
+Derek Malcolm 5
+Jan Schulz-Ojala 2.5
+Jose Carlos Avellar 5
+Dennis Lim 5
+Michel Ciment 5
+Kate Muir 5
+Bo Green Jensen 5
+Screen International 5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 7.5
@@ -670,6 +762,17 @@ Clarence Tsui 8
 Blake Williams 7
 Liu Min 7
 Eric Kohn 8 A-
+ Screen Daily:
+Nick James 9
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 9
+Jose Carlos Avellar 7.5
+Dennis Lim 5
+Michel Ciment 7.5
+Kate Muir 9
+Bo Green Jensen 7.5
+Screen International 9
  Le film français:
 Stéphanie Lamome 9
 Arnaud schwartz 9
@@ -750,6 +853,17 @@ Clarence Tsui 5
 Blake Williams 4 C
 Liu Min 
 Eric Kohn 2 C-
+ Screen Daily:
+Nick James 2.5
+David Stratton 7.5
+Derek Malcolm 5
+Jan Schulz-Ojala 2.5
+Jose Carlos Avellar 2.5
+Dennis Lim 2.5
+Michel Ciment 5
+Kate Muir 5
+Bo Green Jensen 5
+Screen International 5
  Le film français (Des Hommes sans loi)
 Stéphanie Lamome 7.5
 Arnaud schwartz 5
@@ -836,6 +950,17 @@ Clarence Tsui 3
 Blake Williams 6 B-
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 5
+David Stratton 
+Derek Malcolm 5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 2.5
+Dennis Lim 7.5
+Michel Ciment 2.5
+Kate Muir 5
+Bo Green Jensen 7.5
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 2.5
 Arnaud schwartz 2.5
@@ -892,6 +1017,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -957,6 +1093,17 @@ Clarence Tsui
 Blake Williams 8 B+
 Liu Min 
 Eric Kohn 7 B+
+ Screen Daily:
+Nick James 5
+David Stratton 5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 5
+Dennis Lim 7.5
+Michel Ciment 7.5
+Kate Muir 7.5
+Bo Green Jensen 5
+Screen International 5
  Le film français:
 Stéphanie Lamome 2.5
 Arnaud schwartz 2.5
@@ -1029,6 +1176,17 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 
 Eric Kohn 4
+ Screen Daily:
+Nick James 7.5
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 9
+Dennis Lim 2.5
+Michel Ciment 7.5
+Kate Muir 7.5
+Bo Green Jensen 5
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 5
 Arnaud schwartz 5
@@ -1094,6 +1252,17 @@ Clarence Tsui
 Blake Williams 8 A-
 Liu Min 10
 Eric Kohn 6 B
+ Screen Daily:
+Nick James 7.5
+David Stratton 9
+Derek Malcolm 9
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 9
+Dennis Lim 5
+Michel Ciment 9
+Kate Muir 5
+Bo Green Jensen 7.5
+Screen International 9
  Le film français:
 Stéphanie Lamome 7.5
 Arnaud schwartz 7.5
@@ -1173,6 +1342,17 @@ Clarence Tsui 6
 Blake Williams 3
 Liu Min 4
 Eric Kohn 5
+ Screen Daily:
+Nick James 2.5
+David Stratton 2.5
+Derek Malcolm 5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 5
+Dennis Lim 2.5
+Michel Ciment 2.5
+Kate Muir 2.5
+Bo Green Jensen 5
+Screen International 5
  Le film français:
 Stéphanie Lamome 2.5
 Arnaud schwartz 2.5
@@ -1220,6 +1400,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1284,6 +1475,17 @@ Clarence Tsui 6
 Blake Williams 5 C+
 Liu Min 
 Eric Kohn 6 B
+ Screen Daily:
+Nick James 5
+David Stratton 5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 9
+Dennis Lim 5
+Michel Ciment 9
+Kate Muir 5
+Bo Green Jensen 5
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 7.5
 Arnaud schwartz 9
@@ -1352,6 +1554,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1406,6 +1619,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 5
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 9
+Dennis Lim 
+Michel Ciment 7.5
+Kate Muir 5
+Bo Green Jensen 7.5
+Screen International 5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 2.5
@@ -1424,6 +1648,7 @@ Danielle Attali 5
 Christophe Carriére 
  Other:
 Simon Gallagher 2 C-
+Lee Marshall (Screen Daily, USA) 4
 
 "PARADIES : Liebe (PARADISE : Love)" (Ulrich Seidl) [Competition]
 Alejandro G. Calvo 3
@@ -1472,6 +1697,17 @@ Clarence Tsui 4
 Blake Williams 6
 Liu Min 4
 Eric Kohn 
+ Screen Daily:
+Nick James 5
+David Stratton 2.5
+Derek Malcolm 2.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 1
+Dennis Lim 7.5
+Michel Ciment 5
+Kate Muir 2.5
+Bo Green Jensen 2.5
+Screen International 5
  Le film français:
 Stéphanie Lamome 7.5
 Arnaud schwartz 5
@@ -1545,6 +1781,17 @@ Clarence Tsui
 Blake Williams 6 B-
 Liu Min 10
 Eric Kohn 
+ Screen Daily:
+Nick James 7.5
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 7.5
+Dennis Lim 5
+Michel Ciment 5
+Kate Muir 9
+Bo Green Jensen 9
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 2.5
 Arnaud schwartz 7.5
@@ -1600,6 +1847,17 @@ Clarence Tsui
 Blake Williams 
 Liu Min 
 Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
