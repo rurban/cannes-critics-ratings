@@ -1513,7 +1513,7 @@ Mike d'Angelo 4
 #Carlos F. Heredero 2
 Eric Lavallée 
 Fabien Lemercier 4
-Guy Lodge 2 D+
+Guy Lodge 1.5 D+
 Isabelle Regnier 2
 Kevin Jagernauth 4
 Cédric Succivalli 2
@@ -3294,7 +3294,7 @@ José Luis de Lorenzo 8
 Luciano Barisone 7
 Marcelo Alderete 7
 Nando Salva 7.5
-Neil Young 4
+Neil Young 4 C
 Pedro Butcher 8
 Philipp Engel 6.5
 Robert Koehler 8
@@ -3302,13 +3302,33 @@ Roger Alan Koza  7.5
 Sergio Wolf 7
 Violeta Kovacsics 7
 Xavi Serra  6
-Mike d'Angelo 4.1
-Peter Bradshaw 6
-Blake Williams 2.6
- Indiewire:
+ Indiewire:(11)
+Simon Abrams 8 A-
+Ryland Aldrich 6 B
+Raffi Asdourian 1 D-
+Mike d'Angelo 4.1 C
+Anna Bielak
+Alex Billington
+David Fear
+Jon Frosch
+Leda Galanou
+Clementine Gallot
+Stephen Garrett
+Michael Ghennam
+Glenn Heath Jr.
+Patrick Heidmann
+Aaron Hillis 2 C-
+Frédéric Jaeger
+Emanuel Levy
+Eric Kohn 6 B
+Patrick Z. McGavin 8 A-
 Michał Oleszczyk 7 B+
+Anna Tatarska 5 B-
+Sarah Watt
+Blake Williams 2.6 D+
  Other:
 Ruta Buciunaite 6
+Peter Bradshaw 6
 
 "TRASHED" (Candida Brady) 
 Neil Young 6
