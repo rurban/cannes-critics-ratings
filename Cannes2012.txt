@@ -2090,7 +2090,7 @@ Christophe Beney
 David Calhoun 
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 5.0
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -2854,6 +2854,7 @@ Pedro Butcher 1.5
 Peter Bradshaw 4
 
 "AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine]
+  Semaine Grand Prize
 Carlos F. Heredero 6.5
 Neil Young 4
 Roger Alan Koza  4.7
@@ -2866,6 +2867,7 @@ Martial Pisani 3.1
 Philipp Engel 8
 
 "LES VOISINS DE DIEU" (Meni Yaesh) [Semaine]
+   Gaul's Society of Authors, Directors and Composers award
 Eulalia Iglesias 3.5
 Rudiger Suchsland  7
  
@@ -2878,6 +2880,7 @@ Javier H. Estrada 6.3
 Sergio Wolf 6
 
 "LOS SALVAJES" (Alejandro Fadel) [Semaine]
+  ACID/CCAS support price for distribution
 Alejandro G. Calvo 7
 Carlo Chatrian 5
 Diego Batlle 8.8
@@ -2890,6 +2893,7 @@ Sergio Wolf 8
 Violeta Kovacsics 7
 
 "SOFIA'S LAST AMBULANCE" (Ilian Metev) [Semaine]
+  Visionary Price Semaine
 Neil Young 6
 
 "AUGUSTINE" (Alice Winocour) [Semaine]
