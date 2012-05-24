@@ -3227,6 +3227,9 @@ Luciano Barisone 3
 Pedro Butcher 5
 Scott Foundas  3
 Mike d'Angelo
+ Indiewire: (2)
+Clementine Gallot 3 C
+Kevin Jagernauth 5 B
  Other:
 Peter Bradshaw 6
 Simon Gallagher 5 B-
@@ -3269,7 +3272,7 @@ Diego Lerer 7.2
 Fernando Ganzo 6
 Jaime Pena 7
 José Luis de Lorenzo 8
-Neil Young 5
+Neil Young 5 C+
 Pedro Butcher 6
 Robert Koehler 4
 Roger Alan Koza  6.7
