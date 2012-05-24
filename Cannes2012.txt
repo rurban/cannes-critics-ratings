@@ -267,6 +267,7 @@ Javier H. Estrada 4
 José Luis de Lorenzo 3
 Luciano Barisone 5
 Manu Yáñez 2
+Marcelo Alderete 1
 Nando Salva 6.5
 Neil Young 6
 Pamela Bienzobas 5
@@ -338,7 +339,7 @@ Carlo Chatrian 8
 Carlos F. Heredero 7.5
 Carlos Reviriego 9.5
 Cristina Nord 9
-Diego Batlle 6.7
+Diego Batlle 6.8
 Diego Lerer 7.2
 Eulalia Iglesias 9.2
 Fernando Ganzo 8
@@ -355,6 +356,7 @@ Roger Alan Koza  9
 Rudiger Suchsland  8.5
 Sergio Wolf 10
 Scott Foundas  8.5
+Violeta Kovacsics 9
 Xavi Serra 8.1
  IonCinema:
 Christophe Beney
@@ -429,12 +431,18 @@ Danielle Attali
 Christophe Carriére 
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
+Alejandro G. Calvo 1
+Diego Batlle 3
+Diego Lerer 4.5
+Eulalia Iglesias 2
+Violeta Kovacsics 2
  IonCinema:
 Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 0.9
+  Lee Daniels: Worst filmmaker of our time, or worst filmmaker of all time?
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -462,6 +470,9 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Other:
+James Rocchi 0 F
+  Lurid, humid, squalid and stupid -- a massive failure in every way. bit.ly/KG7wqv
 
 "KILLING THEM SOFTLY" (Andrew Dominik) [Competition]
 Alejandro G. Calvo 8.1
@@ -488,6 +499,7 @@ Philipp Engel 7.5
 Robert Koehler 5
 Roger Alan Koza  5.5
 Scott Foundas  3
+Violeta Kovacsics 7
 Xavi Serra  7.5
  IonCinema:
 Christophe Beney 0
@@ -715,7 +727,7 @@ Philipp Engel 7
 Robert Koehler 3
 Rudiger Suchsland  6
 Scott Foundas  4
-Violeta Kovacsics 6.5
+Violeta Kovacsics 6
 Xavi Serra  6
  IonCinema:
 Christophe Beney 2
@@ -1247,7 +1259,7 @@ Robert Koehler 2
 Roger Alan Koza  8.7
 Rudiger Suchsland  3.5
 Scott Foundas  8
-Violeta Kovacsics 7.5
+Violeta Kovacsics 8.5
 Xavi Serra  6.5
  IonCinema:
 Christophe Beney 8
@@ -1305,11 +1317,16 @@ Peter Bradshaw 4
 Alejandro G. Calvo 4
 Carlos Reviriego 3.3
 Diego Batlle 6
+Diego Lerer 7.6
+Eulalia Iglesias 7.5
 Jaime Pena 3
 Javier H. Estrada 2.5
 Neil Young 3
+Pedro Butcher 3
 Philipp Engel 6
+Robert Koehler 10
 Roger Alan Koza  9
+Violeta Kovacsics 3
 Xavi Serra  2
  IonCinema:
 Christophe Beney
@@ -1359,14 +1376,17 @@ Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
 Neil Young 6
-Roger Alan Koza  4
+Pedro Butcher 6.5
+Robert Koehler 3
+Roger Alan Koza  2
+Violeta Kovacsics 2
 Xavi Serra  5.5
  IonCinema:
 Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 5.1
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -1494,6 +1514,7 @@ Jaime Pena 5
 Javier H. Estrada 4
 José Luis de Lorenzo 8
 Manu Yáñez 2
+Marcelo Alderete 1
 Nando Salva 2.5
 Pedro Butcher 2.5
 Robert Koehler 7.5
@@ -1687,6 +1708,7 @@ Diego Lerer 7.3
 Jaime Pena 4.5
 Javier H. Estrada 5
 Neil Young 7
+Roger Alan Koza  6.7
  Other:
 Mike d'Angelo 
   w/o This is an amazing year but UCR does seem kinda blah. Totally generic downtrodden-kid saga
@@ -1801,6 +1823,7 @@ Carlos F. Heredero 4.5
 Carlos Reviriego 3.5
 Dana Linssen 3.2
 Diego Batlle 4
+Diego Lerer 4.4
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1823,7 +1846,7 @@ Mike d'Angelo 4.6 - Suleiman's film is typically good, Noé's is scary-sensual, 
 
 "LE GRAND SOIR" (Benoit Delépine & Gustave Kervern) [Un Certain Regard]
 Carlo Chatrian 7.4
-Diego Batlle 8
+Diego Batlle 8.3
 Diego Lerer 8
 José Luis de Lorenzo 6
 Luciano Barisone 7
@@ -2027,6 +2050,7 @@ Carlos F. Heredero 3
 Carlos Reviriego 4.5
 Fernando Juan Lima 4.5
 Jaime Pena 4
+Marcelo Alderete 3
  Le film français:
 Stéphanie Lamome 5
 Arnaud schwartz 2.5
@@ -2116,11 +2140,12 @@ Tim Grierson 6 B
 Guy Lodge 6 B
 
 "DJECA" (Aida Begic) [Un Certain Regard]
-Diego Batlle 6.5
+Diego Batlle 6.8
 Diego Lerer 6.5
 Eulalia Iglesias 6.7
 Jaime Pena 4.5
 Luciano Barisone 8
+Robert Koehler 5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 5
@@ -2344,6 +2369,7 @@ Sergio Wolf 5
 
 "RENGAINE (HOLD BACK)" (Rachid Djaïdani) [Quinzaine]
 Carlo Chatrian 7.4
+Eulalia Iglesias 6
 Javier H. Estrada 8
 Luciano Barisone 7
 Neil Young 7
@@ -2388,7 +2414,8 @@ Carlos F. Heredero 7.5
 Diego Batlle 7
 Eulalia Iglesias 5.9
 Nando Salva 4
-Roger Alan Koza  7.5
+Roger Alan Koza  6.7
+Violeta Kovacsics 7
 Xavi Serra  4.5
 
 "THE WE AND THE I" (Michel Gondry) [Quinzaine]
@@ -2405,6 +2432,7 @@ Jaime Pena 6
 Javier H. Estrada 4
 Luciano Barisone 5
 Manu Yáñez 8
+Marcelo Alderete 3
 Nando Salva 6.5
 Noémie Luciani 3
 Philipp Engel 8.5
@@ -2488,6 +2516,7 @@ Diego Lerer 4.2
 Fernando Juan Lima 4
 Javier H. Estrada 3
 José Luis de Lorenzo 7
+Marcelo Alderete 2
 Nando Salva 4
 Neil Young 6
 Rudiger Suchsland  5
