@@ -5,6 +5,7 @@
 # https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
 # and 16 more western critics from http://www.ioncinema.com/ (scaled to 0-10)
 # french: http://www.lefilmfrancais.com/cannes2012/quotidien/ (scale 0-4)
+# http://content.yudu.com/Library/A1wwqk/ScreenCannesDay92012/resources/index.htm (scale 0-4)
 # us: http://www.indiewire.com/article/cannes-2012-a-guide-to-all-the-films
 # Published at http://rurban.xarch.at/film/Cannes2012.sorted.html
 # and https://github.com/rurban/cannes-critics-ratings
@@ -2176,7 +2177,7 @@ Eulalia Iglesias 3
 Fernando Juan Lima 2
 Javier H. Estrada 3
 José Luis de Lorenzo 4
-Neil Young 5
+Neil Young 5 C+
 Robert Koehler 2
 Roger Alan Koza  1
 Rudiger Suchsland  7
@@ -2196,6 +2197,25 @@ Pierre Fornerod 2.5
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire: (4)
+Raffi Asdourian 4 C+
+Anna Bielak
+Alex Billington
+David Fear
+Jon Frosch
+Leda Galanou
+Clementine Gallot
+Stephen Garrett
+Michael Ghennam 5 B-
+Glenn Heath Jr.
+Patrick Heidmann
+Aaron Hillis
+Frédéric Jaeger
+Emanuel Levy
+Patrick Z. McGavin
+Michał Oleszczyk
+Sarah Watt
+Blake Williams 4 C+
  Other:
 Peter Bradshaw 6
 Simon Gallagher 6 B
