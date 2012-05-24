@@ -2613,10 +2613,10 @@ EOF
 
 my (%critic,%badcritic,%title,@t);
 for my $c (@critics) {
-  for (split/\n/,$c) {
-    if (/^(.+) \((.+), (.+?)\)/) {
+  for (split/\n/,$c) { undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
       ($critic,$mag,$cn) = ($1, $2, $3);
-    } elsif (/^(.+) \((.+)\)/) {
+    } elsif (/^(\S.+) \((.+)\)/) {
       ($critic,$mag,$cn) = ($1,undef,$2);}
     next unless $critic;
     $critic{$critic}->{cn} = $cn if $cn;
@@ -2631,12 +2631,12 @@ for (split /\n/, $DATA) { #chomp;
     $title_dir = $_; $n = $s = 0; }
   elsif (/[\w\)] [-\x{2013} ]*(\d[\d.]*)/) {
     my $x = $1; $x =~ s/,/./g; $x = 10 if $x > 10; $x = 0 if $x < 0;
-    $s += $x; $n++;
-    if (/^(.+) \((.+), (.+?)\)/) {
+    $s += $x; $n++; undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
       ($critic,$mag,$cn) = ($1, $2, $3);
-    } elsif (/^(.+) \((.+)\)/) {
+    } elsif (/^(\S.+) \((.+)\)/) {
       ($critic,$mag,$cn) = ($1,undef,$2);
-    } elsif (/^([^\(]+)\s+\d/) {
+    } elsif (/^([^\( ]+)\s+\d/) {
       ($critic,$mag,$cn) = ($1,undef,undef);
       $critic =~ s/ +$//;
     }
@@ -2710,7 +2710,7 @@ END {
 	for (keys %{$title{$t}->{critic}}) {$sum += $title{$t}->{critic}->{$_}->[0]}
 	$title{$t}->{avg} = $sum / $n if $n}}}
 
-  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t;
+  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t; $i=1;
   for (@t) { $t = $_->[3]; my ($a,$s)=($title{$t}->{avg},0);
     for (keys %{$title{$t}->{critic}}) {
       my $v=$title{$t}->{critic}->{$_}->[0]; $s += ($v-$a)*($v-$a)}
@@ -2719,12 +2719,12 @@ END {
   for (@t) { $t = $_->[3];
     $n=$title{$t}->{num};$a=sprintf("%0.2f",$title{$t}->{avg}); next if $n<=3 or $a < 7.5; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
-    print "  $l \[$a/$n $s\]\n";}
+    printf "%2d. $l \[$a/$n $s\]\n", $i++;}
   print "</pre>\n\n<h1>Good Films (avg>6, n>3)</h1>\n<pre>\n";
   for (@t) { $t = $_->[3];
     $a=sprintf("%0.2f",$title{$t}->{avg}); $n=$title{$t}->{num}; next if $a < 6.0 or $a >= 7.5 or $n <= 3; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
-    print "  $l \[$a/$n $s\]\n"; }
+    printf "%2d. $l \[$a/$n $s\]\n", $i++; }
   print "</pre>\nThe rest is below 6, unacceptable for Cannes.\n";
 
   print "\n<h1>All official sections</h1>\n\n";
