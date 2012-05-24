@@ -61,7 +61,7 @@ Philipp Engel (Go Mag, España)
 Robert Koehler (Variety, USA) 
 Roger Alan Koza (La Voz del Interior, Con los ojos abiertos, Argentina) 
 Rudiger Suchsland (FAZ, Negativ-film, Germany) 
-Sergio Wolf (Argentina) 
+Sergio Wolf (BAFICI, Argentina) 
 Scott Foundas (Film Comment, USA) 
 Thomas Fioretti (Independencia, France) 
 Violeta Kovacsics (España) 
@@ -129,7 +129,7 @@ Anna Bielak (Smells Like Screen Spirit, USA)
 Anna Tatarska (Fandor, KINO, USA)
 Anne Thompson (Indiewire, USA) 
 Brian Brooks (indieWIRE, USA) 
-Chris Knipp (Filmleaf)
+Chris Knipp (Filmleaf, USA)
 Clementine Gallot (Cahiers du cinema, France)
 David Edelstein (New York Magazine-Vulture, USA)
 David Ehrlich (Movies.com, Box Office Magazine, Reverse Shot)
@@ -300,7 +300,7 @@ Chris Knipp (Filmleaf) 9 A
 Emanuel Levy 8 B
 Patrick Z. McGavin 8 A-
 Michał Oleszczyk 9 A
-Kristy Puchko Freelance, USA) 7 B+
+Kristy Puchko 7 B+
 Jordan Raup (The Film Stage, USA) 5 B-
 James Rocchi 9 A
 Jonathan Rosenbaum 8 A-
@@ -2717,37 +2717,37 @@ Tim Grierson 6 B
 Glenn Heath Jr.
 Patrick Heidmann 8 A-
 Aaron Hillis 5 B-
-Jordan Hoffman 8 A-
+Jordan Hoffman (ScreenCrush.com, USA) 8 A-
 Frédéric Jaeger 2 C-
-Christopher Kelly 4 C+
+Christopher Kelly (Dallas Fort-Worth Star Telegram, USA) 4 C+
 Peter Knegt 8 A-
 Peter Keogh 
 Chris Knipp 
 Eric Kohn 7 B+
 Megan Lehmann 
-Robert Levin 7 B+
-Shawn Levy 8 A-
+Robert Levin (amNew York, USA) 7 B+
+Shawn Levy (The Oregonian, USA) 8 A-
 Emanuel Levy
-John Lichmann 10 A+
+John Lichmann (Freelance, USA) 10 A+
 Patrick Z. McGavin 8 A-
-Michael Nordline 9 A
-Tambay Obenson 9 A
+Michael Nordline (Hammer to Nail, USA) 9 A
+Tambay Obenson (Shadow and Act, USA) 9 A
 Michał Oleszczyk
-Matt Patches 9 A
+Matt Patches (Hollywood.com, USA) 9 A
 Kristy Puchko 
 Jordan Raup 8 B+
-Bryce J Renninger 8 A-
+Bryce J Renninger (Indiewire, USA) 8 A-
 James Rocchi 
 Jonathan Rosenbaum
-Nigel Smith 8 A-
+Nigel Smith (Indiewire, USA) 8 A-
 Eric D. Snider
 Anna Tatarska 8 B+
-Amy Taubin 9 A
+Amy Taubin (Film Comment, USA) 9 A
 Drew Taylor 
 Anne Thompson 9 A
-Kim Voynar 9 A
+Kim Voynar (Movie City News, USA) 9 A
 Ignatiy Vishnevetsky 
-Chase Whale 9 A
+Chase Whale (Twitch Film, MTV's NextMovie, USA) 9 A
 Sarah Watt
  Other:
 Guy Lodge 6 B
