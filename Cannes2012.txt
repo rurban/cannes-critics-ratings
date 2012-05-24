@@ -377,6 +377,7 @@ Carlo Chatrian 8
 Carlos F. Heredero 7.5
 Carlos Reviriego 9.5
 Cristina Nord 9
+Dana Linssen 8.5
 Diego Batlle 6.8
 Diego Lerer 7.2
 Eulalia Iglesias 9.2
@@ -492,10 +493,15 @@ Christophe Carriére
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
 Alejandro G. Calvo 1
+Carlos F. Heredero 3
+Carlos Reviriego 2.5
+Cristina Nord 5.3
 Diego Batlle 3
 Diego Lerer 4.5
 Eulalia Iglesias 2
+Philipp Engel 1
 Violeta Kovacsics 2
+Xavi Serra  2
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -813,7 +819,7 @@ Alex Vicente 4
 Alexandra Zawia 4
 Carlo Chatrian 4.5
 Carlos F. Heredero 6.5
-Carlos Reviriego 6.4
+Carlos Reviriego 6.7
 Cristina Nord 3.8
 Dana Linssen 5.9
 Diego Batlle 6.5
@@ -1524,16 +1530,20 @@ Peter Bradshaw 4
 "POST TENEBRAS LUX" (Carlos Reygadas) [Competition]
 Alejandro G. Calvo 4
 Carlos Reviriego 3.3
+Cristina Nord 4.8
+Dana Linssen 8.1
 Diego Batlle 6
 Diego Lerer 7.6
 Eulalia Iglesias 7.5
 Jaime Pena 3
 Javier H. Estrada 2.5
+Luciano Barisone 8
 Neil Young 3
 Pedro Butcher 3
 Philipp Engel 6
 Robert Koehler 10
 Roger Alan Koza  9
+Rudiger Suchsland  8
 Violeta Kovacsics 3
 Xavi Serra  2
  IonCinema:
@@ -1590,16 +1600,20 @@ Alexandra Zawia 4
 Carlo Chatrian 4.81
 Carlos F. Heredero 3
 Carlos Reviriego 3
+Dana Linssen 6.9
 Diego Batlle 6
 Diego Lerer 5.8
 Eulalia Iglesias 4
+Fernando Ganzo 2
 Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
+Luciano Barisone 6
 Neil Young 6
 Pedro Butcher 6.5
 Robert Koehler 3
-Roger Alan Koza  2
+Roger Alan Koza  4
+Rudiger Suchsland  2.5
 Violeta Kovacsics 2
 Xavi Serra  5.5
  IonCinema:
@@ -1748,7 +1762,7 @@ Alex Vicente 3
 Alexandra Zawia 5
 Carlo Chatrian 5.5
 Carlos F. Heredero 5
-Carlos Reviriego 1.9
+Carlos Reviriego 2.5
 Diego Batlle 5
 Diego Lerer 5.2
 Eulalia Iglesias 4
@@ -1947,6 +1961,9 @@ Peter Bradshaw 6
 Simon Gallagher 6 B
 
 "MISS LOVELY" (Ashim Ahluwalia) [Un Certain Regard]
+Carlos Reviriego 4
+Diego Lerer 4.4
+José Luis de Lorenzo 4
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1969,12 +1986,15 @@ Alejandro G. Calvo 5
 Carlo Chatrian 5.8
 Carlos F. Heredero 6
 Carlos Reviriego 5
+Cristina Nord 6
+Dana Linssen 5.9
 Diego Batlle 6.5
 Diego Lerer 7.3
 Jaime Pena 4.5
 Javier H. Estrada 5
 Neil Young 7
-Roger Alan Koza  6.7
+Roger Alan Koza  6
+Rudiger Suchsland  5
  Other:
 Mike d'Angelo 
   w/o This is an amazing year but UCR does seem kinda blah. Totally generic downtrodden-kid saga
@@ -2021,6 +2041,9 @@ Danielle Attali
 Christophe Carriére 
 
 "TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
+Diego Batlle 6
+Diego Lerer 4.8
+Fernando Ganzo 3
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -2090,6 +2113,7 @@ Carlos Reviriego 3.5
 Dana Linssen 3.2
 Diego Batlle 4
 Diego Lerer 4.4
+Rudiger Suchsland  2.5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -2112,6 +2136,7 @@ Mike d'Angelo 4.6 - Suleiman's film is typically good, Noé's is scary-sensual, 
 
 "LE GRAND SOIR" (Benoit Delépine & Gustave Kervern) [Un Certain Regard]
 Carlo Chatrian 7.4
+Dana Linssen 6.1
 Diego Batlle 8.3
 Diego Lerer 8
 José Luis de Lorenzo 6
@@ -2280,6 +2305,7 @@ Alejandro G. Calvo 6
 Alexandra Zawia 5.5
 Carlos F. Heredero 4.5
 Carlos Reviriego 5
+Dana Linssen 6
 Diego Batlle 7.6
 Diego Lerer 7.5
 Eulalia Iglesias 4.8
@@ -2406,12 +2432,16 @@ Tim Grierson 6 B
 Guy Lodge 6 B
 
 "DJECA" (Aida Begic) [Un Certain Regard]
+Cristina Nord 4.8
+Dana Linssen 5.9
 Diego Batlle 6.8
 Diego Lerer 6.5
 Eulalia Iglesias 6.7
 Jaime Pena 4.5
+José Luis de Lorenzo 5
 Luciano Barisone 8
 Robert Koehler 5
+Rudiger Suchsland  7
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 5
@@ -2534,6 +2564,7 @@ Fernando Juan Lima 6
 Alejandro G. Calvo 5.8
 Carlos F. Heredero 7
 Carlos Reviriego 6.9
+Dana Linssen 6.1
 Diego Batlle 8
 Diego Lerer 8.6
 Eulalia Iglesias 7.1
@@ -2567,6 +2598,7 @@ Thomas Fioretti 5.6
 
 "ERNEST ET CÉLESTINE" (Stéphane Aubier, Vincent Patar & Benjamin Renner) [Quinzaine]
 Carlo Chatrian 6
+Dana Linssen 6.4
 Javier H. Estrada 4.5
 Sergio Wolf 7
 
@@ -2582,7 +2614,7 @@ Javier H. Estrada 4.5
 Thomas Fioretti 5.3
 
 "INFANCIA CLANDESTINA" (Benjamín Ávila) [Quinzaine]
-Carlos Reviriego 6.5
+Carlos Reviriego 6
 Diego Batlle 6.8
 Diego Lerer 6.8
 Eulalia Iglesias 4.5
@@ -2632,6 +2664,7 @@ Guy Lodge 8.5 A-
 Eric Kohn 9 A
 
 "OPÉRATION LIBERTAD" (Nicolas Wadimoff) [Quinzaine]
+Dana Linssen 5.9
 Javier H. Estrada 4
 Sergio Wolf 5
 
@@ -2671,6 +2704,7 @@ Mike d'Angelo 5.8
 
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
 Alexandra Zawia 3
+Cristina Nord 3.4
 Javier H. Estrada 6.7
 Marcelo Alderete 7
 Neil Young 8
@@ -2683,8 +2717,9 @@ Peter Bradshaw 6
 Carlos F. Heredero 7.5
 Diego Batlle 7
 Eulalia Iglesias 5.9
+Luciano Barisone 5
 Nando Salva 4
-Roger Alan Koza  6.7
+Roger Alan Koza  6
 Violeta Kovacsics 7
 Xavi Serra  4.5
  Other:
@@ -2728,6 +2763,7 @@ Diego Batlle 6
 Fernando Ganzo 6.5
 José Luis de Lorenzo 4
 Manu Yáñez 5.5
+Rudiger Suchsland  6
 Xavi Serra  6.5
  Indiewire:
 Mike d'Angelo 5.2
@@ -2815,7 +2851,11 @@ Peter Bradshaw 6
 Simon Gallagher 5 B-
 Emanuel Levy 7 B+
 
-"THE CENTRAL PARK FIVE" (Ken Burns, Sarah Burns y David McMahon) 
+"THE CENTRAL PARK FIVE" (Ken Burns, Sarah Burns y David McMahon) [Funciones Especiales]
+Alejandro G. Calvo 6
+Carlos Reviriego 5
+Philipp Engel 5
+Rudiger Suchsland  6.8
 
 "LES INVISIBLES" (Sébastien Lifshitz) 
 Carlo Chatrian 6.01
@@ -2827,6 +2867,7 @@ Luciano Barisone 6
 Carlo Chatrian 5.03
 Carlos F. Heredero 6
 Carlos Reviriego 6.2
+Dana Linssen 4.3
 Diego Lerer 7.2
 Eulalia Iglesias 6
 Jaime Pena 5
@@ -2900,15 +2941,6 @@ Michał Oleszczyk 6 B
 Eric Kohn 8 A-
 Neil Young 1 D-
 Tim Robey 7 B+
-
-
-"."
---
-https://docs.google.com/spreadsheet/ccc?key=0AmdgVGA_rtJzdHhmRmRtejhteGs1V0NiWVJhTWJOUlE
-http://www.ioncinema.com/
-http://twitter.com/#!/gemko
-
-http://rurban.xarch.at/film/Cannes2012.txt
 
 EOF
 
