@@ -129,7 +129,7 @@ David Fear (Time Out New York, USA)
 Keith Uhlich (Time Out New York, USA)
 Jon Frosch (France 24, France)
 Stephen Garrett (Time Out New York, USA)
-Michael Ghennam (Les Fiches du Cinéma)
+Michael Ghennam (Les Fiches du Cinéma, France)
 Glenn Heath Jr. (Press Play, USA)
 Aaron Hillis (GreenCine Daily, USA)
 Frédéric Jaeger (critic.de, Germany)
@@ -172,6 +172,7 @@ Nev Pierce (Empire, USA)
 Mark Adams (Screen Daily, USA)
 Allan Hunter (Screen Daily, USA)
 Lee Marshall (Screen Daily, USA)
+Clementine Gallot (Cahiers du cinema, France)
 ";
 
 my $DATA= <<'EOF';
@@ -352,8 +353,8 @@ Christophe Carriére 7.5
  Indiewire:
 Ryland Aldrich 7 B+ 
 Raffi Asdourian 5 B-
-Anna Bielak (Smells Like Screen Spirit) 3 C
-Alex Billington (FirstShowing.net, USA) 9 A-
+Anna Bielak 3 C
+Alex Billington 9 A-
 David Fear 7 B+ 
 Jon Frosch 7 B+
 Leda Galanou 8 A- 
@@ -1380,9 +1381,9 @@ Michał Oleszczyk 0 F
 Raffi Asdourian 3 C 
 Jon Frosch 2 C-
 Leda Galanou 3 C 
-Clementine Gallot (Cahiers du Cinema) 5 B- 
+Clementine Gallot 5 B- 
 Stephen Garrett 1 D 
-Michael Ghennam (Les Fiches du Cinéma) 1 D 
+Michael Ghennam 1 D 
 Kevin Jagernauth 2 C-
 Patrick Z. McGavin 3 C 
  Other:
