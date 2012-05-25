@@ -525,6 +525,7 @@ Drew McWeeny 10 A+
 "COSMOPOLIS" (David Cronenberg) [Competition]
 Alejandro G. Calvo 9.5
 Diego Batlle 7.5
+Diego Lerer 8.2
 Fernando Ganzo 6
 Francisco Ferreira 9.5
  IonCinema:
@@ -589,7 +590,7 @@ Carlos F. Heredero 3
 Carlos Reviriego 2.5
 Cristina Nord 5.3
 Diego Batlle 3
-Diego Lerer 4.5
+Diego Lerer 4
 Eulalia Iglesias 2
 Francisco Ferreira 1
 Jaime Pena 4.5
@@ -3114,6 +3115,7 @@ Alexandra Zawia 3
 Carlos Reviriego 5.5
 Cristina Nord 3.4
 Fernando Ganzo 5
+Jaime Pena 7.6
 Javier H. Estrada 6.7
 Marcelo Alderete 7
 Neil Young 8
@@ -3128,6 +3130,7 @@ Carlos F. Heredero 7.5
 Carlos Reviriego 4.5
 Diego Batlle 7
 Eulalia Iglesias 5.9
+Jaime Pena 5.1
 Luciano Barisone 5
 Nando Salva 4
 Roger Alan Koza  6
@@ -3312,6 +3315,7 @@ Emanuel Levy 7 B+
 Alejandro G. Calvo 6
 Carlo Chatrian 4.88
 Carlos Reviriego 5
+Jaime Pena 7
 Luciano Barisone 6
 Philipp Engel 5
 Rudiger Suchsland  6.8
