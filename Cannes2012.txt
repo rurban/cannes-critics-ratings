@@ -100,7 +100,7 @@ Philippe Rouyer (Positif, France)
 Pierre Vavasseur (le Parisien, France)
 Pierre Murat (Telerama, France)
 Jean Roy (l'Humanite, France)
-Serge Kaganski (inRockuptibles, France)
+Serge Kaganski (Les Inrockuptibles, France)
 Pierre Fornerod (oeust france, France)
 Pascal Merigeau (Observateur, France)
 Danielle Attali (Le Journal du Dimanche, France)
@@ -532,7 +532,7 @@ Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 5.9
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -571,6 +571,15 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Other:
+Simon Abrams 9 A
+James Rocchi 8 (4/5)
+Serge Kaganski (Les Inrockuptibles, France) 10
+Francois Forestier (Le nouvel Observateur, France) 8
+Pierre Murat 8
+Fabrice Leclerc 8
+Mathieu Carratier (Premiere, France) 7.5 (3/4)
+# (Phychologies, Russia) 9 (4/4)
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
 Alejandro G. Calvo 1
