@@ -3548,7 +3548,7 @@ END {
   for my $c (keys %badcritic) {
     for my $t (keys %title) {
       if ($title{$t}->{critic}->{$c}) {
-        $title{$t}->{num}--; my ($n,$sum)=(0,0);
+        $title{$t}->{num}--; my ($n,$sum)=($title{$t}->{num},0);
 	delete $title{$t}->{critic}->{$c};
 	for (keys %{$title{$t}->{critic}}) {$sum += $title{$t}->{critic}->{$_}->[0]}
 	$title{$t}->{avg} = $sum / $n if $n}}}
