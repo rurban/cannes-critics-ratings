@@ -415,7 +415,7 @@ David Gritten (The Telegraph, UK) 8
 Emanuel Levy 7 B+
 
 "HOLY MOTORS" (Leos Carax) [Competition]
-Alejandro G. Calvo 8.1
+Alejandro G. Calvo 8.5
 Alexandra Zawia 7.5
 Carlo Chatrian 8
 Carlos F. Heredero 7.5
@@ -440,23 +440,23 @@ Rudiger Suchsland  8.5
 Sergio Wolf 10
 Scott Foundas  8.5
 Violeta Kovacsics 9
-Xavi Serra 8.1
+Xavi Serra 8.2
  IonCinema:
-Christophe Beney
-David Calhoun
-Per Juul Carlsen 
-Paola Casella 
+Christophe Beney 8
+David Calhoun 4
+Per Juul Carlsen 9
+Paola Casella 8
 Mike d'Angelo 8.8
 #Carlos F. Heredero  
 Eric Lavallée 
-Fabien Lemercier 
+Fabien Lemercier 6
 Guy Lodge 9 A-
-Isabelle Regnier 
-Kevin Jagernauth 
-Cédric Succivalli 
+Isabelle Regnier 10
+Kevin Jagernauth 5
+Cédric Succivalli 10
 Clarence Tsui 
-Blake Williams 8.5 A-
-Liu Min 
+Blake Williams 9 A-
+Liu Min 9
 Eric Kohn 8 A-
  Screen Daily:
 Nick James 5
@@ -571,31 +571,34 @@ Christophe Carriére
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
 Alejandro G. Calvo 1
+Carlo Chatrian 4
 Carlos F. Heredero 3
 Carlos Reviriego 2.5
 Cristina Nord 5.3
 Diego Batlle 3
 Diego Lerer 4.5
 Eulalia Iglesias 2
+Jaime Pena 4.5
+Manu Yáñez 3
 Philipp Engel 1
 Violeta Kovacsics 2
 Xavi Serra  2
  IonCinema:
-Christophe Beney
-David Calhoun
+Christophe Beney 
+David Calhoun 
 Per Juul Carlsen 
-Paola Casella 
+Paola Casella 2
 Mike d'Angelo 0.9
   Lee Daniels: Worst filmmaker of our time, or worst filmmaker of all time?
 #Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
+Eric Lavallée 5
+Fabien Lemercier 4
 Guy Lodge 5 B-
 Isabelle Regnier 
 Kevin Jagernauth 
-Cédric Succivalli 
+Cédric Succivalli 3
 Clarence Tsui 
-Blake Williams 
+Blake Williams 5
 Liu Min 
 Eric Kohn 1.5 D+
  Screen Daily:
@@ -1322,7 +1325,7 @@ Kevin Jagernauth
 Cédric Succivalli 6
 Clarence Tsui 4
 Blake Williams 6
-Liu Min 
+Liu Min 6
 Eric Kohn 4
  Screen Daily:
 Nick James 7.5
@@ -1387,6 +1390,59 @@ Sarah Watt
 Peter Bradshaw 8
 Allan Hunter (Screen Daily, USA) 6
 Simon Gallagher 9 A
+
+"IM NEBEL (IN THE FOG) " (Sergei Loznitsa) [Competition]
+Alejandro G. Calvo 7
+Carlo Chatrian 7.5
+Carlos F. Heredero 8
+Carlos Reviriego 7.8
+Diego Lerer 7.2
+Fernando Ganzo 4.5
+Jaime Pena 6
+ IonCinema:
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 
+Paola Casella 
+Mike d'Angelo 5.0
+#Carlos F. Heredero  
+Eric Lavallée 
+Fabien Lemercier 
+Guy Lodge 
+Isabelle Regnier 
+Kevin Jagernauth 
+Cédric Succivalli 
+Clarence Tsui 
+Blake Williams 
+Liu Min 
+Eric Kohn 
+ Screen Daily:
+Nick James 
+David Stratton 
+Derek Malcolm 
+Jan Schulz-Ojala 
+Jose Carlos Avellar 
+Dennis Lim 
+Michel Ciment 
+Kate Muir 
+Bo Green Jensen 
+Screen International 
+ Le film français:
+Stéphanie Lamome 
+Arnaud schwartz 
+Fabrice Leclerc 
+Eric Neuhoff 
+Stéphane Delorme 
+Jaques Mandelbaum 
+Philippe Rouyer 
+Pierre Vavasseur 
+Pierre Murat 
+Jean Roy 
+Serge Kaganski 
+Pierre Fornerod 
+Pascal Merigeau 
+Danielle Attali 
+Christophe Carriére 
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
 Alejandro G. Calvo 8.6
@@ -1705,6 +1761,7 @@ Peter Bradshaw 4
 
 "POST TENEBRAS LUX" (Carlos Reygadas) [Competition]
 Alejandro G. Calvo 4
+Carlo Chatrian 5
 Carlos Reviriego 3.3
 Cristina Nord 4.8
 Dana Linssen 8.1
@@ -1714,7 +1771,8 @@ Eulalia Iglesias 7.5
 Jaime Pena 3
 Javier H. Estrada 2.5
 Luciano Barisone 8
-Neil Young 3 D+
+Manu Yáñez 3
+Neil Young 3
 Pedro Butcher 3
 Philipp Engel 6
 Robert Koehler 10
@@ -1723,22 +1781,22 @@ Rudiger Suchsland  8
 Violeta Kovacsics 3
 Xavi Serra  2
  IonCinema:
-Christophe Beney
+Christophe Beney 2
 David Calhoun
-Per Juul Carlsen 
+Per Juul Carlsen 6
 Paola Casella 
 Mike d'Angelo 4.8
   for now. If demystified, could be 84. Tho' the feeling of ultra-super-mega-pretentiousness might linger.
 #Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
+Eric Lavallée 6
+Fabien Lemercier 4
 Guy Lodge 
-Isabelle Regnier 
+Isabelle Regnier 2
 Kevin Jagernauth 
-Cédric Succivalli 
+Cédric Succivalli 1
 Clarence Tsui 
-Blake Williams 2 C- 
-Liu Min 
+Blake Williams 4 C- 
+Liu Min 6
 Eric Kohn 5 B-
  Screen Daily:
 Nick James 
@@ -1815,10 +1873,12 @@ Diego Lerer 5.8
 Eulalia Iglesias 4
 Fernando Ganzo 2
 Fernando Juan Lima 2
+Francisco Ferreira 2
 Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
 Luciano Barisone 6
+Manu Yáñez 3
 Neil Young 6
 Pedro Butcher 6.5
 Robert Koehler 3
@@ -1827,21 +1887,21 @@ Rudiger Suchsland  2.5
 Violeta Kovacsics 2
 Xavi Serra  5.5
  IonCinema:
-Christophe Beney
-David Calhoun
-Per Juul Carlsen 
-Paola Casella 
+Christophe Beney 
+David Calhoun 
+Per Juul Carlsen 5 
+Paola Casella 4
 Mike d'Angelo 5.1
 #Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
-Guy Lodge 
+Eric Lavallée 5
+Fabien Lemercier 4
+Guy Lodge 4
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 
 Clarence Tsui 
 Blake Williams 
-Liu Min 
+Liu Min 6
 Eric Kohn 
  Screen Daily:
 Nick James 5
@@ -2087,52 +2147,6 @@ Peter Bradshaw 8
 Ruta Buciunaite 10
 Simon Gallagher 10 A+
 
-"IN THE FOG" (Sergei Loznitsa) [Competition]
- IonCinema:
-Christophe Beney 
-David Calhoun 
-Per Juul Carlsen 
-Paola Casella 
-Mike d'Angelo 5.0
-#Carlos F. Heredero  
-Eric Lavallée 
-Fabien Lemercier 
-Guy Lodge 
-Isabelle Regnier 
-Kevin Jagernauth 
-Cédric Succivalli 
-Clarence Tsui 
-Blake Williams 
-Liu Min 
-Eric Kohn 
- Screen Daily:
-Nick James 
-David Stratton 
-Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
- Le film français:
-Stéphanie Lamome 
-Arnaud schwartz 
-Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
-Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
-Christophe Carriére 
-
 "THERESE DESQUEYROUX" (Claude Miller) [Out of Competition]
  IonCinema:
 Christophe Beney 
@@ -2224,8 +2238,10 @@ Peter Bradshaw 6
 Simon Gallagher 6 B
 
 "MISS LOVELY" (Ashim Ahluwalia) [Un Certain Regard]
+Carlo Chatrian 6.05
 Carlos Reviriego 4
 Diego Lerer 4.4
+Jaime Pena 5.9
 José Luis de Lorenzo 4
  Le film français:
 Stéphanie Lamome 
@@ -2306,6 +2322,7 @@ Christophe Carriére
 Ryland Aldrich 5 B-
 
 "TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
+Carlo Chatrian 2
 Diego Batlle 6
 Diego Lerer 4.8
 Fernando Ganzo 3
@@ -2458,6 +2475,7 @@ Diego Batlle 6
 Diego Lerer 2.2
 Eulalia Iglesias 6.7
 Fernando Juan Lima 7.5
+Jaime Pena 8.1
 José Luis de Lorenzo 8
 Philipp Engel 4.5
 Violeta Kovacsics 5.5
@@ -2937,6 +2955,7 @@ Thomas Fioretti 2.9
 "CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine]
 
 "DAE GI EUI WANG" (Yeun Sang-Ho) [Quinzaine]
+Carlo Chatrian 5.5
 Paolo Bertolin 7
 
 "DANGEROUS LIAISONS" (Hur Jinho) [Quinzaine]
@@ -2956,6 +2975,7 @@ Sergio Wolf 7
 Diego Batlle 7
 Eulalia Iglesias 6
 Neil Young 5
+Philipp Engel 6
 Roger Alan Koza  8
 Sergio Wolf 6
 
@@ -3053,8 +3073,11 @@ Michał Oleszczyk 7 B+
 Mike d'Angelo 5.8
 
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
+Alejandro G. Calvo 6
 Alexandra Zawia 3
+Carlos Reviriego 5.5
 Cristina Nord 3.4
+Fernando Ganzo 6
 Javier H. Estrada 6.7
 Marcelo Alderete 7
 Neil Young 8
@@ -3065,6 +3088,7 @@ Peter Bradshaw 6
 
 "SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
 Carlos F. Heredero 7.5
+Carlos Reviriego 4.5
 Diego Batlle 7
 Eulalia Iglesias 5.9
 Luciano Barisone 5
@@ -3245,6 +3269,7 @@ Emanuel Levy 7 B+
 
 "THE CENTRAL PARK FIVE" (Ken Burns, Sarah Burns y David McMahon) [Funciones Especiales]
 Alejandro G. Calvo 6
+Carlo Chatrian 4.88
 Carlos Reviriego 5
 Philipp Engel 5
 Rudiger Suchsland  6.8
@@ -3289,6 +3314,7 @@ Roger Alan Koza  6.7
 Alejandro G. Calvo 7
 Alexandra Zawia 7
 Carlo Chatrian 7.3
+Carlos F. Heredero 7
 Carlos Reviriego 7.5
 Cristina Nord 7
 Dana Linssen 7.4
@@ -3305,7 +3331,7 @@ José Luis de Lorenzo 8
 Luciano Barisone 7
 Marcelo Alderete 7
 Nando Salva 7.5
-Neil Young 4 C
+Neil Young 4
 Pedro Butcher 8
 Philipp Engel 6.5
 Robert Koehler 8
