@@ -420,6 +420,7 @@ Emanuel Levy 7 B+
 "HOLY MOTORS" (Leos Carax) [Competition]
 Alejandro G. Calvo 9
 Alexandra Zawia 7.7
+Arthur Mas 8.3
 Carlo Chatrian 8
 Carlos F. Heredero 7.5
 Carlos Reviriego 9.5
@@ -442,6 +443,7 @@ Roger Alan Koza  9
 Rudiger Suchsland  8.5
 Sergio Wolf 10
 Scott Foundas  8.5
+Thomas Fioretti 8.3
 Violeta Kovacsics 9
 Xavi Serra 8.2
  IonCinema:
@@ -528,12 +530,14 @@ Drew McWeeny 10 A+
 "COSMOPOLIS" (David Cronenberg) [Competition]
 Alejandro G. Calvo 9.9
 Alexandra Zawia 5.9
+Arthur Mas 5.9
 Carlos F. Heredero 6
 Diego Batlle 7.5
 Diego Lerer 8.2
 Eulalia Iglesias 8.5
 Fernando Ganzo 6
-Francisco Ferreira 9.5
+Francisco Ferreira 8.5
+Martial Pisani 5.6
 Robert Koehler 3
 Roger Alan Koza  9.5
 Rudiger Suchsland  7
@@ -605,6 +609,7 @@ Francisco Ferreira 1
 Jaime Pena 4.5
 Luciano Barisone 5
 Manu Yáñez 3
+Martial Pisani 7.3
 Nando Salva 1.5
 Philipp Engel 1
 Violeta Kovacsics 2
@@ -711,6 +716,7 @@ Javier H. Estrada 6.8
 José Luis de Lorenzo 6.5
 Luciano Barisone 1
 Manu Yáñez 6.5
+Martial Pisani 4.7
 Nando Salva 6.5
 Neil Young 6
 Pedro Butcher 4
@@ -1099,6 +1105,7 @@ José Luis de Lorenzo 8
 Luciano Barisone 8
 Manu Yáñez 7.5
 Marcelo Alderete 10
+Martial Pisani 8
 Nando Salva 8
 Neil Young 6 B-
 Pedro Butcher 7
@@ -1108,6 +1115,7 @@ Roger Alan Koza  9
 Rudiger Suchsland  6.8
 Sergio Wolf 10
 Scott Foundas  5
+Thomas Fioretti 8.5
 Violeta Kovacsics 7.5
 Xavi Serra  7.25
  IonCinema:
@@ -1322,6 +1330,7 @@ Peter Bradshaw 4
 Alejandro G. Calvo 3.4
 Alex Vicente 3
 Alexandra Zawia 4
+Arthur Mas 7
 Carlos F. Heredero 4
 Carlos Reviriego 1.5
 Cristina Nord 4.5
@@ -1420,6 +1429,7 @@ Simon Gallagher 9 A
 "IM NEBEL (IN THE FOG)" (Sergei Loznitsa) [Competition]
 Alejandro G. Calvo 7
 Alexandra Zawia 8
+Arthur Mas 7.1
 Carlo Chatrian 7.5
 Carlos F. Heredero 8
 Carlos Reviriego 7.8
@@ -1585,7 +1595,7 @@ José Luis de Lorenzo 3
 Kong Rithdee 5.5
 Luciano Barisone 6
 Manu Yáñez 5
-Martial Pisani 6.7
+Martial Pisani 7.1
 Nando Salva 4.5
 Neil Young 3
 Pedro Butcher 4
@@ -1719,7 +1729,7 @@ Javier H. Estrada 7
 José Luis de Lorenzo 7
 Luciano Barisone 7
 Manu Yáñez 8
-Martial Pisani 7.9
+Martial Pisani 8.3
 Nando Salva 5
 Pedro Butcher 6.5
 Robert Koehler 2
@@ -1914,6 +1924,7 @@ Javier H. Estrada 2.5
 José Luis de Lorenzo 2
 Luciano Barisone 6
 Manu Yáñez 3
+Martial Pisani 5
 Nando Salva 3
 Neil Young 6
 Pedro Butcher 6.5
@@ -2577,6 +2588,8 @@ Eulalia Iglesias 6.1
 Fernando Juan Lima 6.75
 Javier H. Estrada 3
 Luciano Barisone 6
+Martial Pisani 1
+Thomas Fioretti 3
 Mike d'Angelo W/O
  Le film français:
 Stéphanie Lamome 
@@ -2612,7 +2625,7 @@ Javier H. Estrada 8.5
 José Luis de Lorenzo 3
 Luciano Barisone 8
 Marcelo Alderete 7
-Martial Pisani 8
+Martial Pisani 8.1
 Neil Young 6
 Robert Koehler 8
 Roger Alan Koza  8.5
@@ -2724,12 +2737,15 @@ Catherine Shoard (Guardian, UK) 2
 
 "11.25 THE DAY MISHIMA CHOSE HIS OWN FATE" (Koji Wakamatsu) [Un Certain Regard]
 Alejandro G. Calvo 5
+Arthur Mas 9
 Carlos F. Heredero 1
 Diego Batlle 7.5
 Diego Lerer 8.5
 Eulalia Iglesias 6
+Martial Pisani 8.8
 Robert Koehler 4
 Rudiger Suchsland  6.2
+Thomas Fioretti 8.4
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -3011,6 +3027,7 @@ Javier H. Estrada 6
 Thomas Fioretti 2.9
 
 "CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine]
+Thomas Fioretti 5.8
 
 "DAE GI EUI WANG" (Yeun Sang-Ho) [Quinzaine]
 Carlo Chatrian 5.5
@@ -3039,6 +3056,7 @@ Neil Young 5
 Philipp Engel 6
 Roger Alan Koza  8
 Sergio Wolf 6
+Thomas Fioretti 5.1
 
 "GANGS OF WASSEYPUR" (Anurag Kashyap) [Quinzaine]
 Javier H. Estrada 4.5
@@ -3073,6 +3091,7 @@ Javier H. Estrada 6.5
 Luciano Barisone 5
 Robert Koehler 7
 Roger Alan Koza  6.5
+Thomas Fioretti 6.5
 
 "NO" (Pablo Larraín) [Quinzaine]
 Alexandra Zawia 7
@@ -3089,7 +3108,7 @@ Robert Koehler 8
 Roger Alan Koza  7.5
 Sergio Wolf 7
 Scott Foundas  8.5
-Thomas Fioretti 7
+Thomas Fioretti 7.6
 Violeta Kovacsics 8
  Other:
 Guy Lodge 8.5 A-
@@ -3370,6 +3389,7 @@ Philipp Engel 5
 Sergio Wolf 8
 
 "A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) [Funciones Especiales]
+Martial Pisani 5.9
 Pedro Butcher 8
 Roger Alan Koza  4.5
 
@@ -3407,6 +3427,7 @@ Javier H. Estrada 7.5
 José Luis de Lorenzo 8
 Luciano Barisone 7
 Marcelo Alderete 7
+Martial Pisani 8.1
 Nando Salva 7.5
 Neil Young 4
 Pedro Butcher 8
