@@ -3498,7 +3498,7 @@ With the help of:
 This year with 45 international critics"</i> - Diego Lerer<p>
 
 <small>Updated daily from http://micropsia.otroscines.com/ (Diego Lerer <i> - first time in Cannes himself</i>) (la crema), http://www.ioncinema.com/ (okay), Le film français (eclectic), Screen Daily (mainstream), Indiewire (mixed) and more critics.<br>
-Same as <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">last years</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
+Same as <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">last years</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>. &lt; 10 ratings: small.
 All sections (updated daily, official selection Competition: bold)</small><p>
 
 EOF
@@ -3562,11 +3562,13 @@ END {
   for (@t) { $t = $_->[3];
     $n=$title{$t}->{num};$a=sprintf("%0.2f",$title{$t}->{avg}); next if $n<=3 or $a < 7.5; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
     printf "%2d. $l \[$a/$n $s\]\n", $i++;}
   print "</pre>\n\n<h1>Good Films (avg>6, n>3)</h1>\n<pre>\n";
   for (@t) { $t = $_->[3];
     $a=sprintf("%0.2f",$title{$t}->{avg}); $n=$title{$t}->{num}; next if $a < 6.0 or $a >= 7.5 or $n <= 3; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
     printf "%2d. $l \[$a/$n $s\]\n", $i++; }
   print "</pre>\nThe rest is below 6, unacceptable for Cannes.\n";
 
@@ -3583,6 +3585,7 @@ END {
       for (sort {$section{$section}->{$b}->[0] <=> $section{$section}->{$a}->[0]}
 	   keys %{$section{$section}}) 
       { my $s=$section{$section}->{$_}->[2];my $l=$title{$_}->{line};$l=$s>=2.0?"<i>$l</i>":$l;
+        $l="<small>$l</small>" if $title{$_}->{num} < 10;
         if ($six and $section{$section}->{$_}->[0] < 6){
           $six=0; print "-"x25,"\n";}
         $section{$section}->{$_}->[1]?
