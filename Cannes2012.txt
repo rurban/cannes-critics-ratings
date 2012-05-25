@@ -315,6 +315,9 @@ Sarah Watt
 Simon Gallagher 8 A-
 David Gritten (The Telegraph, UK) 8
 Alex Billington 7
+Claudia Puig (USA Today, USA) 8.75
+Manohla Dargis (New York Times, USA) 7
+Glenn Kenny (MSN Movies, USA) 10
 
 "DE ROUILLE ET D'OS (RUST AND BONE)" (Jacques Audiard) [Competition]
 Alejandro G. Calvo 4
@@ -415,7 +418,7 @@ David Gritten (The Telegraph, UK) 8
 Emanuel Levy 7 B+
 
 "HOLY MOTORS" (Leos Carax) [Competition]
-Alejandro G. Calvo 8.5
+Alejandro G. Calvo 9
 Alexandra Zawia 7.7
 Carlo Chatrian 8
 Carlos F. Heredero 7.5
@@ -523,7 +526,7 @@ Simon Gallagher 7 B+
 Drew McWeeny 10 A+
 
 "COSMOPOLIS" (David Cronenberg) [Competition]
-Alejandro G. Calvo 9.5
+Alejandro G. Calvo 9.9
 Alexandra Zawia 5.9
 Carlos F. Heredero 6
 Diego Batlle 7.5
@@ -531,6 +534,7 @@ Diego Lerer 8.2
 Eulalia Iglesias 8.5
 Fernando Ganzo 6
 Francisco Ferreira 9.5
+Robert Koehler 3
 Roger Alan Koza  9.5
 Rudiger Suchsland  7
  IonCinema:
@@ -1084,7 +1088,7 @@ Carlos Reviriego 7
 Cristina Nord 8
 Dana Linssen 7.9
 Diego Batlle 8.5
-Diego Lerer 8.8
+Diego Lerer 9
 Eulalia Iglesias 8
 Fernando Ganzo 8.5
 Fernando Juan Lima 9
@@ -1219,7 +1223,7 @@ Danielle Attali
 Christophe Carriére 
 
 "LIKE SOMEONE IN LOVE" (Abbas Kiarostami) [Competition]
-Alejandro G. Calvo 9.5
+Alejandro G. Calvo 10
 Alex Vicente 5
 Alexandra Zawia 9
 Arthur Mas 4.2
@@ -1229,7 +1233,7 @@ Carlos Reviriego 9.5
 Cristina Nord 7
 Dana Linssen 7.5
 Diego Batlle 8.5
-Diego Lerer 9
+Diego Lerer 9.1
 Eulalia Iglesias 9
 Fernando Ganzo 7
 Fernando Juan Lima 10
@@ -1420,7 +1424,7 @@ Carlo Chatrian 7.5
 Carlos F. Heredero 8
 Carlos Reviriego 7.8
 Diego Batlle 7.5
-Diego Lerer 7.2
+Diego Lerer 7
 Eulalia Iglesias 6.9
 Fernando Ganzo 4.5
 Jaime Pena 6
@@ -1473,7 +1477,7 @@ Danielle Attali
 Christophe Carriére 
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
-Alejandro G. Calvo 8.6
+Alejandro G. Calvo 9.4
 Alexandra Zawia 7
 Carlo Chatrian 6.02
 Carlos F. Heredero 7
@@ -2277,6 +2281,7 @@ Eulalia Iglesias 6.8
 Jaime Pena 5.9
 José Luis de Lorenzo 4
 Luciano Barisone 7
+Robert Koehler 6
 Roger Alan Koza  3.5
  Le film français:
 Stéphanie Lamome 
@@ -2720,8 +2725,10 @@ Catherine Shoard (Guardian, UK) 2
 "11.25 THE DAY MISHIMA CHOSE HIS OWN FATE" (Koji Wakamatsu) [Un Certain Regard]
 Alejandro G. Calvo 5
 Carlos F. Heredero 1
+Diego Batlle 7.5
 Diego Lerer 8.5
 Eulalia Iglesias 6
+Robert Koehler 4
 Rudiger Suchsland  6.2
  Le film français:
 Stéphanie Lamome 
@@ -3153,6 +3160,7 @@ Eulalia Iglesias 5.9
 Jaime Pena 5.1
 Luciano Barisone 5
 Nando Salva 4
+Robert Koehler 2
 Roger Alan Koza  6
 Violeta Kovacsics 7
 Xavi Serra  4.5
