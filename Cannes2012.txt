@@ -505,7 +505,7 @@ Frédéric Jaeger
 Peter Keogh 
 Chris Knipp 
 Megan Lehmann (The Hollywood Reporter, USA) 9 A
-Emanuel Levy
+Emanuel Levy 8 A-
 Patrick Z. McGavin 8 A-
 Michał Oleszczyk
 Kristy Puchko 
@@ -664,7 +664,7 @@ Frédéric Jaeger
 Peter Keogh 
 Chris Knipp 
 Megan Lehmann 
-Emanuel Levy
+Emanuel Levy 3 C
 Patrick Z. McGavin 
 Michał Oleszczyk
 Kristy Puchko 
@@ -769,7 +769,7 @@ Patrick Heidmann 5 B-
 Aaron Hillis 4 C+
 Frédéric Jaeger
 Patrick Z. McGavin 3 C
-Emanuel Levy
+Emanuel Levy 7 B+
 Michał Oleszczyk
 Eric D. Snider
 Anna Tatarska 4 C+
@@ -1056,7 +1056,7 @@ Michael Ghennam 5 B-
 Glenn Heath Jr. 5 B-
 Patrick Heidmann 4 C+
 Frédéric Jaeger
-Emanuel Levy
+Emanuel Levy 5 B-
 Patrick Z. McGavin 2 C-
 Michał Oleszczyk 0 F
 Eric D. Snider 6 B
@@ -3106,6 +3106,7 @@ David Fear 8 A-
 Tim Grierson 8 A-
 Michał Oleszczyk 7 B+
 Mike d'Angelo 5.8
+Blake Williams 7
 
 "SIGHTSEERS" (Ben Wheatley) [Quinzaine]
 Alejandro G. Calvo 6
