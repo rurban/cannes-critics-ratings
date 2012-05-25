@@ -1468,9 +1468,9 @@ Isabelle Regnier
 Kevin Jagernauth 
 Cédric Succivalli 
 Clarence Tsui 
-Blake Williams 
+Blake Williams 4 C+
 Liu Min 
-Eric Kohn 
+Eric Kohn 5 B
  Screen Daily:
 Nick James 
 David Stratton 
@@ -1498,6 +1498,12 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire (3):
+Simon Abrams 9 A
+Ryland Aldrich
+Raffi Asdourian 
+Anna Bielak 2 C-
+Alex Billington  
 
 "BEYOND THE HILLS" (Cristian Mungiu) [Competition]
 Alejandro G. Calvo 9.4
@@ -1833,7 +1839,7 @@ Javier H. Estrada 2.5
 Luciano Barisone 8
 Manu Yáñez 3
 Nando Salva 5.5
-Neil Young 3
+Neil Young 3 D+
 Pedro Butcher 3
 Philipp Engel 6
 Robert Koehler 10
@@ -1886,11 +1892,11 @@ Pierre Fornerod
 Pascal Merigeau 2.5
 Danielle Attali 1
 Christophe Carriére 1
- Indiewire (6):
+ Indiewire (8):
 Simon Abrams 4 C+
 Ryland Aldrich
 Raffi Asdourian 
-Anna Bielak 
+Anna Bielak 4 C+
 Alex Billington 7 B+ 
 David Ehrlich
 David Fear
@@ -1902,7 +1908,7 @@ Michael Ghennam
 Glenn Heath Jr.
 Patrick Heidmann 
 Aaron Hillis 5 B-
-Frédéric Jaeger
+Frédéric Jaeger 7 B+
 Peter Keogh 
 Chris Knipp 
 Megan Lehmann 
