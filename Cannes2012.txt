@@ -523,6 +523,9 @@ Simon Gallagher 7 B+
 Drew McWeeny 10 A+
 
 "COSMOPOLIS" (David Cronenberg) [Competition]
+Alejandro G. Calvo 9.5
+Diego Batlle 7.5
+Fernando Ganzo 6
 Francisco Ferreira 9.5
  IonCinema:
 Christophe Beney
@@ -571,6 +574,7 @@ Christophe Carriére
 
 "THE PAPERBOY" (Lee Daniels) [Competition]
 Alejandro G. Calvo 1
+Alexandra Zawia 3.5
 Carlo Chatrian 4
 Carlos F. Heredero 3
 Carlos Reviriego 2.5
@@ -578,8 +582,11 @@ Cristina Nord 5.3
 Diego Batlle 3
 Diego Lerer 4.5
 Eulalia Iglesias 2
+Francisco Ferreira 1
 Jaime Pena 4.5
+Luciano Barisone 5
 Manu Yáñez 3
+Nando Salva 1.5
 Philipp Engel 1
 Violeta Kovacsics 2
 Xavi Serra  2
@@ -668,7 +675,7 @@ Xan Brooks (Guardian, UK) 0
 Simon Gallagher 4 C+
 
 "KILLING THEM SOFTLY" (Andrew Dominik) [Competition]
-Alejandro G. Calvo 8.1
+Alejandro G. Calvo 8
 Alex Vicente 5
 Alexandra Zawia 5
 Carlo Chatrian 3.02
@@ -1393,12 +1400,16 @@ Simon Gallagher 9 A
 
 "IM NEBEL (IN THE FOG) " (Sergei Loznitsa) [Competition]
 Alejandro G. Calvo 7
+Alexandra Zawia 8
 Carlo Chatrian 7.5
 Carlos F. Heredero 8
 Carlos Reviriego 7.8
+Diego Batlle 7.5
 Diego Lerer 7.2
 Fernando Ganzo 4.5
 Jaime Pena 6
+Luciano Barisone 8
+Nando Salva 8
  IonCinema:
 Christophe Beney 
 David Calhoun 
@@ -1761,6 +1772,7 @@ Peter Bradshaw 4
 
 "POST TENEBRAS LUX" (Carlos Reygadas) [Competition]
 Alejandro G. Calvo 4
+Alexandra Zawia 6
 Carlo Chatrian 5
 Carlos Reviriego 3.3
 Cristina Nord 4.8
@@ -1768,10 +1780,12 @@ Dana Linssen 8.1
 Diego Batlle 6
 Diego Lerer 7.6
 Eulalia Iglesias 7.5
+Fernando Juan Lima 8
 Jaime Pena 3
 Javier H. Estrada 2.5
 Luciano Barisone 8
 Manu Yáñez 3
+Nando Salva 5.5
 Neil Young 3
 Pedro Butcher 3
 Philipp Engel 6
@@ -1879,6 +1893,7 @@ Javier H. Estrada 2.5
 José Luis de Lorenzo 2
 Luciano Barisone 6
 Manu Yáñez 3
+Nando Salva 3
 Neil Young 6
 Pedro Butcher 6.5
 Robert Koehler 3
@@ -2243,6 +2258,7 @@ Carlos Reviriego 4
 Diego Lerer 4.4
 Jaime Pena 5.9
 José Luis de Lorenzo 4
+Luciano Barisone 7
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -2323,7 +2339,7 @@ Ryland Aldrich 5 B-
 
 "TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
 Carlo Chatrian 2
-Diego Batlle 6
+Diego Batlle 5.5
 Diego Lerer 4.8
 Fernando Ganzo 3
  Le film français:
@@ -2418,6 +2434,8 @@ Carlos Reviriego 3.5
 Dana Linssen 3.2
 Diego Batlle 4
 Diego Lerer 4.4
+Fernando Juan Lima 5
+Nando Salva 3.5
 Rudiger Suchsland  2.5
  Le film français:
 Stéphanie Lamome 
@@ -2445,6 +2463,7 @@ Carlo Chatrian 7.4
 Dana Linssen 6.1
 Diego Batlle 8.3
 Diego Lerer 8
+Fernando Juan Lima 7.8
 José Luis de Lorenzo 6
 Luciano Barisone 7
 Rudiger Suchsland  1
@@ -2530,6 +2549,7 @@ Christophe Carriére
 Alex Vicente 7
 Carlo Chatrian 7
 Eulalia Iglesias 6.1
+Fernando Juan Lima 6.75
 Javier H. Estrada 3
 Luciano Barisone 6
 Mike d'Angelo W/O
@@ -2619,6 +2639,7 @@ Dana Linssen 6
 Diego Batlle 7.6
 Diego Lerer 7.5
 Eulalia Iglesias 4.8
+Fernando Juan Lima 6
 Jaime Pena 4
 José Luis de Lorenzo 5
 Nando Salva 5
@@ -2796,7 +2817,7 @@ Guy Lodge 6 B
 "DJECA" (Aida Begic) [Un Certain Regard]
 Cristina Nord 4.8
 Dana Linssen 5.9
-Diego Batlle 6.8
+Diego Batlle 7
 Diego Lerer 6.5
 Eulalia Iglesias 6.7
 Jaime Pena 4.5
@@ -2825,6 +2846,7 @@ Peter Bradshaw 6
 
 "GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
   SXSW
+Diego Batlle 7.5
 Marcelo Alderete 6
 Scott Foundas  8
  Le film français:
@@ -2893,6 +2915,7 @@ Eulalia Iglesias 3.5
 Rudiger Suchsland  7
  
 "HORS LES MURS" (Damien Lambert) [Semaine]
+Fernando Juan Lima 2
 
 "PEDDLERS" (Vasan Bala) [Semaine]
 Carlo Chatrian 5.5
@@ -2956,9 +2979,11 @@ Thomas Fioretti 2.9
 
 "DAE GI EUI WANG" (Yeun Sang-Ho) [Quinzaine]
 Carlo Chatrian 5.5
+Diego Batlle 5.5
 Paolo Bertolin 7
 
 "DANGEROUS LIAISONS" (Hur Jinho) [Quinzaine]
+Fernando Juan Lima 2
 
 "EL TAAIB" (Merzak Allouache) [Quinzaine]
 Javier H. Estrada 6
@@ -2974,6 +2999,7 @@ Sergio Wolf 7
 "FOGO" (Yulene Olaizola) [Quinzaine]
 Diego Batlle 7
 Eulalia Iglesias 6
+Fernando Juan Lima 8
 Neil Young 5
 Philipp Engel 6
 Roger Alan Koza  8
@@ -3077,7 +3103,7 @@ Alejandro G. Calvo 6
 Alexandra Zawia 3
 Carlos Reviriego 5.5
 Cristina Nord 3.4
-Fernando Ganzo 6
+Fernando Ganzo 5
 Javier H. Estrada 6.7
 Marcelo Alderete 7
 Neil Young 8
@@ -3087,6 +3113,7 @@ James Rocchi 9 A
 Peter Bradshaw 6
 
 "SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
+Alejandro G. Calvo 3.5
 Carlos F. Heredero 7.5
 Carlos Reviriego 4.5
 Diego Batlle 7
@@ -3168,8 +3195,10 @@ Carlos F. Heredero 6
 Carlos Reviriego 6
 Diego Batlle 6
 Fernando Ganzo 6.5
+Fernando Juan Lima 7
 José Luis de Lorenzo 4
 Manu Yáñez 5.5
+Nando Salva 4.5
 Rudiger Suchsland  6
 Xavi Serra  6.5
  Indiewire (2):
@@ -3186,6 +3215,7 @@ Raffi Asdourian 5 B-
 Patrick Heidmann 2 C-
 
 "HEMINGWAY & GELLHORN" (Philip Kaufman)
+Nando Salva 2
 Scott Foundas  8
 
 PROYECCIONES DE MEDIANOCHE
@@ -3212,6 +3242,7 @@ Rudiger Suchsland  10
 Sergio Wolf 6
 
 "UNE JOURNÉE PARTICULIÈRE" (Gilles Jacob y Samuel Faure)
+Alejandro G. Calvo 2
 José Luis de Lorenzo 2
 
 "THE SAPPHIRES" (Wayne Blair)
@@ -3244,8 +3275,8 @@ Rudiger Suchsland  5
  IndieWire:
 Michał Oleszczyk 6 B
 
-"ROMAN POLANSKI: A FILM MEMOIR" (Laurent Bouzereau)
-Alejandro G. Calvo 1
+"ROMAN POLANSKI: A FILM MEMOIR" (Laurent Bouzereau) [Funciones Especiales]
+Alejandro G. Calvo 2
 Alex Vicente 3
 Alexandra Zawia 3.2
 Carlo Chatrian 4
@@ -3271,16 +3302,17 @@ Emanuel Levy 7 B+
 Alejandro G. Calvo 6
 Carlo Chatrian 4.88
 Carlos Reviriego 5
+Luciano Barisone 6
 Philipp Engel 5
 Rudiger Suchsland  6.8
 
-"LES INVISIBLES" (Sébastien Lifshitz) 
+"LES INVISIBLES" (Sébastien Lifshitz) [Funciones Especiales]
 Carlo Chatrian 6.01
 Eulalia Iglesias 6.9
 Fernando Juan Lima 7
 Luciano Barisone 6
 
-"JOURNAL DE FRANCE" (Claudine Nougaret y Raymond Depardon) 
+"JOURNAL DE FRANCE" (Claudine Nougaret y Raymond Depardon) [Funciones Especiales]
 Carlo Chatrian 5.03
 Carlos F. Heredero 6
 Carlos Reviriego 6.2
@@ -3294,15 +3326,16 @@ Marcelo Alderete 6
 Philipp Engel 5
 Sergio Wolf 8
 
-"A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) 
+"A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) [Funciones Especiales]
 Pedro Butcher 8
 
-"VILLEGAS" (Gonzalo Tobal) 
+"VILLEGAS" (Gonzalo Tobal) [Funciones Especiales]
 Carlos F. Heredero 7
 Carlos Reviriego 6.5
 Diego Batlle 7.2
 Diego Lerer 7.2
 Fernando Ganzo 6
+Fernando Juan Lima 8
 Jaime Pena 7
 José Luis de Lorenzo 8
 Neil Young 5 C+
@@ -3310,7 +3343,7 @@ Pedro Butcher 6
 Robert Koehler 4
 Roger Alan Koza  6.7
 
-"MEKONG HOTEL" (Apichatpong Weerasethakul) 
+"MEKONG HOTEL" (Apichatpong Weerasethakul) [Funciones Especiales]
 Alejandro G. Calvo 7
 Alexandra Zawia 7
 Carlo Chatrian 7.3
@@ -3367,7 +3400,7 @@ Blake Williams 2.6 D+
 Ruta Buciunaite 6
 Peter Bradshaw 6
 
-"TRASHED" (Candida Brady) 
+"TRASHED" (Candida Brady) [Funciones Especiales]
 Neil Young 6
 
 "LE SERMENT DE TOBRUK (Bernard-Henry Lévy) 
