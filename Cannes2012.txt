@@ -629,20 +629,20 @@ Kate Muir
 Bo Green Jensen 
 Screen International 
  Le film français:
-Stéphanie Lamome 
-Arnaud schwartz 
-Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
-Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
+Stéphanie Lamome 2.5
+Arnaud schwartz 1
+Fabrice Leclerc 7.5
+Eric Neuhoff 2.5
+Stéphane Delorme 2.5
+Jaques Mandelbaum 2.5
+Philippe Rouyer 5
+Pierre Vavasseur 9
+Pierre Murat 1
+Jean Roy 2.5
+Serge Kaganski 1
 Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
+Pascal Merigeau 2.5
+Danielle Attali 7.5
 Christophe Carriére 
  Indiewire (4):
 Simon Abrams 
@@ -1833,21 +1833,21 @@ Kate Muir
 Bo Green Jensen 
 Screen International 
  Le film français:
-Stéphanie Lamome 
-Arnaud schwartz 
-Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
+Stéphanie Lamome 5
+Arnaud schwartz 5
+Fabrice Leclerc 2.5
+Eric Neuhoff 1
+Stéphane Delorme 1
+Jaques Mandelbaum 2.5
+Philippe Rouyer 1
 Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
+Pierre Murat 1
+Jean Roy 2.5
 Serge Kaganski 
 Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
-Christophe Carriére 
+Pascal Merigeau 2.5
+Danielle Attali 1
+Christophe Carriére 1
  Indiewire (6):
 Simon Abrams 4 C+
 Ryland Aldrich
@@ -2311,7 +2311,7 @@ Stéphane Delorme
 Jaques Mandelbaum 
 Philippe Rouyer 
 Pierre Vavasseur 
-Pierre Murat 
+Pierre Murat 5
 Jean Roy 
 Serge Kaganski 
 Pierre Fornerod 
@@ -2453,7 +2453,7 @@ Fabrice Leclerc
 Eric Neuhoff 
 Stéphane Delorme 
 Jaques Mandelbaum 
-Philippe Rouyer 
+Philippe Rouyer 5
 Pierre Vavasseur 
 Pierre Murat 
 Jean Roy 
@@ -2571,7 +2571,7 @@ Stéphane Delorme
 Jaques Mandelbaum 
 Philippe Rouyer 7.5
 Pierre Vavasseur 
-Pierre Murat 7.5
+Pierre Murat 5
 Jean Roy 
 Serge Kaganski 9
 Pierre Fornerod 7.5
