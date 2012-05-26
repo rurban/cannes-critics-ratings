@@ -438,6 +438,7 @@ Jaime Pena 9
 Javier H. Estrada 9.5
 José Luis de Lorenzo 7
 Luciano Barisone 9
+Manu Yáñez 8.5
 Marcelo Alderete 8
 Nando Salva 7
 Philipp Engel 10
@@ -536,12 +537,15 @@ Alexandra Zawia 5.9
 Arthur Mas 5.9
 Boris Nelepo 7.7
 Carlos F. Heredero 6
+Carlos Reviriego 8
 Diego Batlle 7.5
 Diego Lerer 8.2
 Eulalia Iglesias 8.5
 Fernando Ganzo 6
 Francisco Ferreira 8.5
+Jaime Pena 9.6
 Javier H. Estrada 8.3
+Manu Yáñez 8.5
 Martial Pisani 5.6
 Robert Koehler 3
 Roger Alan Koza  9.5
@@ -1194,6 +1198,10 @@ Peter Bradshaw 6
 "DO-NUI MAT (TASTE OF MONEY)" (Im Sangsoo) [Competition]
 Boris Nelepo 1
 Carlos F. Heredero 3
+Carlos Reviriego 6
+Diego Batlle 5.5
+Diego Lerer 3.3
+Jaime Pena 4.5
 #Francisco Ferreira 8.8
  IonCinema:
 Christophe Beney 
@@ -1449,6 +1457,7 @@ Diego Batlle 7.5
 Diego Lerer 7
 Eulalia Iglesias 6.9
 Fernando Ganzo 4.5
+Francisco Ferreira 6
 Jaime Pena 6
 Javier H. Estrada 6.7
 Luciano Barisone 8
@@ -1940,7 +1949,7 @@ Diego Lerer 5.8
 Eulalia Iglesias 4
 Fernando Ganzo 2
 Fernando Juan Lima 2
-Francisco Ferreira 2
+Francisco Ferreira 1
 Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
@@ -2140,7 +2149,7 @@ Diego Batlle 5
 Diego Lerer 5.2
 Eulalia Iglesias 4
 Fernando Juan Lima 4
-Francisco Ferreira 2
+Francisco Ferreira 1
 Jaime Pena 5
 Javier H. Estrada 4
 José Luis de Lorenzo 8
@@ -2430,6 +2439,7 @@ Dana Linssen 4.5
 Diego Batlle 4
 Diego Lerer 6
 Fernando Juan Lima 6
+Francisco Ferreira 6
 Gonzalo de Pedro 4
 Jaime Pena 4
 Javier H. Estrada 4
@@ -2771,6 +2781,7 @@ Carlos F. Heredero 1
 Diego Batlle 7.5
 Diego Lerer 8.5
 Eulalia Iglesias 6
+Jaime Pena 7
 Javier H. Estrada 7
 Martial Pisani 8.8
 Robert Koehler 4
@@ -2925,8 +2936,10 @@ Peter Bradshaw 6
 "GIMME THE LOOT" (Adam Leon) [Un Certain Regard]
   SXSW
 Carlos F. Heredero 4
+Carlos Reviriego 6
 Diego Batlle 7.5
 Eulalia Iglesias 7.3
+Jaime Pena 5
 Javier H. Estrada 5.5
 Marcelo Alderete 6
 Scott Foundas  8
@@ -2952,6 +2965,7 @@ Andrew Schenker (Slant, USA) 6.5
 Reini Urban (facebook, Austria) 4
 
 "RENOIR" (Gilles Bourdos) [Un Certain Regard]
+Carlos Reviriego 5.5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -3195,7 +3209,7 @@ Blake Williams 7
 Alejandro G. Calvo 6
 Alexandra Zawia 3
 Boris Nelepo 6
-Carlos Reviriego 5.5
+Carlos Reviriego 5.8
 Cristina Nord 3.4
 Eulalia Iglesias 6.9
 Fernando Ganzo 5
@@ -3211,7 +3225,7 @@ Peter Bradshaw 6
 "SUEÑO Y SILENCIO" (Jaime Rosales) [Quinzaine]
 Alejandro G. Calvo 3.5
 Carlos F. Heredero 7.5
-Carlos Reviriego 4.5
+Carlos Reviriego 4
 Diego Batlle 7
 Eulalia Iglesias 5.9
 Jaime Pena 5.1
