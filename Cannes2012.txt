@@ -1710,6 +1710,14 @@ Michał Oleszczyk 0 F
 David Gritten (The Telegraph, UK) 4
 
 "MUD" (Jeff Nichols) [Competition]
+Alejandro G. Calvo 7.5
+Alexandra Zawia 6.8
+Cristina Nord 6
+Diego Batlle 7.8
+Diego Lerer 7.1
+Pedro Butcher 6.5
+Roger Alan Koza  6
+Xavi Serra  6.5
  IonCinema:
 Christophe Beney
 David Calhoun
@@ -1755,16 +1763,6 @@ Pascal Merigeau
 Danielle Attali 
 Christophe Carriére 
  Other:
-
-"MUD " (Jeff Nichols) [Competition]
-Alejandro G. Calvo 7.5
-Alexandra Zawia 6.8
-Cristina Nord 6
-Diego Batlle 7.8
-Diego Lerer 7.1
-Pedro Butcher 6.5
-Roger Alan Koza  6
-Xavi Serra  6.5
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
 Alejandro G. Calvo 4.9
