@@ -216,7 +216,7 @@ Nando Salva 8.5
 Neil Young 7 B
 Olivier Père 7.5
 Pamela Bienzobas 7.5
-Pedro Butcher 8
+Pedro Butcher 7.5
 Philipp Engel 9.1
 Robert Koehler 6
 Roger Alan Koza  8
@@ -630,7 +630,7 @@ Luciano Barisone 5
 Manu Yáñez 3
 Martial Pisani 7.3
 Nando Salva 1.5
-Pedro Butcher 5
+Pedro Butcher 4
 Philipp Engel 1
 Violeta Kovacsics 2
 Xavi Serra  2
@@ -1294,7 +1294,7 @@ Manu Yáñez 9.5
 Marcelo Alderete 9
 Martial Pisani 4.5
 Nando Salva 7
-Pedro Butcher 8.5
+Pedro Butcher 9
 Philipp Engel 7.5
 Roger Alan Koza  10
 Sergio Wolf 9
@@ -1484,7 +1484,7 @@ Jaime Pena 6
 Javier H. Estrada 6.7
 Luciano Barisone 8
 Nando Salva 8
-Pedro Butcher 6
+Pedro Butcher 3
 Rudiger Suchsland  4
 Violeta Kovacsics 6.5
 Xavi Serra  6.5
@@ -1828,7 +1828,7 @@ Luciano Barisone 7
 Manu Yáñez 8
 Martial Pisani 8.3
 Nando Salva 5
-Pedro Butcher 6.5
+Pedro Butcher 7
 Robert Koehler 2
 Roger Alan Koza  8.7
 Rudiger Suchsland  3.5
@@ -2426,7 +2426,7 @@ Gonzalo de Pedro 5
 Jaime Pena 4.5
 Javier H. Estrada 5
 Neil Young 7
-Pedro Butcher 5
+Pedro Butcher 4
 Roger Alan Koza  6
 Rudiger Suchsland  5
  Other:
@@ -3218,6 +3218,7 @@ Fernando Ganzo 6.5
 Gonzalo de Pedro 9
 Jaime Pena 8.5
 Marcelo Alderete 6
+Robert Koehler 8
 Roger Alan Koza  6
 Sergio Wolf 9
 Violeta Kovacsics 8
@@ -3269,6 +3270,7 @@ Eulalia Iglesias 6
 Javier H. Estrada 8
 Luciano Barisone 7
 Neil Young 7
+Pamela Bienzobas 8.2
 Robert Koehler 8
 Thomas Fioretti 1.8
 
