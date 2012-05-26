@@ -196,7 +196,7 @@ Arthur Mas 7.9
 Boris Nelepo 8.5
 Carlo Chatrian 7.5
 Carlos F. Heredero 7.5
-Carlos Reviriego 6.5
+Carlos Reviriego 6.8
 Cristina Nord 8
 Dana Linssen 7.5
 Diego Batlle 7.5
@@ -553,6 +553,7 @@ Luciano Barisone 7
 Manu Yáñez 8.5
 Martial Pisani 5.6
 Pedro Butcher 8
+Philipp Engel 7
 Robert Koehler 3
 Roger Alan Koza  9.5
 Rudiger Suchsland  7
@@ -1222,6 +1223,7 @@ Jaime Pena 4.5
 Pamela Bienzobas 3.7
 #Francisco Ferreira 8.8
 Pedro Butcher 7
+Philipp Engel 5
 Robert Koehler 2
 Roger Alan Koza  2
 Violeta Kovacsics 4.5
@@ -1720,6 +1722,7 @@ David Gritten (The Telegraph, UK) 4
 "MUD" (Jeff Nichols) [Competition]
 Alejandro G. Calvo 7.5
 Alexandra Zawia 6.8
+Carlos Reviriego 6.7
 Cristina Nord 6
 Diego Batlle 7.8
 Diego Lerer 7.1
@@ -2888,6 +2891,7 @@ Jaime Pena 7
 Javier H. Estrada 7
 Luciano Barisone 8
 Martial Pisani 8.8
+Philipp Engel 4.5
 Robert Koehler 4
 Roger Alan Koza  6.7
 Rudiger Suchsland  6.2
@@ -3049,6 +3053,7 @@ Eulalia Iglesias 7.3
 Jaime Pena 5
 Javier H. Estrada 5.5
 Marcelo Alderete 6
+Pedro Butcher 5
 Scott Foundas  8
  Le film français:
 Stéphanie Lamome 
@@ -3600,7 +3605,7 @@ Blake Williams 3 C
 
 "A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) [Funciones Especiales]
 Martial Pisani 5.9
-Pedro Butcher 8
+Pedro Butcher 7
 Roger Alan Koza  4.5
 
 "VILLEGAS" (Gonzalo Tobal) [Funciones Especiales]
