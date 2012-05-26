@@ -145,7 +145,7 @@ Emanuel Levy (EmanuelLevy.com, USA)
 Eric D. Snider (Film.com, USA)
 Eugene Hernandez (Film Society of Lincoln Center, USA) 
 Frédéric Jaeger (critic.de, Germany)
-Glenn Heath Jr. (Press Play, USA)
+Glenn Heath Jr. (Slant Magazine, Press Play, USA)
 Ignatiy Vishnevetsky (Freelance, USA)
 Jon Frosch (France 24, France)
 Jonathan Rosenbaum (Chicago Reader, USA) 
@@ -175,7 +175,7 @@ Richard Corliss (Time, USA)
 Robbie Collins (The Telegraph, UK)
 Ruta Buciunaite (theupcoming.co.uk, UK)
 Ryland Aldrich (Twitch Film, USA)
-Simon Abrams (Freelance, USA)
+Simon Abrams (The Playlist, USA)
 Simon Gallagher (filmschoolrejects.com, USA) 
 Simon Reynolds (Digital Spy, UK) 
 Stephen Garrett (Time Out New York, USA)
@@ -603,6 +603,7 @@ Christophe Carriére
  Other:
 Simon Abrams 9 A
 James Rocchi 8 [4/5]
+Michał Oleszczyk 7
 Serge Kaganski (Les Inrockuptibles, France) 10
 Francois Forestier (Le nouvel Observateur, France) 8
 Pierre Murat 8
@@ -1723,7 +1724,7 @@ Christophe Beney
 David Calhoun
 Per Juul Carlsen 
 Paola Casella 
-Mike d'Angelo 
+Mike d'Angelo 6.2 "Ripping yarn with some iffy gender politics, though I give Nichols credit for strenuous efforts to cover his ass"
 #Carlos F. Heredero  
 Eric Lavallée 
 Fabien Lemercier 
@@ -1762,6 +1763,38 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire: 
+Simon Abrams 3 C "shallow and contrived coming of age story"
+Ryland Aldrich
+Raffi Asdourian
+Anna Bielak 
+Alex Billington 
+David Ehrlich
+David Fear
+Jon Frosch 
+Leda Galanou
+Clementine Gallot 
+Stephen Garrett
+Michael Ghennam 
+Glenn Heath Jr.
+Patrick Heidmann 
+Aaron Hillis 
+Frédéric Jaeger
+Peter Keogh 
+Chris Knipp 
+Emanuel Levy
+Patrick Z. McGavin
+Michał Oleszczyk
+Kristy Puchko 
+Jordan Raup 
+James Rocchi 
+Jonathan Rosenbaum
+Eric D. Snider
+Anna Tatarska 
+Drew Taylor 
+Anne Thompson 
+Ignatiy Vishnevetsky 
+Sarah Watt
  Other:
 
 "VOUS N'AVEZ ENCORE RIEN VU (YOU AIN'T SEEN NOTHIN' YET)" (Alain Resnais) [Competition]
@@ -3025,8 +3058,7 @@ Pedro Butcher 1.5
  Other:
 Peter Bradshaw 4
 
-"AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine]
-  Semaine Grand Prize
+"AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine] Semaine Grand Prize
 Carlos F. Heredero 6.5
 Neil Young 4
 Roger Alan Koza  4.7
@@ -3106,7 +3138,7 @@ Carlo Chatrian 6.5
 Javier H. Estrada 6
 Thomas Fioretti 2.9
 
-"CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine]
+"CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine] Quinzaine French Language Film Trophy
 Cristina Nord 7
 Javier H. Estrada 4.8
 Robert Koehler 3
@@ -3122,7 +3154,7 @@ Paolo Bertolin 7
 Fernando Juan Lima 2
 Javier H. Estrada 6.5
 
-"EL TAAIB" (Merzak Allouache) [Quinzaine]
+"EL TAAIB (THE REPENTANT)" (Merzak Allouache) [Quinzaine] Best European Quinzaine Film
 Javier H. Estrada 6
 Luciano Barisone 7
 Thomas Fioretti 5.6
@@ -3172,6 +3204,8 @@ Marcelo Alderete 6
 Roger Alan Koza  6
 Sergio Wolf 9
 Violeta Kovacsics 8
+ Other:
+Mike d'Angelo 5.6
 
 "LA SIRGA" (William Vega) [Quinzaine]
 Carlo Chatrian 6.5
@@ -3184,7 +3218,7 @@ Robert Koehler 7
 Roger Alan Koza  6.5
 Thomas Fioretti 6.5
 
-"NO" (Pablo Larraín) [Quinzaine]
+"NO" (Pablo Larraíne) [Quinzaine] Quinzaine Top Prize ("Art Cinema Award")
 Alexandra Zawia 7
 Carlo Chatrian 6
 Carlos F. Heredero 6
