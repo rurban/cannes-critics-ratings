@@ -344,7 +344,7 @@ Manu Yáñez 2
 Marcelo Alderete 1
 Nando Salva 6.5
 Neil Young 6
-Pamela Bienzobas 5
+Pamela Bienzobas 4.5
 Pedro Butcher 5.5
 Philipp Engel 6
 Robert Koehler 4
@@ -441,6 +441,7 @@ Luciano Barisone 9
 Manu Yáñez 8.5
 Marcelo Alderete 8
 Nando Salva 7
+Pamela Bienzobas 7
 Pedro Butcher 9.5
 Philipp Engel 10
 Robert Koehler 10
@@ -1211,8 +1212,10 @@ Carlos F. Heredero 3
 Carlos Reviriego 6
 Diego Batlle 5
 Diego Lerer 3.3
+Eulalia Iglesias 3.9
 Fernando Ganzo 3.5
 Jaime Pena 4.5
+Pamela Bienzobas 3.7
 #Francisco Ferreira 8.8
 Pedro Butcher 7
 Robert Koehler 2
@@ -1717,6 +1720,7 @@ Cristina Nord 6
 Diego Batlle 7.8
 Diego Lerer 7.1
 Jaime Pena 6.5
+Pamela Bienzobas 6.5
 Pedro Butcher 6.5
 Roger Alan Koza  6
 Xavi Serra  6.5
@@ -2626,7 +2630,7 @@ Arthur Mas 5
 Boris Nelepo 4.9
 Dana Linssen 7.1
 Diego Batlle 6
-Diego Lerer 2.2
+Diego Lerer 2.7
 Eulalia Iglesias 6.7
 Fernando Juan Lima 7.5
 Jaime Pena 8.1
@@ -3062,6 +3066,7 @@ Peter Bradshaw 4
 "AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine] Semaine Grand Prize
 Carlos F. Heredero 6.5
 Neil Young 4
+Pamela Bienzobas 4
 Roger Alan Koza  4.7
 
 "AU GALOP" (LouisDo de Lencquesaing) [Semaine]
@@ -3069,25 +3074,26 @@ Carlos Reviriego 6.7
 Fernando Juan Lima 8
 Gonzalo de Pedro 5
 Martial Pisani 3.1
+Pamela Bienzobas 5
 Philipp Engel 8
 
-"LES VOISINS DE DIEU" (Meni Yaesh) [Semaine]
-   Gaul's Society of Authors, Directors and Composers award
+"LES VOISINS DE DIEU" (Meni Yaesh) [Semaine] Gaul's Society of Authors, Directors and Composers award
 Eulalia Iglesias 3.5
 Rudiger Suchsland  7
  
 "HORS LES MURS" (Damien Lambert) [Semaine]
 Fernando Juan Lima 2
+Pamela Bienzobas 4
 
 "PEDDLERS" (Vasan Bala) [Semaine]
 Carlo Chatrian 5.5
 Jaime Pena 5.5
 Javier H. Estrada 6.3
+Pamela Bienzobas 3
 Sergio Wolf 6
 
-"LOS SALVAJES" (Alejandro Fadel) [Semaine]
+"LOS SALVAJES" (Alejandro Fadel) [Semaine] ACID/CCAS support price for distribution
   BAFICI2012
-  ACID/CCAS support price for distribution
 Alejandro G. Calvo 7
 Carlo Chatrian 5
 Diego Batlle 8.8
@@ -3096,13 +3102,14 @@ Eulalia Iglesias 6.5
 Fernando Ganzo 5
 Jaime Pena 4
 Luciano Barisone 3
+Pamela Bienzobas 5.5
 Roger Alan Koza  7.2
 Sergio Wolf 8
 Violeta Kovacsics 7
 
-"SOFIA'S LAST AMBULANCE" (Ilian Metev) [Semaine]
-  Visionary Price Semaine
+"SOFIA'S LAST AMBULANCE" (Ilian Metev) [Semaine] Visionary Price Semaine
 Neil Young 6
+Pamela Bienzobas 6.7
 
 "AUGUSTINE" (Alice Winocour) [Semaine]
 Neil Young 7
@@ -3126,6 +3133,7 @@ Eulalia Iglesias 7.1
 Fernando Juan Lima 9
 Jaime Pena 6
 Javier H. Estrada 6.5
+Pamela Bienzobas 7
 Roger Alan Koza  6
 Sergio Wolf 7
 
@@ -3137,6 +3145,7 @@ Thomas Fioretti 4.9
 "ALYAH" (Elie Wajeman) [Quinzaine]
 Carlo Chatrian 6.5
 Javier H. Estrada 6
+Pamela Bienzobas 6
 Thomas Fioretti 2.9
 
 "CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine] Quinzaine French Language Film Trophy
@@ -3164,6 +3173,7 @@ Thomas Fioretti 5.6
 Carlo Chatrian 6
 Dana Linssen 6.4
 Javier H. Estrada 4.5
+Pamela Bienzobas 6.8
 Sergio Wolf 7
 
 "FOGO" (Yulene Olaizola) [Quinzaine]
@@ -3192,6 +3202,7 @@ Javier H. Estrada 3
 José Luis de Lorenzo 6
 Nando Salva 3.5
 Neil Young 5
+Pamela Bienzobas 6.7
 Roger Alan Koza  6.5
 
 "LA NOCHE DE ENFRENTE" (Raúl Ruiz) [Quinzaine]
@@ -3201,6 +3212,7 @@ Diego Batlle 6.5
 Diego Lerer 6
 Fernando Ganzo 6.5
 Gonzalo de Pedro 9
+Jaime Pena 8.5
 Marcelo Alderete 6
 Roger Alan Koza  6
 Sergio Wolf 9
@@ -3215,11 +3227,12 @@ Diego Batlle 6.5
 Jaime Pena 3
 Javier H. Estrada 6.5
 Luciano Barisone 5
+Pamela Bienzobas 6
 Robert Koehler 7
 Roger Alan Koza  6.5
 Thomas Fioretti 6.5
 
-"NO" (Pablo Larraíne) [Quinzaine] Quinzaine Top Prize ("Art Cinema Award")
+"NO" (Pablo Larraín) [Quinzaine] Quinzaine Top Prize ("Art Cinema Award")
 Alexandra Zawia 7
 Carlo Chatrian 6
 Carlos F. Heredero 6
@@ -3230,6 +3243,7 @@ Fernando Ganzo 4
 Gonzalo de Pedro 7
 Jaime Pena 2
 Javier H. Estrada 7
+Pamela Bienzobas 8.5
 Robert Koehler 8
 Roger Alan Koza  7.5
 Sergio Wolf 7
@@ -3266,6 +3280,7 @@ Jaime Pena 7.5
 Javier H. Estrada 6
 Luciano Barisone 6
 Marcelo Alderete 6
+Pamela Bienzobas 6
 Pedro Butcher 7
 Robert Koehler 8
 Sergio Wolf 3
@@ -3374,6 +3389,7 @@ Sarah Watt
 "YEK KHANÉVADÉH-E MOHTARAM (A RESPECTABLE FAMILY)" (Massoud Bakhshi) [Quinzaine]
 Fernando Juan Lima 3
 Javier H. Estrada 4.5
+Pamela Bienzobas 7.5
 Robert Koehler 6
 Thomas Fioretti 6.3
 
