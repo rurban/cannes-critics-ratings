@@ -573,7 +573,7 @@ Cédric Succivalli 9
 Clarence Tsui 
 Blake Williams 7
 Liu Min 5
-Eric Kohn 
+Eric Kohn 6 B
  Screen Daily:
 Nick James 7.5
 David Stratton 5
@@ -601,10 +601,12 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
- Other:
+ Indiewire: (3)
 Simon Abrams 9 A
+Anna Bielak 2 C-
 James Rocchi 8 [4/5]
 Michal Oleszczyk 7
+ Other:
 Serge Kaganski (Les Inrockuptibles, France) 10
 Francois Forestier (Le nouvel Observateur, France) 8
 Pierre Murat 8
@@ -788,8 +790,9 @@ Pierre Fornerod 5
 Pascal Merigeau 2.5
 Danielle Attali 1
 Christophe Carriére 
- Indiewire: (16)
+ Indiewire: (17)
 Simon Abrams 7 B+
+Kaleen Aftab (The Independent, UK) 8 A-
 Raffi Asdourian 8 A-
 Anna Bielak 6 B
 Alex Billington 7.5 B-
@@ -1183,7 +1186,7 @@ Pierre Fornerod 2.5
 Pascal Merigeau 2.5
 Danielle Attali 1
 Christophe Carriére 1
- Indiewire:
+ Indiewire (11):
 Raffi Asdourian
 Anna Bielak
 Alex Billington
@@ -1196,7 +1199,7 @@ Michael Ghennam 5 B-
 Glenn Heath Jr. (Press Play, USA) 6 B
 Patrick Heidmann
 Aaron Hillis 7 B+
-Frédéric Jaeger
+Frédéric Jaeger 6 B
 Emanuel Levy 7 B+
 Patrick Z. McGavin 7 B+
 Michal Oleszczyk
@@ -2021,7 +2024,7 @@ Luciano Barisone 6
 Manu Yáñez 3
 Martial Pisani 5
 Nando Salva 3
-Neil Young 6
+Neil Young 6 B-
 Pedro Butcher 6.5
 Robert Koehler 3
 Roger Alan Koza  4
@@ -2037,14 +2040,14 @@ Mike d'Angelo 5.1
 #Carlos F. Heredero  
 Eric Lavallée 5
 Fabien Lemercier 4
-Guy Lodge 4
+Guy Lodge 4 C
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 
 Clarence Tsui 
 Blake Williams 
 Liu Min 6
-Eric Kohn 
+Eric Kohn 6 B
  Screen Daily:
 Nick James 5
 David Stratton 7.5
@@ -2072,11 +2075,12 @@ Pierre Fornerod 5
 Pascal Merigeau 7.5
 Danielle Attali 5
 Christophe Carriére 
- Indiewire (12):
+ Indiewire (15):
 Simon Abrams 
+Kaleen Aftab (The Independent, UK) 5 B-
 Ryland Aldrich
 Raffi Asdourian
-Anna Bielak 
+Anna Bielak 7 B+
 Alex Billington 4 C+
 David Ehrlich
 David Fear
@@ -2088,7 +2092,7 @@ Michael Ghennam 2 C-
 Glenn Heath Jr.
 Patrick Heidmann 4 C+
 Aaron Hillis 1.5 D+
-Frédéric Jaeger
+Frédéric Jaeger 5 B-
 Peter Keogh 
 Chris Knipp 
 Emanuel Levy
