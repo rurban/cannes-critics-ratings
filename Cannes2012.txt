@@ -3287,6 +3287,7 @@ Scott Foundas  8.5
 Thomas Fioretti 7.6
 Violeta Kovacsics 8.5
  Other:
+Mike d'Angelo 6.8
 Guy Lodge 8.5 A-
 Eric Kohn 9 A
 
