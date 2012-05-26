@@ -1210,7 +1210,7 @@ Sarah Watt
 Peter Bradshaw 6
 
 "DO-NUI MAT (TASTE OF MONEY)" (Im Sangsoo) [Competition]
-Alejandro G. Calvo 3.61
+Alejandro G. Calvo 3.6
 Alexandra Zawia 1.5
 Boris Nelepo 1
 Carlos F. Heredero 3
@@ -1471,7 +1471,7 @@ Allan Hunter (Screen Daily, USA) 6
 Simon Gallagher 9 A
 
 "IM NEBEL (IN THE FOG)" (Sergei Loznitsa) [Competition] Fipresci Price
-Alejandro G. Calvo 7
+Alejandro G. Calvo 7.4
 Alexandra Zawia 8
 Arthur Mas 7.1
 Boris Nelepo 3
@@ -3278,6 +3278,7 @@ Alexandra Zawia 7
 Carlo Chatrian 6
 Carlos F. Heredero 6
 Dana Linssen 8
+Diego Batlle 8
 Diego Lerer 6.8
 Eulalia Iglesias 6.9
 Fernando Ganzo 4
