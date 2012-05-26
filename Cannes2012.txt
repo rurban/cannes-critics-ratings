@@ -1716,6 +1716,7 @@ Alexandra Zawia 6.8
 Cristina Nord 6
 Diego Batlle 7.8
 Diego Lerer 7.1
+Jaime Pena 6.5
 Pedro Butcher 6.5
 Roger Alan Koza  6
 Xavi Serra  6.5
