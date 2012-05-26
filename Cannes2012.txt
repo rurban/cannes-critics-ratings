@@ -150,6 +150,7 @@ Ignatiy Vishnevetsky (Freelance, USA)
 Jon Frosch (France 24, France)
 Jonathan Rosenbaum (Chicago Reader, USA) 
 Jordan Raup (The Film Stage, USA)
+Kaleen Aftab (The Independent, UK)
 Karina Longworth (LA Weekly, USA) 
 Keith Uhlich (Time Out New York, USA)
 Kristy Puchko (Freelance, USA)
@@ -792,7 +793,7 @@ Danielle Attali 1
 Christophe Carriére 
  Indiewire: (17)
 Simon Abrams 7 B+
-Kaleen Aftab (The Independent, UK) 8 A-
+Kaleen Aftab 8 A-
 Raffi Asdourian 8 A-
 Anna Bielak 6 B
 Alex Billington 7.5 B-
@@ -2077,7 +2078,7 @@ Danielle Attali 5
 Christophe Carriére 
  Indiewire (15):
 Simon Abrams 
-Kaleen Aftab (The Independent, UK) 5 B-
+Kaleen Aftab 5 B-
 Ryland Aldrich
 Raffi Asdourian
 Anna Bielak 7 B+
@@ -2425,7 +2426,7 @@ Diego Lerer 7.3
 Gonzalo de Pedro 5
 Jaime Pena 4.5
 Javier H. Estrada 5
-Neil Young 7
+Neil Young 7 B
 Pedro Butcher 4
 Roger Alan Koza  6
 Rudiger Suchsland  5
@@ -2473,10 +2474,11 @@ Pierre Fornerod
 Pascal Merigeau 2.5
 Danielle Attali 
 Christophe Carriére 
- Indiewire: (1)
+ Indiewire: (2)
+Kaleen Aftab 7 B+
 Ryland Aldrich 5 B-
 
-"TROIS MONDES" (Catherine Corsini) [Un Certain Regard]
+"TROIS MONDES (THREE WORLDS)" (Catherine Corsini) [Un Certain Regard]
 Carlo Chatrian 2
 Diego Batlle 5.5
 Diego Lerer 4.8
@@ -2497,6 +2499,8 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire: (1)
+Blake Williams 3 C
 
 "ANTIVIRAL" (Brandon Cronenberg) [Un Certain Regard]
 Alejandro G. Calvo 6
@@ -2626,6 +2630,9 @@ Pierre Fornerod 5
 Pascal Merigeau 7.5
 Danielle Attali 7.5
 Christophe Carriére 7.5
+ Indiewire (2):
+Michael Ghennam 7 B+
+Aaron Hillis 4 C+
 
 "LAURENCE ANYWAYS" (Xavier Dolan) [Un Certain Regard]
 Alex Vicente 7.5
@@ -2657,12 +2664,31 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
- Indiewire:
+ Indiewire (13):
+Kaleen Aftab 6 B
+Anna Bielak 5 B-
+Alex Billington 8 A-
+David Fear
+Jon Frosch 8 A-
+Leda Galanou
+Stephen Garrett
+Clementine Gallot 8 A
+Michael Ghennam
+Glenn Heath Jr.
+Patrick Heidmann 6 B
+Aaron Hillis
+Frédéric Jaeger 6 B
+Patrick Z. McGavin
+Emanuel Levy
 Michal Oleszczyk 2 C-
-Simon Gallagher 2 C-
+Eric D. Snider
+Anna Tatarska 5 B-
+Drew Taylor 
+Anne Thompson
 Guy Lodge 4 C+
 Eric Kohn 4 C+
  Other:
+Simon Gallagher 2 C-
 Ruta Buciunaite 8
 
 "DESPUES DE LUCIA" (Michel Franco) [Un Certain Regard]
@@ -2687,8 +2713,10 @@ Pierre Fornerod
 Pascal Merigeau 
 Danielle Attali 
 Christophe Carriére 
+ Indiewire: (1)
+Kaleen Aftab 8 A-
 
-"AIMER À PERDRE LA RAISON (OUR CHILDREN)" (Joachim Lafosse) [Un Certain Regard]
+"AIMER À PERDRE LA RAISON (OUR CHILDREN/Loving without Reason)" (Joachim Lafosse) [Un Certain Regard]
 Alex Vicente 7
 Carlo Chatrian 7
 Eulalia Iglesias 6.1
@@ -2714,8 +2742,9 @@ Pierre Fornerod 7.5
 Pascal Merigeau 5
 Danielle Attali 5
 Christophe Carriére 
- Indiewire: (2)
+ Indiewire: (3)
 Michael Ghennam 5 B
+Frédéric Jaeger 3 C
 Blake Williams 3 C
 
 "STUDENT" (Darezhan Omirbayev) [Un Certain Regard]
@@ -2775,6 +2804,8 @@ Pierre Fornerod 5
 Pascal Merigeau 
 Danielle Attali 5
 Christophe Carriére 
+ Indiewire: (1)
+Blake Williams 4 C+
 
 "ELEFANTE BLANCO" (Pablo Trapero) [Un Certain Regard]
 Alejandro G. Calvo 6
@@ -3416,12 +3447,12 @@ Pedro Butcher 7.5
 Rudiger Suchsland  6
 Violeta Kovacsics 5.5
 Xavi Serra  6.5
- Indiewire (2):
+ Indiewire (3):
+Kaleen Aftab 5 B-
 Michael Ghennam 3 C
 Kevin Jagernauth 2 C-
  Other:
 Mike d'Angelo 5.2
-
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
 Diego Lerer 3.2
@@ -3435,7 +3466,7 @@ Scott Foundas  8
 
 PROYECCIONES DE MEDIANOCHE
 
-"DARIO ARGENTO'S DRACULA" (Dario Argento)
+"DARIO ARGENTO'S DRACULA 3D" (Dario Argento)
 Alejandro G. Calvo 2
 Alexandra Zawia 2
 Fernando Juan Lima 5
@@ -3443,6 +3474,14 @@ José Luis de Lorenzo 2
 Nando Salva 2
 Philipp Engel 4
 Sergio Wolf 8
+ Indiewire (4):
+Simon Abrams 
+Kaleen Aftab 
+Ryland Aldrich
+Raffi Asdourian 1.5 D
+Stephen Garrett 3 C
+Michael Ghennam 0 F
+Eric D. Snider 0 F
  Other:
 Simon Gallagher 1.5 D+
 
@@ -3456,6 +3495,15 @@ Javier H. Estrada 6
 José Luis de Lorenzo 8
 Rudiger Suchsland  10
 Sergio Wolf 6
+ Indiewire (2):
+Simon Abrams 
+Kaleen Aftab 
+Ryland Aldrich
+Raffi Asdourian 5 B-
+Stephen Garrett
+Michael Ghennam
+Patrick Z. McGavin 5 B-
+Eric D. Snider
 
 "UNE JOURNÉE PARTICULIÈRE" (Gilles Jacob y Samuel Faure)
 Alejandro G. Calvo 2
@@ -3545,6 +3593,9 @@ Manu Yáñez 5
 Marcelo Alderete 6
 Philipp Engel 5
 Sergio Wolf 8
+ Indiewire (2):
+Michael Ghennam 6 B
+Blake Williams 3 C
 
 "A MUSICA SEGUNDO TOM JOBIM" (Nelson Pereira Dos Santos) [Funciones Especiales]
 Martial Pisani 5.9
