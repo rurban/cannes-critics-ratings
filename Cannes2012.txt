@@ -160,7 +160,7 @@ Mark Adams (Screen Daily, USA)
 Matt Holmes (Obsessedwithfilm.com, USA) 
 Michael Ghennam (Les Fiches du Cinéma, France)
 Michael Giltz (The Huffington Post, USA) 
-Michał Oleszczyk (Hammer to Nail, USA)
+Michal Oleszczyk (Hammer to Nail, USA)
 Nev Pierce (Empire, USA)
 Patrick Heidmann (Cineman, Germany)
 Paul Martin (Indies Movies Online, USA) 
@@ -302,7 +302,7 @@ Peter Keogh (Boston Phoenix, USA) 9 A
 Chris Knipp (Filmleaf) 9 A
 Emanuel Levy 8 B
 Patrick Z. McGavin 8 A-
-Michał Oleszczyk 9 A
+Michal Oleszczyk 9 A
 Kristy Puchko 7 B+
 Jordan Raup (The Film Stage, USA) 5 B-
 James Rocchi 9 A
@@ -409,7 +409,7 @@ Glenn Heath Jr. 4 C+
 Aaron Hillis (GreenCine Daily) 9 A 
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin (Lightsensitive.typepad.com) 6 B
-Michał Oleszczyk 0.5 D
+Michal Oleszczyk 0.5 D
 Eric D. Snider (Film.com, USA) 7 B+
 Anne Thompson 8 A-
 Sarah Watt (Sunday Star Times, New Zealand) 10 A+
@@ -517,7 +517,7 @@ Chris Knipp
 Megan Lehmann (The Hollywood Reporter, USA) 9 A
 Emanuel Levy 8 A-
 Patrick Z. McGavin 8 A-
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 
@@ -603,7 +603,7 @@ Christophe Carriére
  Other:
 Simon Abrams 9 A
 James Rocchi 8 [4/5]
-Michał Oleszczyk 7
+Michal Oleszczyk 7
 Serge Kaganski (Les Inrockuptibles, France) 10
 Francois Forestier (Le nouvel Observateur, France) 8
 Pierre Murat 8
@@ -698,7 +698,7 @@ Chris Knipp
 Megan Lehmann 
 Emanuel Levy 3 C
 Patrick Z. McGavin 
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 0 F
@@ -803,7 +803,7 @@ Aaron Hillis 4 C+
 Frédéric Jaeger
 Patrick Z. McGavin 3 C
 Emanuel Levy 7 B+
-Michał Oleszczyk
+Michal Oleszczyk
 Eric D. Snider
 Anna Tatarska 4 C+
 Drew Taylor 
@@ -898,7 +898,7 @@ Patrick Heidmann 1.5 D+
 Aaron Hillis 7 B+
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 4 C+
-Michał Oleszczyk 7 B+
+Michal Oleszczyk 7 B+
 Sarah Watt 8 A-
  Other:
 Peter Bradshaw 6
@@ -997,7 +997,7 @@ Aaron Hillis 8 A-
 Frédéric Jaeger 7 B+
 Patrick Z. McGavin 9 A
 Emanuel Levy 8 A-
-Michał Oleszczyk
+Michal Oleszczyk
 Eric D. Snider 6 B
 Anna Tatarska 7 B+
 Drew Taylor 
@@ -1093,7 +1093,7 @@ Patrick Heidmann 4 C+
 Frédéric Jaeger
 Emanuel Levy 5 B-
 Patrick Z. McGavin 2 C-
-Michał Oleszczyk 0 F
+Michal Oleszczyk 0 F
 Eric D. Snider 6 B
 Anne Thompson 6 B
 Sarah Watt 7 B+
@@ -1198,7 +1198,7 @@ Aaron Hillis 7 B+
 Frédéric Jaeger
 Emanuel Levy 7 B+
 Patrick Z. McGavin 7 B+
-Michał Oleszczyk
+Michal Oleszczyk
 Sarah Watt
  Other:
 Peter Bradshaw 6
@@ -1355,7 +1355,7 @@ Aaron Hillis 5 B-
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin 7 B+
-Michał Oleszczyk
+Michal Oleszczyk
 Sarah Watt 4 C+
  Other:
 Peter Bradshaw 4
@@ -1445,7 +1445,7 @@ Peter Keogh
 Chris Knipp 
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi
@@ -1617,7 +1617,7 @@ Patrick Heidmann
 Frédéric Jaeger
 Emanuel Levy 9 A
 Patrick Z. McGavin 9 A
-Michał Oleszczyk 2 C-
+Michal Oleszczyk 2 C-
 Eric D. Snider 1 D
  Other:
 Drew McWeeny (InContention, USA) 2 C-
@@ -1706,7 +1706,7 @@ Michael Ghennam 1 D
 Glenn Heath Jr. 1 D
 Kevin Jagernauth 2 C-
 Patrick Z. McGavin 3 C 
-Michał Oleszczyk 0 F
+Michal Oleszczyk 0 F
  Other:
 David Gritten (The Telegraph, UK) 4
 
@@ -1785,7 +1785,7 @@ Peter Keogh
 Chris Knipp 
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 
@@ -1886,7 +1886,7 @@ Aaron Hillis
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Sarah Watt
  Other:
 Peter Bradshaw 4
@@ -1983,7 +1983,7 @@ Chris Knipp
 Megan Lehmann 
 Emanuel Levy
 Patrick Z. McGavin 
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 
@@ -2089,7 +2089,7 @@ Peter Keogh
 Chris Knipp 
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 6 B
@@ -2190,7 +2190,7 @@ Michael Ghennam 4 C+
 Aaron Hillis 6 B
 Frédéric Jaeger 8 A-
 Patrick Z. McGavin 6 B
-Michał Oleszczyk 2 C-
+Michal Oleszczyk 2 C-
 Anna Tatarska 8 A-
  Other:
 Peter Bradshaw 6
@@ -2278,7 +2278,7 @@ Aaron Hillis 4 C+
 Frédéric Jaeger 8 A-
 Emanuel Levy 7 B+
 Patrick Z. McGavin 5 B-
-Michał Oleszczyk
+Michal Oleszczyk
 Anne Thompson 7 B+
 Sarah Watt 6 B
  Other:
@@ -2370,7 +2370,7 @@ Aaron Hillis
 Frédéric Jaeger
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Sarah Watt
 Blake Williams 4 C+
  Other:
@@ -2553,7 +2553,7 @@ Eric Kohn 4 C+
 Megan Lehmann 6 B
 Emanuel Levy
 Patrick Z. McGavin
-Michał Oleszczyk
+Michal Oleszczyk
 Eric D. Snider 5 B-
 Sarah Watt
 Blake Williams 3 C
@@ -2650,7 +2650,7 @@ Pascal Merigeau
 Danielle Attali 
 Christophe Carriére 
  Indiewire:
-Michał Oleszczyk 2 C-
+Michal Oleszczyk 2 C-
 Simon Gallagher 2 C-
 Guy Lodge 4 C+
 Eric Kohn 4 C+
@@ -2950,7 +2950,7 @@ John Lichmann (Freelance, USA) 10 A+
 Patrick Z. McGavin 8 A-
 Michael Nordline (Hammer to Nail, USA) 9 A
 Tambay Obenson (Shadow and Act, USA) 9 A
-Michał Oleszczyk
+Michal Oleszczyk
 Matt Patches (Hollywood.com, USA) 9 A
 Kristy Puchko 
 Jordan Raup 8 B+
@@ -3277,7 +3277,7 @@ Raffi Asdourian 8 A-
 Mike d'Angelo 5.8
 David Fear 8 A- 
 Tim Grierson 8 A-
-Michał Oleszczyk 7 B+
+Michal Oleszczyk 7 B+
 Mike d'Angelo 5.8
 Blake Williams 7
 
@@ -3359,7 +3359,7 @@ Chris Knipp
 Megan Lehmann 
 Emanuel Levy
 Patrick Z. McGavin 
-Michał Oleszczyk
+Michal Oleszczyk
 Kristy Puchko 
 Jordan Raup 
 James Rocchi 
@@ -3467,7 +3467,7 @@ Nando Salva 4
 Neil Young 6
 Rudiger Suchsland  5
  IndieWire:
-Michał Oleszczyk 6 B
+Michal Oleszczyk 6 B
 
 "ROMAN POLANSKI: A FILM MEMOIR" (Laurent Bouzereau) [Funciones Especiales]
 Alejandro G. Calvo 2
@@ -3595,7 +3595,7 @@ Frédéric Jaeger
 Emanuel Levy
 Eric Kohn 6 B
 Patrick Z. McGavin 8 A-
-Michał Oleszczyk 7 B+
+Michal Oleszczyk 7 B+
 Anna Tatarska 5 B-
 Sarah Watt
 Blake Williams 2.6 D+
@@ -3613,7 +3613,7 @@ Neil Young 6
   Berlin
 Mike d'Angelo 6.8
  Indiewire:
-Michał Oleszczyk 6 B
+Michal Oleszczyk 6 B
 Eric Kohn 8 A-
 Neil Young 1 D-
 Tim Robey 7 B+
@@ -3774,10 +3774,10 @@ END {
   print "stddev name (magazine, cn) numratings <i>±diff</i>\n<pre>\n";
   for (sort {$critic{$a}->{stddev} <=> $critic{$b}->{stddev}} keys %critic) {
     my $n = scalar keys(%{$critic{$_}->{title}});
-    my @r = ($critic{$_}->{stddev}, $_, $critic{$_}->{mag}, $critic{$_}->{cn}, $n, $critic{$_}->{diff});
-    if ($critic{$_}->{stddev} > 2.5) {
-      printf "%0.2f <strike>%s (%s, %s)</strike> %d <i>%+0.1f</i>\n", @r; } 
-    else { printf "%0.2f %s (%s, %s) %d <i>%+0.1f</i>\n", @r; }
+    my $c = sprintf("%s (%s, %s)", $_, $critic{$_}->{mag}, $critic{$_}->{cn});
+    $c = "<strike>$c</strike>" if $critic{$_}->{stddev} > 2.5;
+    $c = "<small>$c</small>" if $n < 10;
+    printf "%0.2f %s %d <i>%+0.1f</i>\n", $critic{$_}->{stddev}, $c, $n, $critic{$_}->{diff}; 
     # print Dumper $critic{$_} if $critic{$_}->{stddev} > 4;
   }
   print "</pre>";
