@@ -575,16 +575,16 @@ Blake Williams 7
 Liu Min 5
 Eric Kohn 
  Screen Daily:
-Nick James 
-David Stratton 
-Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+Nick James 7.5
+David Stratton 5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 2.5
+Jose Carlos Avellar 2.5
+Dennis Lim 7.5
+Michel Ciment 7.5
+Kate Muir 5
+Bo Green Jensen 5
+Screen International 5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -651,16 +651,16 @@ Blake Williams 5
 Liu Min 5
 Eric Kohn 1.5 D+
  Screen Daily:
-Nick James 
+Nick James 2.5
 David Stratton 
 Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 1
 Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+Michel Ciment 5
+Kate Muir 5
+Bo Green Jensen 5
+Screen International 5
  Le film français:
 Stéphanie Lamome 2.5
 Arnaud schwartz 1
@@ -1503,16 +1503,16 @@ Blake Williams 4 C+
 Liu Min 
 Eric Kohn 5 B
  Screen Daily:
-Nick James 
-David Stratton 
-Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+Nick James 9
+David Stratton 7.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 5
+Dennis Lim 5
+Michel Ciment 5
+Kate Muir 7.5
+Bo Green Jensen 7.5
+Screen International 9
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1939,16 +1939,16 @@ Blake Williams 4 C-
 Liu Min 6
 Eric Kohn 5 B-
  Screen Daily:
-Nick James 
-David Stratton 
-Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+Nick James 5
+David Stratton 2.5
+Derek Malcolm 7.5
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 2.5
+Dennis Lim 7.5
+Michel Ciment 1
+Kate Muir 2.5
+Bo Green Jensen 7.5
+Screen International 7.5
  Le film français:
 Stéphanie Lamome 5
 Arnaud schwartz 5
@@ -2051,7 +2051,7 @@ David Stratton 7.5
 Derek Malcolm 7.5
 Jan Schulz-Ojala 5
 Jose Carlos Avellar 9
-Dennis Lim 
+Dennis Lim 7.5
 Michel Ciment 7.5
 Kate Muir 5
 Bo Green Jensen 7.5
