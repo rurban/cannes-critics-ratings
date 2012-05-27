@@ -1,51 +1,11 @@
 #!/usr/bin/perl  -- -*- text -*-
 # Recalc and sort ratings from http://letrasdecine.blogspot.com/2010/05
-while (<DATA>) {
-  chomp; 
-  if (/^\s*"(.+)"/) {
-    $a = sprintf("%.02f", $s/$n) if $n;
-    push @t, [$title_dir,$a,$n,$title] if $title_dir;
-    $title = $1; $title_dir = $_; $n = $s = 0;
-  }
-  elsif (/\):\s*([\d,]+)/) { 
-    my $x = $1; $x =~ s/,/./g; $x = 10 if $x > 10; $x = 0 if $x < 0;
-    unless (/^Markus Keuschnigg /) { # remove critics if absdiff > 2.0 
-      # see http://www.facebook.com/note.php?note_id=10150174713060012
-      # calc with http://rurban.xarch.at/film/Cannes2010.zip
-      $s += $x; $n++;
-    }
-  }
-}
-END {
-  print "SORTED avg>6,n>3\n\n";
-  for (sort {$b->[1] <=> $a->[1]} @t) {
-    ($l,$a,$n,$t) = @{$_};
-    last if $a < 6.0;
-    if ($l =~ / \(Competition\)/) {
-      $l =~ s/ \(Competition\)//;
-      print "<b>$l</b> \[$a/$n\]\n" if $n > 3;
-    } else {
-      $l =~ s/ \([\w ]+?\)$//;
-      print "$l \[$a/$n\]\n" if $n > 3;
-    }
-  }
-  print "\nALL\n\n";
-  for (sort {$b->[1] <=> $a->[1]} @t) {
-    ($l,$a,$n,$t) = @{$_};
-    if ($l =~ / \(Competition\)/) {
-      $l =~ s/ \(Competition\)//;
-      print "<b>$l</b> \[$a/$n\]\n";
-    } else {
-      $l =~ s/ \([\w ]+?\)$//;
-      print "$l \[$a/$n\]\n";
-    }
-  }
-}
-__DATA__
+# Perl script by Reini Urban (c) 2010
+use utf8;
+my $DATA= <<'EOF';
 "BI, DUNG SO!" Phan Dang Di (Semaine)
 
-"ARMADILLO" Janus Metz (Semaine)
-    Grand Prix Semaine
+"ARMADILLO" Janus Metz (Semaine) Grand Prix Semaine
 
 "BEDEVILLED" Cheol-soo JANG (Semaine)
 
@@ -53,14 +13,14 @@ __DATA__
 
 "COPACABANA" Marc Fitoussi (Semaine)
 
-"PIEDS NUS SUR LES LIMACES (LILY SOMETIMES)" Fabienne Berthaud (Quinzaine)
-    Art Cinema Award
+"PIEDS NUS SUR LES LIMACES (LILY SOMETIMES)" Fabienne Berthaud (Quinzaine) Art Cinema Award
 
 Diego Batlle (La Nación, Otros Cines, Argentina): 6
 
 "ALL GOOD CHILDREN" Alicia Duffy (Quinzaine)
 
-"UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE (THE EXODUS - Burnt by the sun 2)" Nikita MIKHALKOV (Competition)
+"UTOMLYONNYE SOLNTSEM 2: PREDSTOYANIE (THE EXODUS - Burnt by the sun 2)" Nikita
+ MIKHALKOV (Competition)
 
 Robert Koehler: (Variety, EE.UU.): 2
 Luciano Monteagudo (Página/12, Argentina): 5
@@ -644,8 +604,7 @@ Scott Foundas (Filmlinc, EE.UU): 7
 Robert Koehler (Variety, EE.UU.): 9
 Paolo Bertolin (Cineforum, Italia): 8
 
-"LE QUATTRO VOLTE" Michelangelo Frammartino (Quinzaine)
-    Best European Film Quinzaine
+"LE QUATTRO VOLTE" Michelangelo Frammartino (Quinzaine) Best European Film Quinzaine
     Palm Dog Award for best performance by a dog
 
 Carlos Reviriego (Cahiers du Cinéma España, España): 10
@@ -1139,3 +1098,162 @@ http://letrasdecine.blogspot.com/2010/05
 http://www.facebook.com/note.php?note_id=10150174713060012
 http://rurban.xarch.at/film/Cannes2010.txt
 http://rurban.xarch.at/film/Cannes2010.zip
+
+EOF
+
+my (%critic,%badcritic,%title,@t,@critics);
+for my $c (@critics) {
+  for (split/\n/,$c) { undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(\S.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);}
+    next unless $critic;
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;}}
+for (split /\n/, $DATA) { #chomp;
+  if (/^#/) { next; } #skip
+  elsif (/^["“](.+)["”]/) {
+    $a = $n ? sprintf("%.02f", $s/$n) : 0;
+    push @t, [$title_dir,$a,$n,$title] if $title_dir;
+    $title = $1;
+    s/[“”]/"/g; s/ \([\d.,]+\) \d+ votos//;
+    $title_dir = $_; $n = $s = 0; }
+  elsif (/[\w\):] *(\d[\d.]*)/) {
+    my $x = $1; $x =~ s/,/./g; $x = 10 if $x > 10; $x = 0 if $x < 0;
+    $s += $x; $n++; undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(\S.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);
+    } elsif (/^(\S[^\(]+)\s+\d/) {
+      ($critic,$mag,$cn) = ($1,undef,undef);
+      $critic =~ s/ +$//;
+    }
+    next unless $critic;
+    $critic{$critic}->{title}->{$title} = [$x];
+    $title{$title}->{critic}->{$critic} = [$x];
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;
+  }}
+undef $DATA;
+my $HEADER = <<"EOF";
+<html><head><meta http-equiv="Content-type" content="'text/html';charset='iso-8859-1'"><title>All Cannes 2010 critics ratings</title></head><body>
+<i>Second edition of the survey / poll of films at Cannes 2010.</i> - Diego Lerer<p>
+
+<small>0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
+Official selection competition: bold)</small><p>
+EOF
+my $FOOTER = "
+<pre>
+--
+http://letrasdecine.blogspot.com/2010/05
+http://www.facebook.com/note.php?note_id=10150174713060012
+
+Source at http://rurban.xarch.at/film/Cannes2010.txt
+Result at http://rurban.xarch.at/film/Cannes2010.sorted.html
+History at http://github.com/rurban/cannes-critics-ratings/
+</pre></body></html>
+";
+
+$FOOTER =~ s{http://(.+)\n}{<a href="http://$1">$1</a>\n}g;
+
+END {
+  print $HEADER if $HEADER;
+  @all = @t;
+  @sections = ("Competition", "Un Certain Regard", "Semaine", "Quinzaine", "Other");
+  %sections = map{$_=>1} @sections;
+  @t = sort {$b->[1] <=> $a->[1]} @t;
+  for (@t) {
+    ($l,$a,$n,$t) = @{$_}; my $section;
+    if ($l =~ / \(Competition\)/) { $l =~ s/ \(Competition\)//; $section = 'Competition';}
+    else { $l =~ s/ \(([\w ]+?)\)//; $section = $1;}
+    $section='Other' if !$section or !$sections{$section};
+    $title{$t}->{'section'} = $section; $title{$t}->{'avg'} = $a; $title{$t}->{'num'} = $n; $title{$t}->{'line'} = $l;
+    for $c (keys %{$title{$t}->{critic}}) {
+      $x = $title{$t}->{critic}->{$c}->[0];
+      push @{$title{$t}->{critic}->{$c}}, $x - $a;
+      push @{$critic{$c}->{title}->{$t}}, ($a, $x - $a);}}
+  for my $c (keys %critic) {
+    my ($s,$sum,$asum)=(0,0,0);my @k=keys(%{$critic{$c}->{title}});
+    unless (@k){delete $critic{$c};next};
+    for(@k){($x,$a,$d)=@{$critic{$c}->{title}->{$_}};$asum+=abs($d);$sum += $d;}
+    for(@k){my $d=$critic{$c}->{title}->{$_}->[2];$s += ($d * $d);}
+    $critic{$c}->{diff} = $sum / scalar(@k);
+    $critic{$c}->{absdiff} = $asum / scalar(@k);
+    $critic{$c}->{stddev}  = sqrt($s / scalar(@k));
+    $badcritic{$c}++ if $critic{$c}->{stddev} >= 2.5; }
+  # remove critics from %title if critics->stddev > 2.5.
+  # we could strike out the best and worst per film, but better 
+  # strike out outliers to get better early results on films with n<10
+  for my $c (keys %badcritic) {
+    for my $t (keys %title) {
+      if ($title{$t}->{critic}->{$c}) {
+        $title{$t}->{num}--; my ($n,$sum)=($title{$t}->{num},0);
+	delete $title{$t}->{critic}->{$c};
+	for (keys %{$title{$t}->{critic}}) {$sum += $title{$t}->{critic}->{$_}->[0]}
+	$title{$t}->{avg} = $sum / $n if $n}}}
+
+  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t; $i=1;
+  for (@t) { $t = $_->[3]; my ($a,$s)=($title{$t}->{avg},0);
+    for (keys %{$title{$t}->{critic}}) {
+      my $v=$title{$t}->{critic}->{$_}->[0]; $s += ($v-$a)*($v-$a)}
+    $title{$t}->{stddev} = sqrt($s / $title{$t}->{num}) if $title{$t}->{num};}
+  print "<h1>Very Good Films (avg>7.5, n>3)</h1>\n<pre>\n";
+  for (@t) { $t = $_->[3];
+    $n=$title{$t}->{num};$a=sprintf("%0.2f",$title{$t}->{avg}); next if $n<=3 or $a < 7.5; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
+    $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
+    printf "%2d. $l \[$a/$n $s\]\n", $i++;}
+  print "</pre>\n\n<h1>Good Films (avg>6, n>3)</h1>\n<pre>\n";
+  for (@t) { $t = $_->[3];
+    $a=sprintf("%0.2f",$title{$t}->{avg}); $n=$title{$t}->{num}; next if $a < 6.0 or $a >= 7.5 or $n <= 3; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
+    $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
+    printf "%2d. $l \[$a/$n $s\]\n", $i++; }
+  print "</pre>\nThe rest is below 6, unacceptable for Cannes.\n";
+
+  print "\n<h1>All official sections</h1>\n\n";
+  my %section;
+  for $section (@sections) {
+    $sum = $num = 0; my @titles = keys %title;
+    for (@titles) {
+      if ($title{$_}->{section} eq $section) {
+        $section{$section}->{$_} = [ $title{$_}->{avg}, $title{$_}->{num}, $title{$_}->{stddev} ]; 
+        if($title{$_}->{num}){$sum += $title{$_}->{avg}; $num++}}}
+    if ($num) { my $i=1; my $six=1;
+      printf("<h2>Ratings for <b>$section [%0.2f/%d]</b></h2>\n<pre>\n", $sum/$num, $num);
+      for (sort {$section{$section}->{$b}->[0] <=> $section{$section}->{$a}->[0]}
+	   keys %{$section{$section}}) 
+      { my $s=$section{$section}->{$_}->[2];my $l=$title{$_}->{line};$l=$s>=2.0?"<i>$l</i>":$l;
+        $l="<small>$l</small>" if $title{$_}->{num} < 10;
+        if ($six and $section{$section}->{$_}->[0] < 6){
+          $six=0; print "-"x25,"\n";}
+        $section{$section}->{$_}->[1]?
+	  printf("%2d. %s [%0.2f/%d %0.1f]\n", $i++, $l, @{$section{$section}->{$_}}):print("    $l [-]\n");
+      } print "</pre>\n\n"; }}
+
+  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n<pre>\n"; my $i=1; my $six=1;
+  for (sort {$b->[1] <=> $a->[1]} @t) {
+    ($l,$a,$n,$t) = @{$_};
+    $s=sprintf("%0.1f",$title{$t}->{stddev}); $l="<i>$l</i>" if $s>=2.0;
+    if ($l =~ / \[Competition\]/) { $l =~ s/ \[Competition\]//; $l="<b>$l</b>"; }
+    else { $l =~ s/ \[[\w ]+?\]//;}
+    $l="<small>$l</small>" if $title{$t}->{num}<10;
+    if ($six and $n and $a<6.0){$six=0;print "-"x25,"\n"}
+    $n?printf("%2d. $l \[$a/$n $s\]\n",$i++):print("    $l \[-\]\n");}
+  my $numc = scalar(keys(%critic));
+  printf "</pre>\n\n<h1>%d/%d Critics</h1>\n\n",$numc-scalar(keys(%badcritic)),$numc;
+  print "<i>filter stddev >2.5 from avg</i>\n";
+  print "stddev name (magazine, cn) numratings <i>±diff</i>\n<pre>\n";
+  for (sort {$critic{$a}->{stddev} <=> $critic{$b}->{stddev}} keys %critic) {
+    my $n = scalar keys(%{$critic{$_}->{title}});
+    my $c = sprintf("%s (%s, %s)", $_, $critic{$_}->{mag}, $critic{$_}->{cn});
+    $c = "<strike>$c</strike>" if $critic{$_}->{stddev} > 2.5;
+    $c = "<small>$c</small>" if $n < 10;
+    printf "%0.2f %s %d <i>%+0.1f</i>\n", $critic{$_}->{stddev}, $c, $n, $critic{$_}->{diff}; 
+    # print Dumper $critic{$_} if $critic{$_}->{stddev} > 4;
+  }
+  print "</pre>";
+  print $FOOTER if $FOOTER;
+}
