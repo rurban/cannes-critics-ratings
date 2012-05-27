@@ -1248,16 +1248,16 @@ Blake Williams
 Liu Min 
 Eric Kohn 
  Screen Daily:
-Nick James 
-David Stratton 
+Nick James 2.5
+David Stratton 2.5
 Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+Jan Schulz-Ojala 5
+Jose Carlos Avellar 2.5
+Dennis Lim 1
+Michel Ciment 5
+Kate Muir 7.5
+Bo Green Jensen 5
+Screen International 2.5
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -1755,15 +1755,15 @@ Liu Min
 Eric Kohn 
  Screen Daily:
 Nick James 
-David Stratton 
-Derek Malcolm 
-Jan Schulz-Ojala 
-Jose Carlos Avellar 
-Dennis Lim 
-Michel Ciment 
-Kate Muir 
-Bo Green Jensen 
-Screen International 
+David Stratton 7.5
+Derek Malcolm 5
+Jan Schulz-Ojala 7.5
+Jose Carlos Avellar 5
+Dennis Lim 5
+Michel Ciment 9
+Kate Muir 7.5
+Bo Green Jensen 5
+Screen International 9
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -3537,6 +3537,7 @@ Simon Gallagher 7 B+
 Henry Barnes (Guardian, UK) 6
 
 "MANIAC" (Franck Khalfoun)
+Mike d'Angelo W/O. "Had I known it's a first-person-camera slasher film I wouldn't have bothered. You can't even *see* Elijah Wood!"
 
 FUNCIONES ESPECIALES
 
