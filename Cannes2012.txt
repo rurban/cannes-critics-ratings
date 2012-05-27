@@ -437,11 +437,19 @@ Pierre Fornerod 2.5
 Pascal Merigeau 2.5
 Danielle Attali 9
 Christophe Carriére 1
- Indiewire: (3)
+ Indiewire: (8)
 Simon Abrams 9 A
+Raffi Asdourian 3 C
 Anna Bielak 2 C-
+Jon Frosch 3 C
+Leda Galanou
+Clementine Gallot
+Stephen Garrett
+Michael Ghennam
+Glenn Heath Jr. 5 B
 James Rocchi 8 [4/5]
 Michal Oleszczyk 7
+Anna Tatarska 2 C-
  Other:
 Serge Kaganski (Les Inrockuptibles, France) 10
 Francois Forestier (Le nouvel Observateur, France) 8
