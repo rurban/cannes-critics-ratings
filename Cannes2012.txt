@@ -1219,9 +1219,10 @@ Diego Batlle 5
 Diego Lerer 3.3
 Eulalia Iglesias 3.9
 Fernando Ganzo 3.5
+#Francisco Ferreira 8.8 before Cannes
+Francisco Ferreira 1    at the last day
 Jaime Pena 4.5
 Pamela Bienzobas 3.7
-#Francisco Ferreira 8.8
 Pedro Butcher 7
 Philipp Engel 5
 Robert Koehler 2
@@ -1727,6 +1728,7 @@ Cristina Nord 6
 Diego Batlle 7.8
 Diego Lerer 7.1
 Jaime Pena 6.5
+Javier H. Estrada 6.5
 Pamela Bienzobas 6.5
 Pedro Butcher 6.5
 Roger Alan Koza  6
@@ -3105,6 +3107,7 @@ Peter Bradshaw 4
 
 "AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine] Semaine Grand Prize
 Carlos F. Heredero 6.5
+Jaime Pena 5
 Neil Young 4
 Pamela Bienzobas 4
 Roger Alan Koza  4.7
@@ -3190,6 +3193,7 @@ Thomas Fioretti 2.9
 
 "CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine] Quinzaine French Language Film Trophy
 Cristina Nord 7
+Jaime Pena 5
 Javier H. Estrada 4.8
 Robert Koehler 3
 Thomas Fioretti 5.8
@@ -3220,6 +3224,7 @@ Sergio Wolf 7
 Diego Batlle 7
 Eulalia Iglesias 6
 Fernando Juan Lima 8
+Jaime Pena 7.9
 Javier H. Estrada 4.5
 Neil Young 5
 Philipp Engel 6
@@ -3253,6 +3258,7 @@ Diego Lerer 6
 Fernando Ganzo 6.5
 Gonzalo de Pedro 9
 Jaime Pena 8.5
+Javier H. Estrada 8
 Marcelo Alderete 6
 Robert Koehler 8
 Roger Alan Koza  6
