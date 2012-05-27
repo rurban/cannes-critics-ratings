@@ -327,7 +327,7 @@ Pierre Vavasseur 5
 Pierre Murat 9
 Jean Roy 5
 Serge Kaganski 9
-Pierre Fornerod 2.5
+Pierre Fornerod 2.5 
 Pascal Merigeau 7.5
 Danielle Attali 7.5
 Christophe Carriére 
@@ -423,20 +423,20 @@ Bo Green Jensen 5
 Screen International 5
  Le film français:
 Stéphanie Lamome 
-Arnaud schwartz 
-Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
-Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
-Christophe Carriére 
+Arnaud schwartz 2.5
+Fabrice Leclerc 5
+Eric Neuhoff 2.5
+Stéphane Delorme 9
+Jaques Mandelbaum 7.5
+Philippe Rouyer 5
+Pierre Vavasseur 1
+Pierre Murat 7.5
+Jean Roy 1
+Serge Kaganski 7.5
+Pierre Fornerod 2.5
+Pascal Merigeau 2.5
+Danielle Attali 9
+Christophe Carriére 1
  Indiewire: (3)
 Simon Abrams 9 A
 Anna Bielak 2 C-
@@ -512,7 +512,7 @@ Pierre Vavasseur 9
 Pierre Murat 1
 Jean Roy 2.5
 Serge Kaganski 1
-Pierre Fornerod 
+Pierre Fornerod 5
 Pascal Merigeau 2.5
 Danielle Attali 7.5
 Christophe Carriére 
@@ -1357,19 +1357,19 @@ Bo Green Jensen 7.5
 Screen International 9
  Le film français:
 Stéphanie Lamome 
-Arnaud schwartz 
+Arnaud schwartz 7.5
 Fabrice Leclerc 
-Eric Neuhoff 
-Stéphane Delorme 
-Jaques Mandelbaum 
-Philippe Rouyer 
+Eric Neuhoff 5
+Stéphane Delorme 2.5
+Jaques Mandelbaum 7.5
+Philippe Rouyer 5
 Pierre Vavasseur 
-Pierre Murat 
-Jean Roy 
-Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
+Pierre Murat 7.5
+Jean Roy 2.5
+Serge Kaganski 5
+Pierre Fornerod 2.5
+Pascal Merigeau 5
+Danielle Attali 2.5
 Christophe Carriére 
  Indiewire (3):
 Simon Abrams 9 A
@@ -1804,11 +1804,11 @@ Eric Neuhoff 1
 Stéphane Delorme 1
 Jaques Mandelbaum 2.5
 Philippe Rouyer 1
-Pierre Vavasseur 
+Pierre Vavasseur 1
 Pierre Murat 1
 Jean Roy 2.5
 Serge Kaganski 
-Pierre Fornerod 
+Pierre Fornerod 1
 Pascal Merigeau 2.5
 Danielle Attali 1
 Christophe Carriére 1
@@ -2157,21 +2157,21 @@ Blake Williams
 Liu Min 6
 Eric Kohn 
  Le film français:
-Stéphanie Lamome 
+Stéphanie Lamome 5
 Arnaud schwartz 
-Fabrice Leclerc 
+Fabrice Leclerc 5
 Eric Neuhoff 
 Stéphane Delorme 
 Jaques Mandelbaum 
 Philippe Rouyer 
-Pierre Vavasseur 
+Pierre Vavasseur 5
 Pierre Murat 
 Jean Roy 
 Serge Kaganski 
-Pierre Fornerod 
-Pascal Merigeau 
-Danielle Attali 
-Christophe Carriére 
+Pierre Fornerod 5
+Pascal Merigeau 5
+Danielle Attali 5
+Christophe Carriére 7.5
 
 UN CERTAIN REGARD
 
@@ -2245,7 +2245,7 @@ Stéphanie Lamome
 Arnaud schwartz 
 Fabrice Leclerc 
 Eric Neuhoff 
-Stéphane Delorme 
+Stéphane Delorme 5
 Jaques Mandelbaum 
 Philippe Rouyer 
 Pierre Vavasseur 
@@ -2333,7 +2333,7 @@ Fabrice Leclerc
 Eric Neuhoff 
 Stéphane Delorme 
 Jaques Mandelbaum 
-Philippe Rouyer 
+Philippe Rouyer 2.5
 Pierre Vavasseur 
 Pierre Murat 
 Jean Roy 
@@ -2459,7 +2459,7 @@ Rudiger Suchsland  1
 Sergio Wolf 4
  Le film français:
 Stéphanie Lamome 7.5
-Arnaud schwartz 
+Arnaud schwartz 7.5
 Fabrice Leclerc 
 Eric Neuhoff      1
 Stéphane Delorme 
@@ -2748,7 +2748,7 @@ Philippe Rouyer
 Pierre Vavasseur 
 Pierre Murat 
 Jean Roy 
-Serge Kaganski 
+Serge Kaganski 7.5
 Pierre Fornerod 
 Pascal Merigeau 
 Danielle Attali 
@@ -2900,17 +2900,17 @@ Stéphanie Lamome
 Arnaud schwartz 
 Fabrice Leclerc 
 Eric Neuhoff 
-Stéphane Delorme 
+Stéphane Delorme 5
 Jaques Mandelbaum 
 Philippe Rouyer 
 Pierre Vavasseur 
 Pierre Murat 
-Jean Roy 
+Jean Roy 2.5
 Serge Kaganski 
 Pierre Fornerod 
 Pascal Merigeau 
-Danielle Attali 
-Christophe Carriére 
+Danielle Attali 5
+Christophe Carriére 2.5
  Other:
 Don Simpson (Smells Like Screen Spirit, USA) 6
 Andrew Schenker (Slant, USA) 6.5
