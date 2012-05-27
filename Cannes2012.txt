@@ -1371,12 +1371,13 @@ Pierre Fornerod 2.5
 Pascal Merigeau 5
 Danielle Attali 2.5
 Christophe Carriére 
- Indiewire (3):
+ Indiewire: (4)
 Simon Abrams 9 A
 Ryland Aldrich
-Raffi Asdourian 
+Raffi Asdourian 7 B+
 Anna Bielak 2 C-
 Alex Billington  
+Anna Tatarska 7 B+
  Other:
 Peter Bradshaw 8
 
