@@ -6,6 +6,15 @@
 # and Mike d'Angelo from Twitter and more international critics.
 # Pulished at http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012
 # Perl script by Reini Urban (c) 2010, 2011
+# US ratings:
+# A+ 10   A 9   A- 8
+# B+ 7    B 6   B- 5
+# C+ 4    C 3   C- 2
+# D+ 1.5  D 1
+# E 0.5   F 0
+# Le film français+Screen Daily 0-4: 0-1, 1-2.5, 2-5, 3-7.5, 4-9
+# British 0-5: x2
+
 use utf8;
 my $DATA= <<'EOF';
 
@@ -82,6 +91,17 @@ Cédric Succivalli (International Cinephil Society, France)
 Anne Thompson (Indiewire, USA)
 Clarence Tsui (South China Morning Post, Hong Kong)
 Eduardo Valente (Revista Cinema, Brazil)
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 
+Derek Malcolm (London Evening, UK) 
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 
+Michel Ciment (Positif, France) 1
+Alberto Crespi (L'Unita, Italy) 
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 7.5
 
 “Once Upon a Time in Anatolya” Nuri Bilge Ceylan (7.12) 12 votos [Competition] Grand prix
 FERNANDO GANZO (Lumiere, España) – 5.5
@@ -145,6 +165,17 @@ Cédric Succivalli (International Cinephil Society, France)
 Anne Thompson (Indiewire, USA)
 Clarence Tsui (South China Morning Post, Hong Kong)
 Eduardo Valente (Revista Cinema, Brazil)
+ Screen Daily:
+Nick James (Sight & Sound, UK) 9
+David Stratton (The Australian, Australia) 9
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 7.5
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 9
+Alberto Crespi (L'Unita, Italy) 
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 9
  Indiewire:
 Simon Abrams (Freelance, USA) 6.25 B
 Jon Frosch (France 24,USA) 9 A
@@ -220,6 +251,17 @@ Cédric Succivalli (International Cinephil Society, France)
 Anne Thompson (Indiewire, USA)
 Clarence Tsui (South China Morning Post, Hong Kong) 6.25
 Eduardo Valente (Revista Cinema, Brazil) 1.25
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 9
+Derek Malcolm (London Evening, UK) 2.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 7.5
  Indiewire:
 Simon Abrams (Freelance) 9 A
 Joshua Brunsting (Gordon and the Whale) 2 C-
@@ -374,6 +416,17 @@ Cédric Succivalli (International Cinephil Society, France)
 Anne Thompson (Indiewire, USA) 10
 Clarence Tsui (South China Morning Post, Hong Kong)
 Eduardo Valente (Revista Cinema, Brazil) 5
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 5
+Derek Malcolm (London Evening, UK) 2.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 1
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 9
  Indiewire:
 Simon Abrams (Freelance) 8 A-
 Joshua Brunsting (Gordon and the Whale) 5 B
@@ -558,6 +611,17 @@ Cédric Succivalli (International Cinephil Society, France) 10
 Anne Thompson (Indiewire, USA) 5 B
 Clarence Tsui (South China Morning Post, Hong Kong) 5
 Eduardo Valente (Revista Cinema, Brazil)
+ Screen Daily:
+Nick James (Sight & Sound, UK) 9
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 7.5
+Dennis Lim (The New York Times, USA) 2.5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 9
  Indiewire:
 Simon Abrams (Freelance, USA) 8 A-
 Brian Brooks (indieWIRE, USA) 6.25 B
@@ -636,6 +700,17 @@ Cédric Succivalli (International Cinephil Society, France) 2.5
 Anne Thompson (Indiewire, USA) 10 A
 Clarence Tsui (South China Morning Post, Hong Kong) 7.5
 Eduardo Valente (Revista Cinema, Brazil) 2.5
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 1
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 9
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 9
+Screen International (Screen International, USA) 5
  Indiewire:
 Mike d'Angelo (AV Club, USA) 4.2 C
 Eric Kohn (Indiewire, USA) 9 A
@@ -717,6 +792,17 @@ Cédric Succivalli (International Cinephil Society, France) 3.75
 Anne Thompson (Indiewire, USA) 6.75
 Clarence Tsui (South China Morning Post, Hong Kong) 6.75
 Eduardo Valente (Revista Cinema, Brazil) 6.75
+ Screen Daily:
+Nick James (Sight & Sound, UK) 2.5
+David Stratton (The Australian, Australia) 5
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 5
+Alberto Crespi (L'Unita, Italy) 2.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 5
 
 "Oslo, 31. August" Joachim Trier (4.25) 8 votos [Un Certain Regard]
 ROGER ALAN KOZA (La Voz del Interior / Con los ojos abiertos, Argentina) – 5
@@ -882,6 +968,17 @@ Cédric Succivalli (International Cinephil Society, France) 5
 Anne Thompson (Indiewire, USA)
 Clarence Tsui (South China Morning Post, Hong Kong) 5
 Eduardo Valente (Revista Cinema, Brazil) 5
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 2.5
+Derek Malcolm (London Evening, UK) 2.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 9
+Dennis Lim (The New York Times, USA) 2.5
+Michel Ciment (Positif, France) 1
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 5
  IndieWire:
 Joshua Brunsting (Chase and the Whale, USA) 2 C-
 Michael Giltz (The Huffington Post, USA) 3.25 1.5/4
@@ -975,6 +1072,17 @@ Cédric Succivalli (International Cinephil Society, France) 8.75
 Anne Thompson (Indiewire, USA)
 Clarence Tsui (South China Morning Post, Hong Kong) 2.5
 Eduardo Valente (Revista Cinema, Brazil) 3.75
+ Screen Daily:
+Nick James (Sight & Sound, UK) 2.5
+David Stratton (The Australian, Australia) 
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 7.5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 2.5
+Screen International (Screen International, USA) 2.5
  Indiewire:
 Mike d'Angelo (AV Club, USA) 2.6 D+
 Simon Abrams (Freelance, USA) 2 C-
@@ -1068,6 +1176,17 @@ Peter Bradshaw (Guardian, UK)
 Mike d'Angelo (AV Club, USA) 5.1 C+ Crowd seems ready to eat up anything heartwarming this year, even when it's as willfully programmatic as this.
 Kevin Jagernauth (Indiewire's The Playlist, USA) 9 A
 David Gritten (Telegraph, UK) 8
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 9
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 9
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 7.5
  IndieWire:
 Joshua Brunsting (Chase and the Whale, USA) 9 A
 Eric Kohn (Indiewire, USA) 8 A-
@@ -1198,6 +1317,17 @@ Simon Gallagher (filmschoolrejects.com, USA) 3 C
 Laremy Legel (Film.com, USA) 6.25 B
 Simon Reynolds (Digital Spy, UK) 8
 Raffi Asdourian (The Film Stage, USA) 5 B-
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 9
+Michel Ciment (Positif, France) 9
+Alberto Crespi (L'Unita, Italy) 9
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 9
+Screen International (Screen International, USA) 5
  IndieWire:
 Simon Abrams (Freelance, USA) 10 A+
 Joshua Brunsting (Chase and the Whale, USA) 7.5 B+
@@ -1254,6 +1384,17 @@ CARLOS REVIRIEGO (El Cultural / Cahiers du cinéma, España) –  9
 ALEJANDRO G. CALVO (SensaCine, España) - 8
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) - 1
 Mike d'Angelo (AV Club, USA) 6.9
+ Screen Daily:
+Nick James (Sight & Sound, UK) 1
+David Stratton (The Australian, Australia) 2.5
+Derek Malcolm (London Evening, UK) 2.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 1
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 2.5
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 2.5
+Alberto Crespi (L'Unita, Italy) 2.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 2.5
  Ioncinema:
 Christophe Beney (Palmares magazine, France)
 David Calhoun (The Out London, UK) 2.5
@@ -1438,6 +1579,17 @@ ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 7
 David Calhoun (Time Out London, UK) 8
 Simon Gallagher (filmschoolrejects.com, USA) 10 A+
 Raffi Asdourian (The Film Stage, USA) 8 A-
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 9
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 9
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 2.5
+Michel Ciment (Positif, France) 5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 9
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 2.5
 Per Juul Carlsen (Danish National Radio, Denmark) 7.5
@@ -1511,6 +1663,17 @@ ALEJANDRO G. CALVO (SensaCine, España) –   8
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 8
 Mike d'Angelo (AV Club, USA) 6.4
 Kevin Jagernauth (Indiewire's The Playlist, USA) 7.5 B+
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 9
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 9
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 7.5
 David Calhoun (Time Out London, UK) 8.375
@@ -1641,6 +1804,17 @@ CARLOS REVIRIEGO (El Cultural / Cahiers du cinéma, España) –  6
 ALEJANDRO G. CALVO (SensaCine, España) –  3
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 5
   PROMEDIO: 4.54 (23 votos) EN ASCENSO
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 2.5
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 5
+Dennis Lim (The New York Times, USA) 7.5
+Michel Ciment (Positif, France) 2.5
+Alberto Crespi (L'Unita, Italy) 2.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 7.5
 Mike d'Angelo (AV Club, USA) 3.2 Evil is banal. The end. No, wait, let me sadistically fuck with you for a few minutes. Okay, *now* the end.
 Eric Kohn (Indiewire, USA) 8.5 A- a triumph of uneasy cinema
  Ioncinema:
@@ -1754,6 +1928,17 @@ ALEJANDRO G. CALVO (SensaCine, España) 5
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 4
   PROMEDIO: 5.21 (29 votos) EN DESCENSO
 Eric Kohn (Indiewire, USA) 7.5 B+
+ Screen Daily:
+Nick James (Sight & Sound, UK) 2.5
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 2.5
+Dennis Lim (The New York Times, USA) 2.5
+Michel Ciment (Positif, France) 2.5
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 7.5
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 0
 David Calhoun (Time Out London, UK) 8
@@ -1957,6 +2142,17 @@ Mike d'Angelo (AV Club, USA) 6
 Simon Gallagher (filmschoolrejects.com, USA) 7.5 B+
 David Calhoun (Time Out London, UK) 6
 Eric Kohn (Indiewire, USA) 4 C+
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 7.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 2.5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 5
+Alberto Crespi (L'Unita, Italy) 7.5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 5
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 5
 Per Juul Carlsen (Danish National Radio, Denmark) 5
@@ -2105,6 +2301,17 @@ CARLOS REVIRIEGO (El Cultural / Cahiers du cinéma, España) 7
 ALEJANDRO G. CALVO (SensaCine, España) 6
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 5
   PROMEDIO: 2.95 (28 votos) EN ASCENSO
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 7.5
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 2.5
+Dennis Lim (The New York Times, USA) 1
+Michel Ciment (Positif, France) 5
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 5
+Screen International (Screen International, USA) 5
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 7.5
 David Calhoun (Time Out London, UK) 6
@@ -2272,6 +2479,17 @@ Jon Frosch (France 24, USA) 7.5 B+
 Michael Giltz (The Huffington Post, USA) 6.25 2.5/4 (5 B-)
 Karina Longworth (LA Weekly, USA) 6.25 B
 Patrick Z. McGavin (Lightsensitive.typepad.com, USA) 7.5 B+
+ Screen Daily:
+Nick James (Sight & Sound, UK) 7.5
+David Stratton (The Australian, Australia) 5
+Derek Malcolm (London Evening, UK) 7.5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 2.5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 7.5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 7.5
+Alberto Crespi (L'Unita, Italy) 5
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 7.5
+Screen International (Screen International, USA) 7.5
 
 “Sleeping Beauty” Julia Leigh (4,16) 27 votos [Competition]
 FERNANDO GANZO (Lumiere, España)
@@ -2318,6 +2536,17 @@ CARLOS REVIRIEGO (El Cultural / Cahiers du cinéma, España) 4
 ALEJANDRO G. CALVO (SensaCine, España) 5
 ANCHALEE CHAIWORAPORN (Siam Rath, Image Magazine, Thailand) 4
   Puntaje/Average:  4,16 (27 votos)
+ Screen Daily:
+Nick James (Sight & Sound, UK) 5
+David Stratton (The Australian, Australia) 5
+Derek Malcolm (London Evening, UK) 5
+Jan Schulz-Ojala (Der Tagesspiegel, Germany) 5
+Jose Carlos Avellar (Escrevercinema.com, Brazil) 2.5
+Dennis Lim (The New York Times, USA) 5
+Michel Ciment (Positif, France) 2.5
+Alberto Crespi (L'Unita, Italy) 1
+Bo Green Jensen (Weekandavisen Berlingske, Denmark) 2.5
+Screen International (Screen International, USA) 5
  Ioncinema:
 Christophe Beney (Palmares magazine, France) 2.5
 David Calhoun (Time Out London, UK) 6
@@ -2447,16 +2676,196 @@ Jonathan Rosenbaum (Chicago Reader, USA) 5 B-
 --
 http://micropsia.otroscines.com/2011/05/
 http://www.ioncinema.com/
-http://twitter.com/#!/gemko
 http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012
 
+Source at http://rurban.xarch.at/film/Cannes2011.txt
+Result at http://rurban.xarch.at/film/Cannes2011.sorted.html
+History at http://github.com/rurban/cannes-critics-ratings/
+
+Last year:
 http://letrasdecine.blogspot.com/2010/05
 http://www.facebook.com/notes/reini-urban/cannes-2010-critics/10150174713060012
 http://rurban.xarch.at/film/Cannes2010.zip
 
 EOF
 
+my @critics;
+$critics[0] = "
+Alejandro G. Calvo (Sensacine, España) 
+Alex Vicente (Público, España) 
+Alexandra Zawia (Wiener Zeitung, Furche, Celluloid, Austria) 
+Arthur Mas (Independencia, France) 
+Boris Nelepo (Kinote daily, Russia)
+Camille Brunel (Independencia, France) 
+Carlo Chatrian (Duellanti, Panoramiches, Italy) 
+Carlos Heredero (Caimán CDC, España) 
+Carlos Reviriego (elcultural.es y de Caiman. Cuadernos de cine, España) 
+Cristina Nord (Die Tageszeitung, Germany) 
+Dana Linssen (De Filmkrant, Netherlands) 
+Diego Batlle (La Nación, OtrosCines, Argentina) 
+Diego Lerer (Clarín, Micropsia, Argentina) 
+Eugenio Renzi (Independencia, France) 
+Eulalia Iglesias (RockDeLux y Caimán CDC, España) 
+Fernando Ganzo (Lumiere, España) 
+Fernando Juan Lima (El Amante, Argentina) 
+Francisco Ferreira (Expresso, Portugal) 
+Gabriele Barrera (Segnocinema, Duellanti, Blow Up, Best Movie, Italy) 
+Gonzalo de Pedro (Caimán, CDC, España) 
+Jaime Pena (El Amante, España/Argentina) 
+Javier H. Estrada (Caimán CDC, España) 
+José Luis de Lorenzo (A Sala Llena, Argentina) 
+Kong Rithdee (The Bangkok Post, Thailand) 
+Luciano Barisone (Duellanti/Panoramiche, Italy) 
+Luciano Monteagudo (Página/12, Argentina) 
+Manu Yáñez (Fotogramas, OtrosCines, España) 
+Marcelo Alderete (Festival de Mar del Plata, Argentina) 
+Martial Pisani (Independencia, France) 
+Nando Salva (El Periódico, España) 
+Neil Young (Hollywood Reporter, Tribune, UK) 
+Noémie Luciani (Independencia, France) 
+Olivier Père (Les Inrockuptibles, France) 
+Pamela Bienzobas (Mabuse, Chile) 
+Paolo Bertolin (Italy) 
+Paolo Moretti (Italy) 
+Pedro Butcher (Folha do Sao Paulo, Filme B, Brasil) 
+Philipp Engel (Go Mag, España) 
+Robert Koehler (Variety, USA) 
+Roger Alan Koza (La Voz del Interior, Con los ojos abiertos, Argentina) 
+Rudiger Suchsland (FAZ, Negativ-film, Germany) 
+Sergio Wolf (BAFICI, Argentina) 
+Scott Foundas (Film Comment, USA) 
+Thomas Fioretti (Independencia, France) 
+Violeta Kovacsics (España) 
+Xavi Serra (Ara, España) 
+";
+# ioncinema
+$critics[1] = "
+Christophe Beney (Palmares magazine, France) 
+David Calhoun (The Out London, UK) 
+Per Juul Carlsen (Danish National Radio, Denmark) 
+Paola Casella (Europa, Italy) 
+Mike d'Angelo (AV Club, USA) 
+Carlos F. Heredero (Cahiers du cinema Espana, Spain) 
+Eric Lavallée (Ioncinema.com, Canada) 
+Fabien Lemercier (Cineeuropa.org, Belgium) 
+Guy Lodge (Variety, InContention, South Africa/USA) 
+Isabelle Regnier (Le Monde, France) 
+Kevin Jagernauth (Indiewire's The Playlist, USA) 
+James Rocchi (MSN Movies, Indiewire's The Playlist, USA) 
+Cédric Succivalli (International Cinephil Society, France) 
+Clarence Tsui (South China Morning Post, Hong Kong) 
+Blake Williams (Ioncinema.com, Canada) 
+Liu Min (Sina.com, China) 
+Eric Kohn (Indiewire, USA) 
+";
+# Le film français 0-4
+$critics[2] = "
+Stéphanie Lamome (Premiere, France)
+Arnaud schwartz (la Croix, France)
+Fabrice Leclerc (Studio ciné live, France)
+Eric Neuhoff (Le Figaro, France)
+Stéphane Delorme (Cahiers du cinema, France)
+Jaques Mandelbaum (Le Monde, France)
+Philippe Rouyer (Positif, France)
+Pierre Vavasseur (le Parisien, France)
+Pierre Murat (Telerama, France)
+Jean Roy (l'Humanite, France)
+Serge Kaganski (Les Inrockuptibles, France)
+Pierre Fornerod (oeust france, France)
+Pascal Merigeau (Observateur, France)
+Danielle Attali (Le Journal du Dimanche, France)
+Christophe Carriére (L'Express, France)
+";
+# screen daily 0-4
+$critics[3] = "
+Nick James (Sight & Sound, UK)
+David Stratton (The Australian, Australia)
+Derek Malcolm (London Evening, UK)
+Jan Schulz-Ojala (Der Tagesspiegel, Germany)
+Jose Carlos Avellar (Escrevercinema.com, Brazil)
+Dennis Lim (The New York Times, USA)
+Michel Ciment (Positif, France)
+Alberto Crespi (L'Unita, Italy) 
+Bo Green Jensen (Weekandavisen Berlingske, Denmark)
+Screen International (Screen International, USA)
+";
+# indiewire + various other
+$critics[4] = "
+Aaron Hillis (GreenCine Daily, USA)
+Alex Billington (FirstShowing.net, USA)
+Allan Hunter (Screen Daily, USA)
+Andrei Creţulescu (HBO, Romania) 
+Andrew O'Hehir (Salon.com, USA) 
+Anna Bielak (Smells Like Screen Spirit, USA)
+Anna Tatarska (Fandor, KINO, USA)
+Anne Thompson (Indiewire, USA) 
+Brian Brooks (indieWIRE, USA) 
+Chris Knipp (Filmleaf, USA)
+Clementine Gallot (Cahiers du cinema, France)
+David Edelstein (New York Magazine-Vulture, USA)
+David Ehrlich (Movies.com, Box Office Magazine, Reverse Shot)
+David Fear (Time Out New York, USA) 
+David Gritten (The Telegraph, UK)
+Drew McWeeny (InContention, USA)
+Drew Taylor (The Playlist, USA)
+Eduardo Valente (Revista Cinema, Brazil) 
+Elisabeth Quin (Paris Premiere, France) 
+Emanuel Levy (EmanuelLevy.com, USA)
+Eric D. Snider (Film.com, USA)
+Eugene Hernandez (Film Society of Lincoln Center, USA) 
+Frédéric Jaeger (critic.de, Germany)
+Glenn Heath Jr. (Slant Magazine, Press Play, USA)
+Ignatiy Vishnevetsky (Freelance, USA)
+Jon Frosch (France 24, France)
+Jonathan Rosenbaum (Chicago Reader, USA) 
+Jordan Raup (The Film Stage, USA)
+Kaleen Aftab (The Independent, UK)
+Karina Longworth (LA Weekly, USA) 
+Keith Uhlich (Time Out New York, USA)
+Kristy Puchko (Freelance, USA)
+Laremy Legel (Film.com, USA) 
+Leda Galanou (Flix, France)
+Lee Marshall (Screen Daily, USA)
+Mark Adams (Screen Daily, USA)
+Matt Holmes (Obsessedwithfilm.com, USA) 
+Michael Ghennam (Les Fiches du Cinéma, France)
+Michael Giltz (The Huffington Post, USA) 
+Michal Oleszczyk (Hammer to Nail, USA)
+Nev Pierce (Empire, USA)
+Patrick Heidmann (Cineman, Germany)
+Paul Martin (Indies Movies Online, USA) 
+Pete Hammond (Boxoffice Magazine, USA) 
+Peter Bradshaw (Guardian, UK) 
+Peter Debruge (Variety, USA) 
+Peter Howell (The Toronto Star, USA) 
+Peter Keogh (Boston Phoenix, USA)
+Peter Knegt (indieWIRE, USA) 
+Raffi Asdourian (The Film Stage, USA)
+Richard Corliss (Time, USA)
+Robbie Collins (The Telegraph, UK)
+Ruta Buciunaite (theupcoming.co.uk, UK)
+Ryland Aldrich (Twitch Film, USA)
+Simon Abrams (The Playlist, USA)
+Simon Gallagher (filmschoolrejects.com, USA) 
+Simon Reynolds (Digital Spy, UK) 
+Stephen Garrett (Time Out New York, USA)
+Sukhdev Sandhu (Telegraph, UK) 
+Tim Grierson (Screen International, L.A. Weekly, USA) 
+Tim Robey (Daily Telegraph, England)
+Todd McCarthy (The Hollywood Reporter, USA) 
+Kate Muir (The Times, UK)
+";
+
 my (%critic,%badcritic,%title,@t);
+for my $c (@critics) {
+  for (split/\n/,$c) { undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(\S.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);}
+    next unless $critic;
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;}}
 for (split /\n/, $DATA) { #chomp;
   if (/^#/) { next; } #skip
   elsif (/^["“](.+)["”]/) {
@@ -2465,38 +2874,51 @@ for (split /\n/, $DATA) { #chomp;
     $title = $1;
     s/[“”]/"/g; s/ \([\d.,]+\) \d+ votos//;
     $title_dir = $_; $n = $s = 0; }
-  elsif (/\) [-\x{2013} ]*(\d[\d.]*)/) {
+  elsif (/[\w\)] [-\x{2013} ]*(\d[\d.]*)/) {
     my $x = $1; $x =~ s/,/./g; $x = 10 if $x > 10; $x = 0 if $x < 0;
-    $s += $x; $n++;
-    ($critic,$mag,$cn) = /^(.+) \((.+), (.+?)\)/;
+    $s += $x; $n++; undef $critic;
+    if (/^(\S.+) \((.+), (.+?)\)/) {
+      ($critic,$mag,$cn) = ($1, $2, $3);
+    } elsif (/^(\S.+) \((.+)\)/) {
+      ($critic,$mag,$cn) = ($1,undef,$2);
+    } elsif (/^(\S[^\(]+)\s+\d/) {
+      ($critic,$mag,$cn) = ($1,undef,undef);
+      $critic =~ s/ +$//;
+    }
     next unless $critic;
-    $critic{$critic}->{mag} = $mag;
-    $critic{$critic}->{cn} = $cn;
     $critic{$critic}->{title}->{$title} = [$x];
     $title{$title}->{critic}->{$critic} = [$x];
+    $critic{$critic}->{cn} = $cn if $cn;
+    $critic{$critic}->{mag} = $mag if $mag;
   }}
 undef $DATA;
 my $HEADER = <<"EOF";
+<html><head><meta http-equiv="Content-type" content="'text/html';charset='iso-8859-1'"><title>All Cannes 2011 critics ratings</title></head><body>
 <i>Third edition of the survey / poll of films at Cannes 2011. This year we have
 gathered over 40 international critics (with a clear majority of Spanish and
 Argentines, will excuse the other) that will send their scores from 1 to 10 for
 all films presented in this festival and will update as soon as possible those
 votes, scores and averages.</i> - Diego Lerer
 
-Updated daily from http://micropsia.otroscines.com/ (Diego Lerer), http://www.ioncinema.com/, Mike d Angelo and more US critics.
+<small>Updated daily from http://micropsia.otroscines.com/ (Diego Lerer), http://www.ioncinema.com/, Mike d Angelo and more US critics.
 Same <a href=" http://www.facebook.com/notes/reini-urban/cannes-2010-critics/10150174713060012">as last year</a>: 0-10 points, only >6.00 avg and >3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>.
-All sections (updated daily, official selection competition: bold)
+All sections (updated daily, official selection competition: bold)</small><p>
 
 EOF
 my $FOOTER = "
+<pre>
 --
 http://micropsia.otroscines.com/
 http://www.ioncinema.com/
 http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012
 
-Source at http://rurban.xarch.at/film/Cannes2011.txt,
-Result at http://rurban.xarch.at/film/Cannes2011.sorted.txt,
-Last year: http://www.facebook.com/notes/reini-urban/cannes-2010-critics/10150174713060012";
+Source at http://rurban.xarch.at/film/Cannes2011.txt
+Result at http://rurban.xarch.at/film/Cannes2011.sorted.html
+History at http://github.com/rurban/cannes-critics-ratings/
+</pre></body></html>
+";
+
+$FOOTER =~ s{http://(.+)\n}{<a href="http://$1">$1</a>\n}g;
 
 END {
   print $HEADER if $HEADER;
@@ -2516,6 +2938,7 @@ END {
       push @{$critic{$c}->{title}->{$t}}, ($a, $x - $a);}}
   for my $c (keys %critic) {
     my ($s,$sum,$asum)=(0,0,0);my @k=keys(%{$critic{$c}->{title}});
+    unless (@k){delete $critic{$c};next};
     for(@k){($x,$a,$d)=@{$critic{$c}->{title}->{$_}};$asum+=abs($d);$sum += $d;}
     for(@k){my $d=$critic{$c}->{title}->{$_}->[2];$s += ($d * $d);}
     $critic{$c}->{diff} = $sum / scalar(@k);
@@ -2528,27 +2951,29 @@ END {
   for my $c (keys %badcritic) {
     for my $t (keys %title) {
       if ($title{$t}->{critic}->{$c}) {
-        $title{$t}->{num}--; my ($n,$sum)=(0,0);
+        $title{$t}->{num}--; my ($n,$sum)=($title{$t}->{num},0);
 	delete $title{$t}->{critic}->{$c};
 	for (keys %{$title{$t}->{critic}}) {$sum += $title{$t}->{critic}->{$_}->[0]}
 	$title{$t}->{avg} = $sum / $n if $n}}}
 
-  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t;
+  @t = sort {$title{$b->[3]}->{avg} <=> $title{$a->[3]}->{avg}} @t; $i=1;
   for (@t) { $t = $_->[3]; my ($a,$s)=($title{$t}->{avg},0);
     for (keys %{$title{$t}->{critic}}) {
       my $v=$title{$t}->{critic}->{$_}->[0]; $s += ($v-$a)*($v-$a)}
     $title{$t}->{stddev} = sqrt($s / $title{$t}->{num}) if $title{$t}->{num};}
-  print "<h1>Very Good Films (avg>7.5, n>3)</h1>\n\n";
+  print "<h1>Very Good Films (avg>7.5, n>3)</h1>\n<pre>\n";
   for (@t) { $t = $_->[3];
     $n=$title{$t}->{num};$a=sprintf("%0.2f",$title{$t}->{avg}); next if $n<=3 or $a < 7.5; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
-    print "  $l \[$a/$n $s\]\n";}
-  print "\n<h1>Good Films (avg>6, n>3)</h1>\n\n";
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
+    printf "%2d. $l \[$a/$n $s\]\n", $i++;}
+  print "</pre>\n\n<h1>Good Films (avg>6, n>3)</h1>\n<pre>\n";
   for (@t) { $t = $_->[3];
     $a=sprintf("%0.2f",$title{$t}->{avg}); $n=$title{$t}->{num}; next if $a < 6.0 or $a >= 7.5 or $n <= 3; $l=$title{$t}->{line};$s=sprintf("%0.1f",$title{$t}->{stddev});$l="<i>$l</i>" if $s>=2.0;
     $l="<b>$l</b>" if $title{$t}->{section} eq 'Competition';
-    print "  $l \[$a/$n $s\]\n"; }
-  print "\nThe rest is below 6, unacceptable for Cannes.\n";
+    $l="<small>$l</small>" if $title{$t}->{num} < 10;
+    printf "%2d. $l \[$a/$n $s\]\n", $i++; }
+  print "</pre>\nThe rest is below 6, unacceptable for Cannes.\n";
 
   print "\n<h1>All official sections</h1>\n\n";
   my %section;
@@ -2558,34 +2983,39 @@ END {
       if ($title{$_}->{section} eq $section) {
         $section{$section}->{$_} = [ $title{$_}->{avg}, $title{$_}->{num}, $title{$_}->{stddev} ]; 
         if($title{$_}->{num}){$sum += $title{$_}->{avg}; $num++}}}
-    if ($num) { my $i=1;
-      printf("Ratings for section <b>$section [%0.2f/%d]</b>\n", $sum/$num, $num);
+    if ($num) { my $i=1; my $six=1;
+      printf("<h2>Ratings for <b>$section [%0.2f/%d]</b></h2>\n<pre>\n", $sum/$num, $num);
       for (sort {$section{$section}->{$b}->[0] <=> $section{$section}->{$a}->[0]}
 	   keys %{$section{$section}}) 
       { my $s=$section{$section}->{$_}->[2];my $l=$title{$_}->{line};$l=$s>=2.0?"<i>$l</i>":$l;
+        $l="<small>$l</small>" if $title{$_}->{num} < 10;
+        if ($six and $section{$section}->{$_}->[0] < 6){
+          $six=0; print "-"x25,"\n";}
         $section{$section}->{$_}->[1]?
 	  printf("%2d. %s [%0.2f/%d %0.1f]\n", $i++, $l, @{$section{$section}->{$_}}):print("    $l [-]\n");
-      } print "\n"; }}
+      } print "</pre>\n\n"; }}
 
-  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n"; my $i=1;
+  print "\n<h1>All films</h1>\n\nSorted by avg vote, unfiltered:\n<pre>\n"; my $i=1; my $six=1;
   for (sort {$b->[1] <=> $a->[1]} @t) {
     ($l,$a,$n,$t) = @{$_};
     $s=sprintf("%0.1f",$title{$t}->{stddev}); $l="<i>$l</i>" if $s>=2.0;
     if ($l =~ / \[Competition\]/) { $l =~ s/ \[Competition\]//; $l="<b>$l</b>"; }
     else { $l =~ s/ \[[\w ]+?\]//;}
+    $l="<small>$l</small>" if $title{$t}->{num}<10;
+    if ($six and $n and $a<6.0){$six=0;print "-"x25,"\n"}
     $n?printf("%2d. $l \[$a/$n $s\]\n",$i++):print("    $l \[-\]\n");}
-
   my $numc = scalar(keys(%critic));
-  printf "\n<h1>%d/%d Critics</h1>\n\n",$numc-scalar(keys(%badcritic)),$numc;
+  printf "</pre>\n\n<h1>%d/%d Critics</h1>\n\n",$numc-scalar(keys(%badcritic)),$numc;
   print "<i>filter stddev >2.5 from avg</i>\n";
-  print "stddev name (magazine, cn) numratings <i>±diff</i>\n";
+  print "stddev name (magazine, cn) numratings <i>±diff</i>\n<pre>\n";
   for (sort {$critic{$a}->{stddev} <=> $critic{$b}->{stddev}} keys %critic) {
     my $n = scalar keys(%{$critic{$_}->{title}});
-    my @r = ($critic{$_}->{stddev}, $_, $critic{$_}->{mag}, $critic{$_}->{cn}, $n, $critic{$_}->{diff});
-    if ($critic{$_}->{stddev} > 2.5) {
-      printf "%0.2f <strike>%s, (%s, %s)</strike> %d <i>%+0.1f</i>\n", @r; } 
-    else { printf "%0.2f %s, (%s, %s) %d <i>%+0.1f</i>\n", @r; }
+    my $c = sprintf("%s (%s, %s)", $_, $critic{$_}->{mag}, $critic{$_}->{cn});
+    $c = "<strike>$c</strike>" if $critic{$_}->{stddev} > 2.5;
+    $c = "<small>$c</small>" if $n < 10;
+    printf "%0.2f %s %d <i>%+0.1f</i>\n", $critic{$_}->{stddev}, $c, $n, $critic{$_}->{diff}; 
     # print Dumper $critic{$_} if $critic{$_}->{stddev} > 4;
   }
+  print "</pre>";
   print $FOOTER if $FOOTER;
 }
