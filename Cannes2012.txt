@@ -1688,7 +1688,7 @@ Mike d'Angelo 7.3 B+
 #Carlos F. Heredero 6
 Eric Lavallée 
 Fabien Lemercier 6
-Guy Lodge 
+Guy Lodge 3 C
 Isabelle Regnier 
 Kevin Jagernauth 
 Cédric Succivalli 9
