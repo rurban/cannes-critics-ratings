@@ -265,13 +265,14 @@ Carlos Reviriego 9.5
 Cristina Nord 9
 Dana Linssen 8.5
 Diego Batlle 6.8
-Diego Lerer 7.2
+Diego Lerer 7.5
 Eulalia Iglesias 9.2
 Fernando Ganzo 8
 Francisco Ferreira 9.9
 Jaime Pena 9
 Javier H. Estrada 9.5
 José Luis de Lorenzo 7
+Kong Rithdee 7.5
 Luciano Barisone 9
 Manu Yáñez 8.5
 Marcelo Alderete 8
@@ -280,7 +281,7 @@ Pamela Bienzobas 7
 Pedro Butcher 9.5
 Philipp Engel 10
 Robert Koehler 10
-Roger Alan Koza  9
+Roger Alan Koza  9.5
 Rudiger Suchsland  8.5
 Sergio Wolf 10
 Scott Foundas  8.5
@@ -383,6 +384,7 @@ Fernando Ganzo 6.5
 Francisco Ferreira 8.5
 Jaime Pena 9.6
 Javier H. Estrada 8.3
+Kong Rithdee 6.5
 Luciano Barisone 7
 Manu Yáñez 8.5
 Martial Pisani 5.6
@@ -471,6 +473,7 @@ Diego Lerer 4
 Eulalia Iglesias 2
 Francisco Ferreira 1
 Jaime Pena 4.5
+Kong Rithdee 2
 Luciano Barisone 5
 Manu Yáñez 3
 Martial Pisani 7.3
@@ -579,6 +582,7 @@ Francisco Ferreira 4
 Jaime Pena 5.5
 Javier H. Estrada 6.8
 José Luis de Lorenzo 6.5
+Kong Rithdee 6
 Luciano Barisone 1
 Manu Yáñez 6.5
 Martial Pisani 4.7
@@ -674,7 +678,7 @@ Carlos F. Heredero 6.5
 Carlos Reviriego 6.1
 Cristina Nord 6.5
 Diego Batlle 6.5
-Diego Lerer 5.2
+Diego Lerer 5.5
 Eulalia Iglesias 6.5
 Fernando Ganzo 3
 Fernando Juan Lima 5.5
@@ -774,6 +778,7 @@ Francisco Ferreira 8.5
 Jaime Pena 5.1
 Javier H. Estrada 7
 José Luis de Lorenzo 7
+Kong Rithdee 7
 Luciano Barisone 8
 Manu Yáñez 6.5
 Marcelo Alderete 6
@@ -971,6 +976,7 @@ Francisco Ferreira 8.5
 Jaime Pena 8.8
 Javier H. Estrada 8.5
 José Luis de Lorenzo 8
+Kong Rithdee 7
 Luciano Barisone 8
 Manu Yáñez 7.5
 Marcelo Alderete 10
@@ -1065,6 +1071,7 @@ Fernando Ganzo 3.5
 #Francisco Ferreira 8.8 before Cannes
 Francisco Ferreira 1    at the last day
 Jaime Pena 4.5
+Kong Rithdee 2.5
 Pamela Bienzobas 3.7
 Pedro Butcher 7
 Philipp Engel 5
@@ -1136,13 +1143,15 @@ Francisco Ferreira 8
 Jaime Pena 8.9
 Javier H. Estrada 9
 José Luis de Lorenzo 6
-Luciano Barisone 5
+Kong Rithdee 7
+Luciano Barisone 7
 Manu Yáñez 9.5
 Marcelo Alderete 9
 Martial Pisani 4.5
 Nando Salva 7
 Pedro Butcher 9
 Philipp Engel 7.5
+Robert Koehler 8
 Roger Alan Koza  10
 Sergio Wolf 9
 Scott Foundas  9
@@ -1329,9 +1338,11 @@ Fernando Ganzo 4
 Francisco Ferreira 6
 Jaime Pena 6
 Javier H. Estrada 6.7
+Kong Rithdee 6
 Luciano Barisone 8
 Nando Salva 8
 Pedro Butcher 3
+Robert Koehler 7
 Rudiger Suchsland  4
 Violeta Kovacsics 6.5
 Xavi Serra  6.5
@@ -1405,11 +1416,13 @@ Francisco Ferreira 2.5
 Jaime Pena 7.5
 Javier H. Estrada 6
 José Luis de Lorenzo 9
+Kong Rithdee 6.5
 Luciano Barisone 7
 Manu Yáñez 6
 Nando Salva 6.5
 Neil Young 5 C+
 Pedro Butcher 9
+Robert Koehler 1
 Roger Alan Koza  6.5
 Rudiger Suchsland  4
 Sergio Wolf 4
@@ -1578,6 +1591,7 @@ Javier H. Estrada 6.5
 Pamela Bienzobas 6.5
 Pedro Butcher 6.5
 Roger Alan Koza  6
+Violeta Kovacsics 6.5
 Xavi Serra  6.5
  IonCinema:
 Christophe Beney
@@ -1677,6 +1691,7 @@ Francisco Ferreira 8.7
 Jaime Pena 8.5
 Javier H. Estrada 7
 José Luis de Lorenzo 7
+Kong Rithdee 6
 Luciano Barisone 7
 Manu Yáñez 8
 Martial Pisani 8.3
@@ -1765,6 +1780,7 @@ Eulalia Iglesias 7.5
 Fernando Juan Lima 8
 Jaime Pena 3
 Javier H. Estrada 2.5
+Kong Rithdee 6
 Luciano Barisone 8
 Manu Yáñez 3
 Nando Salva 5.5
@@ -1873,6 +1889,7 @@ Francisco Ferreira 1
 Jaime Pena 3
 Javier H. Estrada 2.5
 José Luis de Lorenzo 2
+Kong Rithdee 3
 Luciano Barisone 6
 Manu Yáñez 3
 Martial Pisani 5
@@ -1982,6 +1999,7 @@ Francisco Ferreira 2
 Jaime Pena 7
 Javier H. Estrada 4.5
 José Luis de Lorenzo 6
+Kong Rithdee 7
 Luciano Barisone 8
 Manu Yáñez 6.5
 Martial Pisani 6.9
@@ -2074,6 +2092,7 @@ Francisco Ferreira 1
 Jaime Pena 5
 Javier H. Estrada 4
 José Luis de Lorenzo 8
+Kong Rithdee 3
 Manu Yáñez 2
 Marcelo Alderete 1
 Nando Salva 2.5
@@ -2249,6 +2268,7 @@ Eulalia Iglesias 6.8
 Jaime Pena 5.9
 Javier H. Estrada 6.3
 José Luis de Lorenzo 4
+Kong Rithdee 5
 Luciano Barisone 7
 Robert Koehler 6
 Roger Alan Koza  3.5
@@ -2373,6 +2393,7 @@ Gonzalo de Pedro 4
 Jaime Pena 4
 Javier H. Estrada 4
 José Luis de Lorenzo 6
+Kong Rithdee 5.5
 Luciano Barisone 5
 Manu Yáñez 5.5
 Nando Salva 2
@@ -2501,6 +2522,7 @@ Eulalia Iglesias 6.7
 Fernando Juan Lima 7.5
 Jaime Pena 8.1
 José Luis de Lorenzo 8
+Kong Rithdee 6.5
 Philipp Engel 4.5
 Violeta Kovacsics 5.5
  Le film français:
@@ -2551,6 +2573,7 @@ Carlo Chatrian 2.01
 Diego Batlle 2
 Diego Lerer 2.5
 Luciano Barisone 3
+Roger Alan Koza  1
 Rudiger Suchsland  7
  Le film français:
 Stéphanie Lamome 7.5
@@ -2577,6 +2600,7 @@ Carlo Chatrian 7
 Eulalia Iglesias 6.1
 Fernando Juan Lima 6.75
 Javier H. Estrada 3
+Kong Rithdee 6.5
 Luciano Barisone 6
 Martial Pisani 1
 Thomas Fioretti 3
@@ -2615,6 +2639,7 @@ Fernando Ganzo 6
 Jaime Pena 8
 Javier H. Estrada 8.5
 José Luis de Lorenzo 3
+Kong Rithdee 7.5
 Luciano Barisone 8
 Marcelo Alderete 7
 Martial Pisani 8.1
@@ -2675,6 +2700,7 @@ Fernando Juan Lima 6
 Jaime Pena 4
 Javier H. Estrada 4.5
 José Luis de Lorenzo 5
+Kong Rithdee 5.5
 Nando Salva 5
 Robert Koehler 2
 Roger Alan Koza  6
@@ -2741,6 +2767,7 @@ Eulalia Iglesias 6
 Fernando Ganzo 6.5
 Jaime Pena 7
 Javier H. Estrada 7
+Kong Rithdee 5
 Luciano Barisone 8
 Martial Pisani 8.8
 Philipp Engel 4.5
@@ -2782,6 +2809,7 @@ Francisco Ferreira 1
 Jaime Pena 2
 Javier H. Estrada 3
 José Luis de Lorenzo 4
+Kong Rithdee 6.5
 Luciano Barisone 6
 Nando Salva 2
 Neil Young 6 B-
@@ -2930,6 +2958,7 @@ Reini Urban (facebook, Austria) 4
 
 "RENOIR" (Gilles Bourdos) [Un Certain Regard]
 Carlos Reviriego 5.5
+Roger Alan Koza  5.8
  Le film français:
 Stéphanie Lamome 
 Arnaud schwartz 
@@ -3078,6 +3107,7 @@ Jaime Pena 7.9
 Javier H. Estrada 4.5
 Neil Young 5
 Philipp Engel 6
+Robert Koehler 6
 Roger Alan Koza  8
 Sergio Wolf 6
 Thomas Fioretti 5.1
@@ -3141,6 +3171,7 @@ Fernando Ganzo 4
 Gonzalo de Pedro 7
 Jaime Pena 2
 Javier H. Estrada 7
+Kong Rithdee 7.5
 Pamela Bienzobas 8.5
 Robert Koehler 8
 Roger Alan Koza  7.5
@@ -3301,7 +3332,7 @@ Boris Nelepo 6.9
 Carlos F. Heredero 6
 Carlos Reviriego 6
 Diego Batlle 6
-Fernando Ganzo 6.5
+Fernando Ganzo 7
 Fernando Juan Lima 7
 José Luis de Lorenzo 4
 Manu Yáñez 5.5
@@ -3454,9 +3485,11 @@ Carlo Chatrian 5.03
 Carlos F. Heredero 6
 Carlos Reviriego 6.2
 Dana Linssen 4.3
-Diego Lerer 7.2
+Diego Lerer 7
 Eulalia Iglesias 6
+Fernando Ganzo 7
 Jaime Pena 5
+Kong Rithdee 6.5
 Luciano Barisone 5
 Manu Yáñez 5
 Marcelo Alderete 6
@@ -3505,6 +3538,7 @@ Gonzalo de Pedro 9
 Jaime Pena 7
 Javier H. Estrada 7.5
 José Luis de Lorenzo 8
+Kong Rithdee 7
 Luciano Barisone 7
 Marcelo Alderete 7
 Martial Pisani 8.1
