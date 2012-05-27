@@ -45,8 +45,9 @@ Javier H. Estrada 7
 José Luis de Lorenzo 6
 Kong Rithdee 7
 Luciano Barisone 8
+Luciano Monteagudo 8
 Manu Yáñez 7
-Marcelo Alderete 7
+Marcelo Alderete 8
 Nando Salva 8.5
 Neil Young 7 B
 Olivier Père 7.5
@@ -175,6 +176,7 @@ Jaime Pena 4
 Javier H. Estrada 4
 José Luis de Lorenzo 3
 Luciano Barisone 5
+Luciano Monteagudo 5
 Manu Yáñez 2
 Marcelo Alderete 1
 Nando Salva 6.5
@@ -256,6 +258,7 @@ Emanuel Levy 7 B+
 
 "HOLY MOTORS" (Leos Carax) [Competition]
 Alejandro G. Calvo 9
+Alex Vicente 8
 Alexandra Zawia 7.7
 Arthur Mas 8.3
 Boris Nelepo 6.9
@@ -371,6 +374,7 @@ Drew McWeeny 10 A+
 
 "COSMOPOLIS" (David Cronenberg) [Competition]
 Alejandro G. Calvo 9.9
+Alex Vicente 7
 Alexandra Zawia 5.9
 Arthur Mas 5.9
 Boris Nelepo 7.7
@@ -386,13 +390,16 @@ Jaime Pena 9.6
 Javier H. Estrada 8.3
 Kong Rithdee 6.5
 Luciano Barisone 7
+Luciano Monteagudo 6
 Manu Yáñez 8.5
+Marcelo Alderete 8
 Martial Pisani 5.6
 Pedro Butcher 8
 Philipp Engel 7
 Robert Koehler 3
 Roger Alan Koza  9.5
 Rudiger Suchsland  7
+Scott Foundas  8
 Violeta Kovacsics 8.5
 Xavi Serra  7.5
  IonCinema:
@@ -476,10 +483,12 @@ Jaime Pena 4.5
 Kong Rithdee 2
 Luciano Barisone 5
 Manu Yáñez 3
+Marcelo Alderete 2
 Martial Pisani 7.3
 Nando Salva 1.5
 Pedro Butcher 4
 Philipp Engel 1
+Scott Foundas  2.5
 Violeta Kovacsics 2
 Xavi Serra  2
  IonCinema:
@@ -584,6 +593,7 @@ Javier H. Estrada 6.8
 José Luis de Lorenzo 6.5
 Kong Rithdee 6
 Luciano Barisone 1
+Luciano Monteagudo 6
 Manu Yáñez 6.5
 Martial Pisani 4.7
 Nando Salva 6.5
@@ -686,6 +696,7 @@ Francisco Ferreira 5
 Jaime Pena 3
 Javier H. Estrada 5
 Luciano Barisone 8
+Luciano Monteagudo 8
 Manu Yáñez 6
 Nando Salva 5
 Pedro Butcher 6
@@ -769,7 +780,7 @@ Carlos F. Heredero 9.8
 Carlos Reviriego 8.2
 Cristina Nord 9
 Dana Linssen 9.3
-Diego Batlle 8
+Diego Batlle 8.5
 Diego Lerer 7.5
 Eulalia Iglesias 7.2
 Fernando Ganzo 3
@@ -780,6 +791,7 @@ Javier H. Estrada 7
 José Luis de Lorenzo 7
 Kong Rithdee 7
 Luciano Barisone 8
+Luciano Monteagudo 9
 Manu Yáñez 6.5
 Marcelo Alderete 6
 Nando Salva 9
@@ -978,6 +990,7 @@ Javier H. Estrada 8.5
 José Luis de Lorenzo 8
 Kong Rithdee 7
 Luciano Barisone 8
+Luciano Monteagudo 9
 Manu Yáñez 7.5
 Marcelo Alderete 10
 Martial Pisani 8
@@ -1072,11 +1085,13 @@ Fernando Ganzo 3.5
 Francisco Ferreira 1    at the last day
 Jaime Pena 4.5
 Kong Rithdee 2.5
+Manu Yáñez 6
 Pamela Bienzobas 3.7
 Pedro Butcher 7
 Philipp Engel 5
 Robert Koehler 2
 Roger Alan Koza  2
+Scott Foundas  1
 Violeta Kovacsics 4.5
 Xavi Serra  4.5
  IonCinema:
@@ -1129,12 +1144,13 @@ Alejandro G. Calvo 10
 Alex Vicente 5
 Alexandra Zawia 9
 Arthur Mas 4.2
+Boris Nelepo 7.2
 Carlo Chatrian 7.6
 Carlos F. Heredero 7.5
 Carlos Reviriego 9.5
 Cristina Nord 7
 Dana Linssen 7.5
-Diego Batlle 8.5
+Diego Batlle 8.7
 Diego Lerer 9.1
 Eulalia Iglesias 9
 Fernando Ganzo 7
@@ -1145,6 +1161,7 @@ Javier H. Estrada 9
 José Luis de Lorenzo 6
 Kong Rithdee 7
 Luciano Barisone 7
+Luciano Monteagudo 9
 Manu Yáñez 9.5
 Marcelo Alderete 9
 Martial Pisani 4.5
@@ -1228,6 +1245,7 @@ Alejandro G. Calvo 3.4
 Alex Vicente 3
 Alexandra Zawia 4
 Arthur Mas 7
+Boris Nelepo 7
 Carlos F. Heredero 4
 Carlos Reviriego 1.5
 Cristina Nord 4.5
@@ -1235,6 +1253,7 @@ Diego Batlle 6.7
 Diego Lerer 5.2
 Eulalia Iglesias 4
 José Luis de Lorenzo 7
+Luciano Monteagudo 6
 Manu Yáñez 3
 Martial Pisani 6.5
 Nando Salva 2
@@ -1341,10 +1360,13 @@ Jaime Pena 6
 Javier H. Estrada 6.7
 Kong Rithdee 6
 Luciano Barisone 8
+Luciano Monteagudo 7
+Manu Yáñez 6.5
 Nando Salva 8
 Pedro Butcher 3
 Robert Koehler 7
 Rudiger Suchsland  4
+Scott Foundas  7.5
 Violeta Kovacsics 6.5
 Xavi Serra  6.5
  IonCinema:
@@ -1419,6 +1441,7 @@ Javier H. Estrada 6
 José Luis de Lorenzo 9
 Kong Rithdee 6.5
 Luciano Barisone 7
+Luciano Monteagudo 6
 Manu Yáñez 6
 Nando Salva 6.5
 Neil Young 5 C+
@@ -1582,16 +1605,23 @@ David Gritten (The Telegraph, UK) 4
 
 "MUD" (Jeff Nichols) [Competition]
 Alejandro G. Calvo 7.5
+Alex Vicente 7.5
 Alexandra Zawia 6.8
+Carlos F. Heredero 8.5
 Carlos Reviriego 6.7
 Cristina Nord 6
-Diego Batlle 7.8
+Diego Batlle 8
 Diego Lerer 7.1
 Jaime Pena 6.5
 Javier H. Estrada 6.5
+Manu Yáñez 5.5
+Marcelo Alderete 5
+Martial Pisani 5.3
 Pamela Bienzobas 6.5
 Pedro Butcher 6.5
+Robert Koehler 7.5
 Roger Alan Koza  6
+Scott Foundas  7.5
 Violeta Kovacsics 6.5
 Xavi Serra  6.5
  IonCinema:
@@ -1683,7 +1713,7 @@ Carlo Chatrian 5
 Carlos F. Heredero 7.5
 Carlos Reviriego 6.8
 Cristina Nord 8
-Diego Batlle 7.5
+Diego Batlle 7.3
 Diego Lerer 7.4
 Eulalia Iglesias 7.9
 Fernando Ganzo 7
@@ -1694,6 +1724,7 @@ Javier H. Estrada 7
 José Luis de Lorenzo 7
 Kong Rithdee 6
 Luciano Barisone 7
+Luciano Monteagudo 7
 Manu Yáñez 8
 Martial Pisani 8.3
 Nando Salva 5
@@ -1769,6 +1800,7 @@ Peter Bradshaw 4
 
 "POST TENEBRAS LUX" (Carlos Reygadas) [Competition] Best director
 Alejandro G. Calvo 4
+Alex Vicente 6
 Alexandra Zawia 5.9
 Boris Nelepo 4.5
 Carlo Chatrian 5
@@ -1783,7 +1815,9 @@ Jaime Pena 3
 Javier H. Estrada 2.5
 Kong Rithdee 6
 Luciano Barisone 8
+Luciano Monteagudo 8
 Manu Yáñez 3
+Marcelo Alderete 4
 Nando Salva 5.5
 Neil Young 3 D+
 Pedro Butcher 3
@@ -1791,6 +1825,7 @@ Philipp Engel 6
 Robert Koehler 10
 Roger Alan Koza  9
 Rudiger Suchsland  8
+Scott Foundas  9
 Violeta Kovacsics 3
 Xavi Serra  2
  IonCinema:
@@ -1876,6 +1911,7 @@ Peter Bradshaw 4
 
 "ON THE ROAD" (Walter Salles) [Competition]
 Alejandro G. Calvo 3.5
+Alex Vicente 5
 Alexandra Zawia 4
 Carlo Chatrian 4.81
 Carlos F. Heredero 3
@@ -1892,7 +1928,9 @@ Javier H. Estrada 2.5
 José Luis de Lorenzo 2
 Kong Rithdee 3
 Luciano Barisone 6
+Luciano Monteagudo 6
 Manu Yáñez 3
+Marcelo Alderete 2
 Martial Pisani 5
 Nando Salva 3
 Neil Young 6 B-
@@ -1900,6 +1938,7 @@ Pedro Butcher 6.5
 Robert Koehler 3
 Roger Alan Koza  4
 Rudiger Suchsland  2.5
+Scott Foundas  5.5
 Violeta Kovacsics 2
 Xavi Serra  5.5
  IonCinema:
@@ -2003,6 +2042,7 @@ José Luis de Lorenzo 6
 Kong Rithdee 7
 Luciano Barisone 8
 Manu Yáñez 6.5
+Marcelo Alderete 2
 Martial Pisani 6.9
 Neil Young 6
 Pamela Bienzobas 6.5
@@ -2094,6 +2134,7 @@ Jaime Pena 5
 Javier H. Estrada 4
 José Luis de Lorenzo 8
 Kong Rithdee 3
+Luciano Monteagudo 7
 Manu Yáñez 2
 Marcelo Alderete 1
 Nando Salva 2.5
@@ -2451,6 +2492,7 @@ James Rocchi 5
 Simon Gallagher 7 B+
 
 "7 DIAS EN LA HABANA" (BDT, PT, JM, ES, JCT, GN y LC) [Un Certain Regard]
+Alex Vicente 3
 Carlos F. Heredero 4.5
 Carlos Reviriego 3.5
 Dana Linssen 3.2
@@ -2524,6 +2566,7 @@ Fernando Juan Lima 7.5
 Jaime Pena 8.1
 José Luis de Lorenzo 8
 Kong Rithdee 6.5
+Marcelo Alderete 4
 Philipp Engel 4.5
 Violeta Kovacsics 5.5
  Le film français:
@@ -2604,6 +2647,7 @@ Javier H. Estrada 3
 Kong Rithdee 6.5
 Luciano Barisone 6
 Martial Pisani 1
+Scott Foundas  8
 Thomas Fioretti 3
 Mike d'Angelo W/O
  Le film français:
@@ -2694,7 +2738,7 @@ Alexandra Zawia 5.5
 Carlos F. Heredero 4.5
 Carlos Reviriego 5
 Dana Linssen 6
-Diego Batlle 7.6
+Diego Batlle 7.4
 Diego Lerer 7.5
 Eulalia Iglesias 4.8
 Fernando Juan Lima 6
@@ -2762,7 +2806,7 @@ Alejandro G. Calvo 5
 Arthur Mas 9
 Carlos F. Heredero 1
 Cristina Nord 5
-Diego Batlle 7.5
+Diego Batlle 7.3
 Diego Lerer 8
 Eulalia Iglesias 6
 Fernando Ganzo 6.5
@@ -2770,6 +2814,7 @@ Jaime Pena 7
 Javier H. Estrada 7
 Kong Rithdee 5
 Luciano Barisone 8
+Manu Yáñez 7.5
 Martial Pisani 8.8
 Philipp Engel 4.5
 Robert Koehler 4
@@ -2928,7 +2973,7 @@ Peter Bradshaw 6
   SXSW
 Carlos F. Heredero 4
 Carlos Reviriego 6
-Diego Batlle 7.5
+Diego Batlle 7.3
 Diego Lerer 7
 Eulalia Iglesias 7.3
 Jaime Pena 5
@@ -2959,6 +3004,7 @@ Reini Urban (facebook, Austria) 4
 
 "RENOIR" (Gilles Bourdos) [Un Certain Regard]
 Carlos Reviriego 5.5
+Manu Yáñez 5
 Roger Alan Koza  5.8
  Le film français:
 Stéphanie Lamome 
@@ -3019,7 +3065,7 @@ Sergio Wolf 6
   BAFICI2012
 Alejandro G. Calvo 7
 Carlo Chatrian 5
-Diego Batlle 8.8
+Diego Batlle 8.5
 Diego Lerer 7.7
 Eulalia Iglesias 6.5
 Fernando Ganzo 5
@@ -3072,6 +3118,7 @@ Pamela Bienzobas 6
 Thomas Fioretti 2.9
 
 "CAMILLE REDOUBLE" (Noémie Lvovsky) [Quinzaine] Quinzaine French Language Film Trophy
+Alex Vicente 7
 Cristina Nord 7
 Jaime Pena 5
 Javier H. Estrada 4.8
@@ -3133,8 +3180,9 @@ Roger Alan Koza  6.5
 
 "LA NOCHE DE ENFRENTE" (Raúl Ruiz) [Quinzaine]
 Boris Nelepo 9.5
+Carlos F. Heredero 8.5
 Cristina Nord 8
-Diego Batlle 6.5
+Diego Batlle 7
 Diego Lerer 6
 Fernando Ganzo 6.5
 Gonzalo de Pedro 9
@@ -3144,6 +3192,7 @@ Marcelo Alderete 6
 Robert Koehler 8
 Roger Alan Koza  6
 Sergio Wolf 9
+Scott Foundas  7.5
 Violeta Kovacsics 8
  Other:
 Mike d'Angelo 5.6
@@ -3255,6 +3304,7 @@ Eulalia Iglesias 5.9
 Jaime Pena 5.1
 Javier H. Estrada 5.5
 Luciano Barisone 5
+Manu Yáñez 5
 Nando Salva 4
 Robert Koehler 2
 Roger Alan Koza  6
@@ -3329,10 +3379,11 @@ FUERA DE COMPETENCIA
 
 "IO E TE (ME AND YOU)" (Bernardo Bertolucci)
 Alejandro G. Calvo 5
+Alex Vicente 4
 Boris Nelepo 6.9
 Carlos F. Heredero 6
 Carlos Reviriego 6
-Diego Batlle 6
+Diego Batlle 6.5
 Fernando Ganzo 7
 Fernando Juan Lima 7
 José Luis de Lorenzo 4
@@ -3351,6 +3402,7 @@ Mike d'Angelo 5.2
 
 "MADAGASCAR 3, EUROPE'S MOST WANTED" (Eric Darnell y Tom McGrath)
 Diego Lerer 3.2
+Manu Yáñez 3
  Indiewire (2):
 Raffi Asdourian 5 B-
 Patrick Heidmann 2 C-
@@ -3366,6 +3418,7 @@ Alejandro G. Calvo 2
 Alexandra Zawia 2
 Fernando Juan Lima 5
 José Luis de Lorenzo 2
+Marcelo Alderete 7
 Nando Salva 2
 Philipp Engel 4
 Sergio Wolf 8
@@ -3417,7 +3470,8 @@ Henry Barnes (Guardian, UK) 6
 "MANIAC" (Franck Khalfoun)
 Mike d'Angelo W/O. "Had I known it's a first-person-camera slasher film I wouldn't have bothered. You can't even *see* Elijah Wood!"
 
-FUNCIONES ESPECIALES
+"MANIAC" (Franck Khalfoun) [Fuera De Competencia]
+Marcelo Alderete 6
 
 "DER MÜLL IM GARTEN EDEN (POLLUTING PARADISE)" (Fatih Akin) 
 Alexandra Zawia 3
@@ -3465,6 +3519,7 @@ Carlos Reviriego 5
 Eulalia Iglesias 6.5
 Jaime Pena 7
 Luciano Barisone 6
+Manu Yáñez 6
 Pedro Butcher 6.5
 Philipp Engel 5
 Rudiger Suchsland  6.8
@@ -3481,6 +3536,7 @@ Anna Tatarska 3 C
 Blake Williams 4 C+
 
 "JOURNAL DE FRANCE" (Claudine Nougaret y Raymond Depardon) [Funciones Especiales]
+Alex Vicente 6
 Boris Nelepo 7.3
 Carlo Chatrian 5.03
 Carlos F. Heredero 6
