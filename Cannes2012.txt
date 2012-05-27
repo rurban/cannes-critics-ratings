@@ -3760,7 +3760,7 @@ With the help of:
 <i>"Forth edition of the Apitchang poll of films at Cannes 2012.
 This year with 45 international critics"</i> - Diego Lerer<p>
 
-<small>Updated daily from http://micropsia.otroscines.com/ (Diego Lerer <i> - first time in Cannes himself</i>) (la crema), http://www.ioncinema.com/ (okay), Le film français (eclectic), Screen Daily (mainstream), Indiewire (mixed) and more critics.<br>
+<small>Updated daily from http://micropsia.otroscines.com/ (Diego Lerer) (la crema), http://www.ioncinema.com/ (okay), Le film français (eclectic), Screen Daily (mainstream), Indiewire (mixed) and more critics.<br>
 Same as <a href="http://www.facebook.com/notes/reini-urban/cannes-2011-critics/10150578683465012">last years</a>: 0-10 points, only &gt;6.00 avg and &gt;3 international critics [avg/num stddev]. stddev>2: <i>controversial</i>. Critics with stddev &gt;2.5: filtered out. &lt;10 ratings: small.
 All sections (updated daily, official selection Competition: bold)</small><p>
 
