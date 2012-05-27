@@ -293,7 +293,7 @@ Christophe Beney 8
 David Calhoun 4
 Per Juul Carlsen 9
 Paola Casella 8
-Mike d'Angelo 8.8
+Mike d'Angelo 8.8 A
 #Carlos F. Heredero 6
 Eric Lavallée 
 Fabien Lemercier 6
@@ -1222,7 +1222,8 @@ Sarah Watt 4 C+
  Other:
 Peter Bradshaw 4
 
-"THE ANGELS' SHARE" (Ken Loach) [Competition]
+"THE ANGELS' SHARE" (Ken Loach) [Competition] Jury Price
+ Two of the jury members laughed trough the half film 
 Alejandro G. Calvo 3.4
 Alex Vicente 3
 Alexandra Zawia 4
@@ -1400,7 +1401,7 @@ Anna Tatarska 7 B+
  Other:
 Peter Bradshaw 8
 
-"BEYOND THE HILLS" (Cristian Mungiu) [Competition]
+"BEYOND THE HILLS" (Cristian Mungiu) [Competition] Best screenplay
 Alejandro G. Calvo 9.4
 Alexandra Zawia 7
 Carlo Chatrian 6.02
@@ -1766,7 +1767,7 @@ Sarah Watt
  Other:
 Peter Bradshaw 4
 
-"POST TENEBRAS LUX" (Carlos Reygadas) [Competition]
+"POST TENEBRAS LUX" (Carlos Reygadas) [Competition] Best director
 Alejandro G. Calvo 4
 Alexandra Zawia 5.9
 Boris Nelepo 4.5
@@ -2793,7 +2794,7 @@ Pascal Merigeau
 Danielle Attali 
 Christophe Carriére 
 
-"BEASTS OF THE SOUTHERN WILD" (Benh Zeitlin) [Un Certain Regard] Fipresci Price UCR
+"BEASTS OF THE SOUTHERN WILD" (Benh Zeitlin) [Un Certain Regard] Fipresci Price UCR + Camera d'Or
   Sundance
 Alejandro G. Calvo 4
 Alex Vicente 7
