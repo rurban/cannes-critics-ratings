@@ -156,6 +156,7 @@ Alex Billington 7
 Claudia Puig (USA Today, USA) 8.75
 Manohla Dargis (New York Times, USA) 7
 Glenn Kenny (MSN Movies, USA) 10
+Derek Malcolm (London Evening Standard, UK) 6
 
 "DE ROUILLE ET D'OS (RUST AND BONE)" (Jacques Audiard) [Competition]
 Alejandro G. Calvo 4
@@ -255,6 +256,7 @@ Peter Bradshaw 8
 Simon Gallagher 9 A
 David Gritten (The Telegraph, UK) 8
 Emanuel Levy 7 B+
+Derek Malcolm (London Evening Standard, UK) 8
 
 "HOLY MOTORS" (Leos Carax) [Competition]
 Alejandro G. Calvo 9
@@ -371,7 +373,7 @@ Sarah Watt
  Other:
 Simon Gallagher 7 B+
 Drew McWeeny 10 A+
-Derek Malcolm (London Evening Standard, UK) 5
+Derek Malcolm (London Evening Standard, UK) 4
 
 "COSMOPOLIS" (David Cronenberg) [Competition]
 Alejandro G. Calvo 9.9
@@ -1343,6 +1345,7 @@ Sarah Watt
 Peter Bradshaw 8
 Allan Hunter (Screen Daily, USA) 6
 Simon Gallagher 9 A
+Derek Malcolm (London Evening Standard, UK) 8
 
 "IM NEBEL (IN THE FOG)" (Sergei Loznitsa) [Competition] Fipresci Price
 Alejandro G. Calvo 7.4
@@ -3031,6 +3034,7 @@ Jaime Pena 3
 Pedro Butcher 1.5
  Other:
 Peter Bradshaw 4
+Derek Malcolm (London Evening Standard, UK) 6
 
 "AQUÍ Y ALLÁ" (Antonio Méndez Esparza) [Semaine] Semaine Grand Prize
 Carlos F. Heredero 6.5
