@@ -59,8 +59,10 @@ sub readhtml {
       } split("</th><th", $_);
       next;
     }
-    if (m{^\s+<td>([A-Z0-9ÑÉÈÂÀÇ][A-Z\&\'\wÑÉÈÂÀÇ! ]+?)</td>$}u) {
-      $t = $1;
+    if (m{^\s+<td>([A-Z0-9ÑÉÈÂÀÇ].+?)(</td>)?$}) {
+      my $x = $1;
+      next if $x =~ /[a-z]/;
+      $t = $x;
       push @t, $t;
       next;
     }
@@ -84,6 +86,7 @@ sub readhtml {
     }
   }
   print "\n";
+  print STDERR join("\n", @t) if $opt_t;
   for my $t (@t) {
     if ($t{$t}->{_}) {
       my $n = 0;
